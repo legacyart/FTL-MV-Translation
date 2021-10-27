@@ -60,9 +60,9 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <event name="START_TUTORIAL">
-	<text>Welcome to the tutorial sector! Here you'll be walked through various important Multiverse mechanics. Nothing secret will be spoiled, but some information might take away from the chance of discovering things for yourself. You will be given options to avoid this information and skip each part if you wish.
-	Note: This tutorial may take some time, and it is HEAVILY recommended you read all of the text carefuly... otherwise why are you here?
-	Due to limitations with the FTL engine, revisiting beacons will not make a new event pop-up. The tutorial (and your run) will be reset as soon as you arrive at the exit beacon.</text>
+	<text>튜토리얼 구역에 오신것을 환영합니다! 이곳에서 당신은 멀티버스의 여러 중요한 요소들을 살펴보게 될 것입니다. 숨겨진 요소에 대한 스포일러는 없지만, 몇몇 정보는 당신 스스로 무언가를 발견할 기회를 빼앗아 버릴 수 있습니다. 원하는 경우 이러한 정보들을 피하고 각 부분을 건너뛸 수 있는 선택지가 제공됩니다.
+	메모: 이 튜토리얼은 시간이 꽤 걸리며 모든 텍스트를 꼼꼼히 읽는 것이 강력히 권장됩니다. 그렇지 않다면 왜 여기에 있나요?
+	FTL 엔진의 한계로 인해 신호소를 재방문 하는 것은 새 이벤트를 발생시키지 않습니다. 튜토리얼과 당신의 항해는 탈출 신호기에 도착하는 즉시 재시작될 것입니다. Due to limitations with the FTL engine, revisiting beacons will not make a new event pop-up. The tutorial (and your run) will be reset as soon as you arrive at the exit beacon.</text>
 	<modifyPursuit amount="-999"/>
 	<item_modify>
 		<item type="fuel" min="999" max="999"/>
@@ -74,7 +74,7 @@
 </event>
 
 <event name="TUTORIAL_MENU">
-	<text>You've arrived at the next part of the tutorial...</text>
+	<text>당신은 튜토리얼의 다음 장에 도착했다...</text>
 	<choice req="TUTORIAL_COUNTER" lvl="0" max_group="0" blue="true" hidden="true">
 		<text>Continue...</text>
 		<event load="TUTORIAL_PART0"/>
@@ -98,8 +98,8 @@
 </event>
 
 <event name="TUTORIAL_PART1">
-	<text>Part 1 out of 10... Introduction!
-	Welcome to Multiverse! Since you're playing the tutorial, it's safe to assume you're new to the mod! Multiverse functions as a sort of sequel to vanilla. If you want to learn more about the general lore, on your next run give Casual or Normal mode a try, and select the "Go over your mission details one last time" option.</text>
+	<text>Part 1 out of 10... 소개!
+	멀티버스에 오신 것을 환영합니다! 튜토리얼을 하고 있다는 점에서 당신이 이 모드를 처음 접한다고 가정해도 되겠네요! 멀티버스는 바닐라의 일종의 속편으로서 기능합니다. 전반적인 줄거리에 대해 더 알고 싶다면,If you want to learn more about the general lore, on your next run give Casual or Normal mode a try, and select the "Go over your mission details one last time" option.</text>
 	<choice hidden="true">
 		<text>Continue...</text>
 		<event>

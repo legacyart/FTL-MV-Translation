@@ -99,17 +99,17 @@
 
 <event name="TUTORIAL_PART1">
 	<text>Part 1 out of 10... 소개!
-	멀티버스에 오신 것을 환영합니다! 튜토리얼을 하고 있다는 점에서 당신이 이 모드를 처음 접한다고 가정해도 되겠네요! 멀티버스는 바닐라의 일종의 속편으로서 기능합니다. 전반적인 줄거리에 대해 더 알고 싶다면,If you want to learn more about the general lore, on your next run give Casual or Normal mode a try, and select the "Go over your mission details one last time" option.</text>
+	멀티버스에 오신 것을 환영합니다! 튜토리얼을 하고 있다는 점에서 당신이 이 모드를 처음 접한다고 가정해도 되겠네요! 멀티버스는 바닐라의 일종의 속편으로서 기능합니다. 전반적인 줄거리에 대해 더 알고 싶다면, 다음 항해에서 캐주얼이나 보토 모드를 시도하고 "마지막으로 임무 세부 정보를 확인한다" 선택지를 고르세요.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>Multiverse is a massive expansion mod for FTL, and as such has a lot of content. While this tutorial cannot possibly cover all of it, it'll try to cover some of the more important information to help ease you into the mod.
-			This introduction will cover some of the factions you'll find... if you want to skip this part so you can discover them for yourself, click the skip button and continue to the next beacon!</text>
+			<text>멀티버스는 FTL의 거대한 확장 모드로서 많은 컨텐츠 가지고 있습니다. 이 튜토리얼에서 모든 컨텐츠를 다룰 수는 없지만, 당신이 이 모드에 잘 적응할 수 있도록 몇몇 중요한 정보를 다룰 것입니다.
+			이 소개는 당신이 발견하게 될 몇몇 세력에 대해 다룹니다... 그 세력들에 대해 스스로 알아내기 위해 이 부분을 건너뛰고 싶다면, 건너뛰기를 누르고 다음 비컨으로 진행하세요!</text>
 			<choice hidden="true">
-				<text>Learn about the factions.</text>
+				<text>세력에 대해 알아보기.</text>
 				<event>
-					<text>Here are some good to know things about the new friendly factions you'll find:	
-					Orchid Gathering - A usually peaceful faction of plant beings. Due to the oxygen producing abilities of their crew, killing their ships through asphyxiation is very hard, but not impossible. Orchids also will often (but not always) use powerful missile-like weapons called Kernels that guaruntee a breach but still use ammunition.
+					<text>다음은 당신이 발견하게 될 새로운 우호적 세력에 대해 알아두면 좋은 정보입니다:	
+					Orchid Gathering - 일반적으로 평화로운 식물 종족의 세력. 선원의 산소 생성 능력으로 인해 그들을 질식으로 처리하는것은 불가능하지는 않지만 매우 어렵습니다. 오키드는 또한 커널이라 불리는 탄약을 소모하지만 확정적으로 선체 균열을 일으키는 미사일을 닮은 강력한 무기를 종종(항상은 아님) 사용합니다.
 					Free Mantis - A hyper-friendly but somewhat dimmwitted sect of Mantis rogues. They have very powerful boarding ships, but will usually only attack when they percieve your actions as hostile. Beyond that, they will likely be very happy to see you.
 					The Militia - The militia is a band of civilian volunteers who protect civilian space. As they are a sub-group of the Galactic Union, a member of the Federation alliance, they should only bother you if you break the law in their presence.
 					Shell Geniocracy - The Shells usually keep to the nebulas and place a heavy value on science. They have a heavy dependance on oxygen but their ships will usually have a very strong set of defenses.</text>
@@ -144,7 +144,7 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>Skip.</text>
+				<text>건너뛴다.</text>
 				<event/>
 			</choice>
 		</event>

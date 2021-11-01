@@ -76,23 +76,23 @@
 <event name="TUTORIAL_MENU">
 	<text>당신은 튜토리얼의 다음 장에 도착했다...</text>
 	<choice req="TUTORIAL_COUNTER" lvl="0" max_group="0" blue="true" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TUTORIAL_PART0"/>
 	</choice>
 	<choice req="TUTORIAL_COUNTER" lvl="1" max_group="0" blue="true" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TUTORIAL_PART1"/>
 	</choice>
 	<choice req="TUTORIAL_COUNTER" lvl="2" max_group="0" blue="true" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TUTORIAL_PART2"/>
 	</choice>
 	<choice req="TUTORIAL_COUNTER" lvl="3" max_group="0" blue="true" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TUTORIAL_PART3"/>
 	</choice>
 	<choice req="TUTORIAL_COUNTER" lvl="4" max_group="0" blue="true" hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="TUTORIAL_PART4"/>
 	</choice>
 </event>
@@ -109,17 +109,17 @@
 				<text>세력에 대해 알아보기.</text>
 				<event>
 					<text>다음은 당신이 발견하게 될 새로운 우호적 세력에 대해 알아두면 좋은 정보입니다:	
-					Orchid Gathering - 일반적으로 평화로운 식물 종족의 세력. 선원의 산소 생성 능력으로 인해 그들을 질식으로 처리하는것은 불가능하지는 않지만 매우 어렵습니다. 오키드는 또한 커널이라 불리는 탄약을 소모하지만 확정적으로 선체 균열을 일으키는 미사일을 닮은 강력한 무기를 종종(항상은 아님) 사용합니다.
-					Free Mantis - A hyper-friendly but somewhat dimmwitted sect of Mantis rogues. They have very powerful boarding ships, but will usually only attack when they percieve your actions as hostile. Beyond that, they will likely be very happy to see you.
-					The Militia - The militia is a band of civilian volunteers who protect civilian space. As they are a sub-group of the Galactic Union, a member of the Federation alliance, they should only bother you if you break the law in their presence.
-					Shell Geniocracy - The Shells usually keep to the nebulas and place a heavy value on science. They have a heavy dependance on oxygen but their ships will usually have a very strong set of defenses.</text>
+					오키드 개더링 - 일반적으로 평화로운 식물 종족의 세력. 선원의 산소 생성 능력으로 인해 그들을 질식으로 처리하는것은 불가능하지는 않지만 매우 어렵습니다. 오키드는 또한 커널이라 불리는 탄약을 소모하지만 확정적으로 선체 균열을 일으키는 미사일을 닮은 강력한 무기를 종종(항상은 아님) 사용합니다.
+					자유 맨티스 - 무리를 떠나 사는 맨티스 종파로 매우 우호적이지만 좀 흐리멍합니다. 매우 강한 강습선을 가지고 있지만, 당신이 적대적으로 행동한다고 판단할 때만 공격할 것입니다. 그 외의 경우 당신을 매우 반길것입니다. A hyper-friendly but somewhat dimmwitted sect of Mantis rogues. They have very powerful boarding ships, but will usually only attack when they percieve your actions as hostile. Beyond that, they will likely be very happy to see you.
+					민병대 - 민병대는 민간인의 공간을 지키는 민간 봉사자들입니다. 은하 연합의 하위 그룹이며 연방 동맹의 일원이기 때문에 당신이 그들 앞에서 법을 어길 때에만 당신을 귀찮게 굴 것입니다. The militia is a band of civilian volunteers who protect civilian space. As they are a sub-group of the Galactic Union, a member of the Federation alliance, they should only bother you if you break the law in their presence.
+					셸 천재정 - 셸들은 주로 성운에 머물며 과학을 중시합니다. 산소에 크게 의존하지만 그들의 함선은 주로 강력한 방어 체계를 가지고 있습니다. The Shells usually keep to the nebulas and place a heavy value on science. They have a heavy dependance on oxygen but their ships will usually have a very strong set of defenses.</text>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속</text>
 						<event>
-							<text>Here are some good to know things about the new neutral factions you'll find:
-							Separatists - The Separatists are a division of Engi who have broken free from the unifying Harmony that controls the majority of their population. While they've had issues with the Federation in the past, they usually like to keep to themselves, sometimes to such an extreme their ships only have 1 or 2 crew aboard!
-							Lost Suns - Though technically allied with the Federation, the Lost Suns are an aggressive and radical group of fire obsessed Rockmen currently engaging in a violent civil war with the authoritarian Rockmen Elders.
-							The Ghosts - The Ghosts aren't actual paranormal entities, but are rather made mostly of the same gaseous substance as the nebulas they usually reside in. The Ghosts take little to no interest in politics, usually preferring to just live aboard the wrecks of abandoned vessels.
+							<text>다음은 당신이 발견하게 될 새로운 중립적 세력에 대해 알아두면 좋은 정보입니다:
+							분리주의자 - 분리주의자는 대다수의 인구를 통제하는 통일된 하모니로부터 벗어난 엔지의 한 분파입니다. 과거에 연방과 갈등을 겪었습니다. 대게 혼자 있는것을 좋아하는데, 때때로 함선에 1~2명의 선원만이 타고 있는 극단적인 경우도 있습니다!The Separatists are a division of Engi who have broken free from the unifying Harmony that controls the majority of their population. While they've had issues with the Federation in the past, they usually like to keep to themselves, sometimes to such an extreme their ships only have 1 or 2 crew aboard!
+							로스트 썬 - 로스트 썬은 원칙적으로는 연방과 동맹 관계이지만 권위적인 락맨 장로들과 폭력적인 내전을 벌이고 있는 호전적이고 급진적인 락맨 그룹입니다. Though technically allied with the Federation, the Lost Suns are an aggressive and radical group of fire obsessed Rockmen currently engaging in a violent civil war with the authoritarian Rockmen Elders.
+							고스트 - 고스트는 실제로 초자연적인 존재인것은 아니고 주로 그들이 사는 성운의 것과 동일한 물질로 이루어져 있습니다. 고스트는 정치에 관심이 거의 없으며 보통 버려진 함선의 잔해에서 사는것을 선호합니다. The Ghosts aren't actual paranormal entities, but are rather made mostly of the same gaseous substance as the nebulas they usually reside in. The Ghosts take little to no interest in politics, usually preferring to just live aboard the wrecks of abandoned vessels.
 							Exotic Hunters Guild - The EHG is a group of Slug hobbyists and hunters who like to hunt a special kind of game... the sapient kind. All the same, they're usually welcoming to tourists of all species and hold no special ill-will to the Federation.</text>
 							<choice hidden="true">
 								<text>Continue...</text>

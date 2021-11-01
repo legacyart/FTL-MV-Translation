@@ -322,17 +322,17 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->		
 <event name="EXAMPLE_START_BEACON">
-	<text>Welcome to a new sector! Get to the exit beacon and jump to the next sector before the pursuing Rebels catch you!</text>
+	<text>새로운 구역에 오신걸 환영합니다! 반란군이 당신을 따라잡기 전에 어서 탈출 신호를 따라가서 다음 구역으로 이동해주세요.</text>
 	<choice hidden="true" req="YOUR_AUGMENT_ID" lvl="1" max_group="0" blue="false"> <!--This option will replace the "Continue..." option if the game detects the augment-->
 		<text>Continue...</text>
 		<event>
-			<text>Put your text here</text>
+			<text>여기에 텍스트를 입력</text>
 			<crewMember amount="1" class="crew_id_here" all_skills="0"/> <!--specifying skills is not necessary, but this way it prevents them from ever spawning with extra skills. Wouldn't ever happen in s1, but doesn't hurt-->
 			<!--if you want it to be a random crew type instead, just remove the class attribute
 			if you want them to have a specific name, do it like this: <crewMember amount="1" class="crew_id_here" all_skills="0">Name</crewMember> 
 			You can adjust the amount to be whatever you want, but keep in mind all crew spawned by this will have the same name, skills, and cosmetics-->
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<remove name="YOUR_AUGMENT_ID"/>
 				</event>
@@ -397,7 +397,7 @@
 </event>
 
 <event name="START_GAME">
-	<text>You take a look at the distant swirls of space as the stars fly past. This is the beginning of the next chapter in your saga. What will await you next?</text>
+	<text>당신은 별들을 지나치면서 먼 우주의 소용돌이를 바라봅니다. 이것은 당신의 무용담의 다음 장의 시작입니다. 무엇이 당신을 기다리고 있을까요? You take a look at the distant swirls of space as the stars fly past. This is the beginning of the next chapter in your saga. What will await you next?</text>
 </event>
 
 <event name="START_BEACON_RELOAD">
@@ -433,19 +433,19 @@
 	</choice>
 </event>
 <event name="START_BEACON_PRESELECT">
-	<text>Before your mission begins, it might be time to prepare before you arrive at the warp bay. What would you like to do?</text>
+	<text>임무를 시작하기 전, 워프 베이로 향하는 동안 준비를 할 수 있습니다. 무엇을 하시겠습니까? Before your mission begins, it might be time to prepare before you arrive at the warp bay. What would you like to do?</text>
 	<choice hidden="true">
-		<text>Configure your challenge level.</text>
+		<text>도전 수준을 조정한다. Configure your challenge level.</text>
 		<event load="START_DIFFICULT_MENU"/>
 	</choice>
 	<choice hidden="true">
-		<text>Download the Federation Database entries. [recommended for beginners]</text>
+		<text>연방 데이터베이스 항목을 내려받는다. [초심자에게 추천됨] Download the Federation Database entries. [recommended for beginners]</text>
 		<event load="GIVE_DATABASE"/>
 	</choice>
 	<choice hidden="true">
-		<text>Proceed with your mission.</text>
+		<text>임무를 진행한다.</text>
 		<event>
-			<text>Name: Federation Multiverse Drop Point
+			<text>구역명: Federation Multiverse Drop Point
 			Type: Friendly
 			Unique: True
 			Dominant Faction: The Federation

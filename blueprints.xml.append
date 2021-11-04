@@ -210,7 +210,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="separatist">
-	<desc>엔지 분리주의자는 엔지를 통제하고 동일성을 강요하는 광범위한 프로그램인 조화의 통제에서 벗어났습니다.</desc>
+	<desc>엔지 분리주의자는 엔지를 통제하고 동일성을 강요하는 광범위한 프로그램인 하모니의 통제에서 벗어났습니다.</desc>
 	<cost>60</cost>
 	<bp>2</bp>
 	<title>엔지 분리주의자</title>
@@ -236,7 +236,7 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="separatistblur">
-	<desc>엔지 분리주의자는 엔지를 통제하고 동일성을 강요하는 광범위한 프로그램인 조화의 통제에서 벗어났습니다.</desc>
+	<desc>엔지 분리주의자는 엔지를 통제하고 동일성을 강요하는 광범위한 프로그램인 하모니의 통제에서 벗어났습니다.</desc>
 	<cost>60</cost>
 	<bp>2</bp>
 	<title>엔지 분리주의자</title>
@@ -264,7 +264,7 @@
 
 <!--ZOLTAN-->
 <crewBlueprint name="energy">
-    <desc>이 고형광선으로 이루어진 독립체는 연방의 일부일 테지만, 그들의 엄격한 규칙과 형식적인 태도로도 유명합니다. These hard-light entities might be part of the Federation, but they're also known for their strict rules and formal attitudes.</desc>
+    <desc>이 고형광선으로 이루어진 생명체는 연방의 일부일 테지만, 그들의 엄격한 규칙과 형식적인 태도로도 유명합니다.</desc>
     <title>졸탄</title>
     <short>Zoltan</short>
     <cost>45</cost>
@@ -299,7 +299,7 @@
     <bp>4</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 일시적으로 같은 방에 있는 모든 선원을 기절시킵니다.</power>
+        <power>활성화 능력: 일시적으로 같은 선실에 있는 모든 선원을 기절시킵니다.</power>
         <power>다른 선원과 전투하거나 시스템을 파괴할 수 없음</power>
         <power>사망시 폭발하여 선원에게 피해를 주고 기절시킴</power>
     </powerList>
@@ -325,7 +325,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="bomber">
-	<desc>더스크브링어 혁명의 가장 헌신적인 구성원으로 신념을 위해 기꺼이 자신의 목숨을 끊는 자들입니다.</desc>
+	<desc>더스크브링어 혁명의 가장 헌신적인 구성원들로 신념을 위해 기꺼이 자신의 목숨을 끊는 자들입니다.</desc>
 	<title>더스크브링어 추종자</title>
 	<short>Devotee</short>
 	<cost>50</cost>
@@ -384,7 +384,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="zoltan">
-    <desc>생각하기 귀찮지만, 모든 졸탄이 고형광선으로 이루어진것은 아닙니다. 이 유기체들은 완전히 살과 뼈로 이루어져 있으며, 기술에 대해 비슷한 인식을 공유함에도 그들의 "상승한" 형제들에게 강한 원한을 가지고 있습니다.  Baffling to think - but the Zoltan weren't always hardlight. These organic creatures are entirely flesh and bone, and they have a strong resentment for their "ascended" brothers, though they share a similar appreciation of technology.</desc>
+    <desc>생각하기 귀찮지만, 모든 졸탄이 고형광선으로 이루어진 것은 아닙니다. 이 유기체들은 완전히 살과 뼈로 이루어져 있으며, 기술에 대해 비슷한 인식을 공유함에도 그들의 "우세한" 형제들에게 강한 원한을 가지고 있습니다.  Baffling to think - but the Zoltan weren't always hardlight. These organic creatures are entirely flesh and bone, and they have a strong resentment for their "ascended" brothers, though they share a similar appreciation of technology.</desc>
     <title>오스미안 졸탄</title>
     <short>Osmian</short>
     <cost>45</cost>
@@ -419,7 +419,7 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="zoltan_enemy">
-    <desc>치장용 의복을 입은 발광하는 테러리스트들은 오직 내각의 몰락만을 생각한다.  Crazed terrorists in ornamental clothing with only one thing in mind - death to the Ministry.</desc>
+    <desc>치장용 의복을 입은 발광하는 테러리스트들은 오직 내각의 몰락만을 생각한다.</desc>
     <title>테러리스트</title>
     <short>Terrorist</short>
     <cost>45</cost>
@@ -458,14 +458,14 @@
 <crewBlueprint name="orchid">
 	<title>오키드 플로럴</title>
 	<short>Floral</short>
-	<desc>본디 Ctl'Yae라고 알려진 플로럴들은 산소를 공급하고 당신의 선원원들을 강화시켜주는 우호적인 종입니다. The Florals, natively known as the Ctl'Yae, are a friendly species of mostly pacifist plants which can buff your crew and refill oxygen.</desc>
+	<desc>본디 Ctl'Yae라고 알려진 플로럴들은 산소를 공급하고 당신의 선원원들을 강화시켜주는 우호적인 종입니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
 	<powerList>
 		<power>산소를 공급 [산소 공급실이 없는 함선에서는 기능하지 않음]</power>
 		<power>화재로부터 75%의 피해를 더 받음</power>
-		<power>같은 방에 있는 아군 선원의 최대 체력, 수리속도, 회복 속도가 20% 증가</power>
+		<power>같은 선실에 있는 아군 선원의 최대 체력, 수리속도, 회복 속도가 20% 증가</power>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - Leaves -->
@@ -499,14 +499,14 @@
 <crewBlueprint name="vampweed">
 	<title>뱀프위드</title>
 	<short>Vampweed</short>
-	<desc>본디 Oro'Bache라고 알려진 뱀프위드는 그들의 사이가 나쁜 동지인 플로럴들처럼 우호적이지는 않지만 비슷한 특성을 보여줍니다.The Vampweeds, natively known as the Oro'Bache, are not known for the same friendliness as their unwelcomed Floral brethren, but they do exhibit similar traits.</desc>
+	<desc>본디 Oro'Bache라고 알려진 뱀프위드는 그들의 사이가 나쁜 동지인 플로럴들처럼 우호적이지는 않지만 비슷한 특성을 보여줍니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>5</rarity>
 	<powerList>
 		<power>산소를 느리게 공급 [산소 공급실이 없는 함선에서는 기능하지 않음]</power>
 		<power>화재로부터 75%의 피해를 더 받음</power>
-		<power>같은 방에 있는 적 선원이 최대체력을 15% 잃고 환경으로부터 10%의 피해를 더 받음 Enemy crew in the same room lose 15% health and take 10% more damage from hazards</power>
+		<power>같은 선실에 있는 적 선원이 최대체력을 15% 잃고 환경으로부터 10%의 피해를 더 받음 Enemy crew in the same room lose 15% health and take 10% more damage from hazards</power>
 	</powerList>
 	<colorList>
 		<layer><!-- Layer 1 - Leaves -->
@@ -541,14 +541,14 @@
 <crewBlueprint name="shell">
 	<title>셸</title>
 	<short>Shell</short>
-	<desc>슬러그의 먼 사촌인 셸은 특유의 폭발하는 특성을 가지고 있지만 산소에 크게 의존합니다. Distant cousins to the Slugs, the Shells possess unique explosive characteristics, but have a heavy reliance on oxygen.</desc>
+	<desc>슬러그의 먼 사촌인 셸은 특유의 폭발하는 특성을 가지고 있지만 산소에 크게 의존합니다.</desc>
 	<cost>45</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.9배의 피해만을 받음</power>
-		<power>활성화 능력: 격렬하게 연소하여 스스로 큰 피해를 입지만 주변의 적 선원과 시스템에 피해를 주고 이후 체력을 느리게 회복합니다. Combusts violently, taking heavy self-damage and damaging nearby enemy crew and systems. Slowly regenerates health afterwards.</power>
+		<power>활성화 능력: 격렬하게 연소하여 스스로 큰 피해를 입지만 주변의 적 선원과 시스템에 피해를 주고 이후 체력을 느리게 회복합니다.</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -572,20 +572,20 @@
 <crewBlueprint name="shellmedic">
 	<title>셸 과학자</title>
 	<short>Scientist</short>
-	<desc>셸 과학자들은 주변의 아군에게 의료 지원을 제공하기 위해 유전적으로 조작되었으며, 자유시간에는 생명의 비밀을 밝히기 위해 열심히 연구합니다. The Shell scientists are genetically engineered to provide medical assistance to nearby crew, and work hard to uncover the secrets of life in their free time.</desc>
+	<desc>셸 과학자들은 주변의 아군에게 의료 지원을 제공하기 위해 유전적으로 조작되었으며, 자유시간에는 생명의 비밀을 밝히기 위해 열심히 연구합니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.9배의 피해만을 받음</power>
-		<power>활성화 능력: 연소하여 스스로 큰 피해를 입지만 주변의 아군 선원을 완전히 회복시키고 이후 체력을 느리게 회복합니다. but fully healing all nearby crew. Regenerates back health afterwards.</power>
+		<power>활성화 능력: 연소하여 스스로 큰 피해를 입지만 주변의 아군 선원을 완전히 회복시키고 이후 체력을 느리게 회복합니다.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="shellrepair">
     <title>셸 정비공</title>
     <short>Mechanic</short>
-    <desc>셸 정비공은 셸들의 시설과 인프라를 관리합니다. 그들의 유기적인 신체는 인공두뇌학적으로 강화되어 있으며 필요할 때 나노봇을 퍼뜨릴 수 있습니다.</desc>
+    <desc>셸 정비공은 셸들의 시설과 인프라를 관리합니다. 그들의 유기적인 신체는 사이버네틱스적으로 강화되어 있으며 필요할 때 나노봇을 퍼뜨릴 수 있습니다.</desc>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
@@ -605,7 +605,7 @@
 	<powerList>
 		<power>질식으로부터 2배의 피해를 받음</power>
 		<power>전투로부터 0.7배의 피해만을 받음</power>
-		<power>활성화 능력: 스스로 더 큰 피해를 입지만 적에게 30의 선원 피해와 2의 시스템 피해를 주며, 이후 체력을 회복하는 대신 자신을 일시적으로 요새화하여 능력 발동 시간동안 0.3배의 피해만을 받습니다. Active ability: Takes heavier self damage but does 30 crew damage and 2 system damage to enemy systems. Rather than regenerating, fortifies itself temporarily, taking 0.3x damage for the duration.</power>
+		<power>활성화 능력: 스스로 더 큰 피해를 입지만 적에게 30의 선원 피해와 2의 시스템 피해를 주며, 이후 체력을 회복하는 대신 자신을 일시적으로 요새화하여 능력 발동 시간동안 0.3배의 피해만을 받습니다.</power>
 	</powerList>
 </crewBlueprint>
 
@@ -643,7 +643,7 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="freemantis">
-	<desc>우호적인 독립 맨티스들은 하이브에서 반란을 일으켰고, 지금은 독립적인 삶을 살고 있으며 합성 페로몬에 중독되었습니다. The friendly Free Mantis have rebelled from the Hive, and now live their lives independent and addicted to their synthesized pheromones.</desc>
+	<desc>우호적인 독립 맨티스들은 하이브에서 반란을 일으켰고, 지금은 독립적인 삶을 살고 있으며 합성 페로몬에 중독되었습니다.</desc>
 	<title>독립 맨티스</title>
 	<short>Free Mantis</short>
 	<cost>50</cost>
@@ -750,14 +750,14 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="commando">
-	<desc>평화적인 방법으로는 잘 알려지지 않았지만 로스트 썬 특공대는 전투에 늘 진심입니다. Not necessarily known for their peaceful ways, the Lost Sun Commandos don't mess around when it comes to combat.</desc>
-	<title>로스트 썬 코만도</title>
+	<desc>평화적인 방법으로는 잘 알려지지 않았지만 로스트 선 특공대는 전투에 늘 진심입니다.</desc>
+	<title>로스트 선 특공대</title>
 	<short>Commando</short>
 	<cost>60</cost>
 	<bp>4</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력 (2 충전): 위치한 방에 화재를 붙임입니다. Starts fires in the current room</power>
+		<power>활성화 능력 (2 충전): 위치한 선실에 화재를 일으킵니다.</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -839,7 +839,7 @@
     <bp>4</bp>
     <rarity>5</rarity>
     <powerList>
-        <power>활성화 능력 (3 충전): 체력을 7 소모하여 위치한 선실을 봉쇄합니다. 봉쇄한 선실에 있는 모든 아군 선원은 50%의 재해 저항을 얻고 수리속도와 시스템 파괴속도가 25% 증가합니다. all allied crew in the room gain 50% hazard resistance, 25% repair speed, and 25% sabotage speed. Each cast costs 7 health.</power>
+        <power>활성화 능력 (3 충전): 체력을 7 소모하여 위치한 선실을 봉쇄합니다. 봉쇄한 선실에 있는 모든 아군 선원은 50%의 재해 저항을 얻고 수리속도와 시스템 파괴속도가 25% 증가합니다.</power>
 		<power>최대 체력 150</power>
 		<power>대인 공격력 0.5배</power>
     </powerList>
@@ -885,14 +885,14 @@
 </crewBlueprint>
 
 <crewBlueprint name="hektar">
-	<desc>헥타르 사에서 나쁜 대우를 받으며 일하는 영혼없는 마케터입니다. A soulless underpaid corporate shill working for the Hektar corporation.</desc>
+	<desc>헥타르 사에서 나쁜 대우를 받으며 일하는 영혼없는 마케터입니다.</desc>
 	<title>헥타르 직원</title>
 	<short>Employee</short>
 	<cost>45</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>체력이 낮을 때 박스에 숨어 전투로부터 10%의 피해만을 받지만 체력을 절반 회복하여 다시 박스에서 나올 때까지 아무것도 할 수 없게 됨 When at low health, hides in a box, taking only 10% of damage from combat, but cannot do anything but move until healed back to half health</power>
+		<power>체력이 낮을 때 박스에 숨어 전투로부터 10%의 피해만을 받지만 체력을 절반 회복하여 다시 박스에서 나올 때까지 아무것도 할 수 없게 됨</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -932,14 +932,14 @@
 </crewBlueprint>
 
 <crewBlueprint name="snail">
-	<desc>살인적인 취미에 전념하는 위험한 슬러그 사냥꾼들입니다. 죽은 쉘들로 만들어진 갑옷을 수집하고 착용합니다.Dangerous Slug hunters dedicated to their murderous hobby. Collect and wear armor made out of dead Shells.</desc>
+	<desc>살인적인 취미에 전념하는 위험한 슬러그 사냥꾼들입니다. 죽은 셸들로 만들어진 갑옷을 수집하고 착용합니다.</desc>
 	<title>슬러그 클랜원</title>
 	<short>Clansman</short>
 	<cost>55</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>액티브 능력: 방 안의 모든 선원에게 피해를 주는 안티-바이오 폭탄을 배치하고, 자신은 일시적으로 피해에 저항하며 움직일 수 없는 상태가 됩니다. an Anti-Bio bomb that damages all crew in the room, but becomes immobile and damage resistant temporarily</power>
+		<power>액티브 능력: 같은 선실의 모든 선원에게 피해를 주는 안티-바이오 폭탄을 배치하고, 자신은 일시적으로 피해에 저항하며 움직일 수 없는 상태가 됩니다.</power>
 		<power>이동속도 0.85배, 전투로부터 0.9배의 피해만을 받음</power>
 	</powerList>
 	<colorList>
@@ -974,7 +974,7 @@
 
 <!--LEECH-->
 <crewBlueprint name="leech">
-	<desc>이 지저분한 리치들은 종종 긍정적인 의미로 은하계의 밑바닥 인생이라 불립니다! The scummy Leeches are often referred to as the bottom feeders of the galaxy, and for good reason!</desc>
+	<desc>이 지저분한 리치들은 종종 좋은 의미로 은하계의 밑바닥 인생이라 불립니다!</desc>
 	<title>리치</title>
 	<short>Leech</short>
 	<cost>45</cost>
@@ -1012,14 +1012,14 @@
 
 <!--SIRENS-->
 <crewBlueprint name="siren">
-	<desc>사이렌은 신비하지만 치명적인 종족으로 주변 존재의 생명력을 흡수합니다.</desc>
-	<title>사이렌</title>
+	<desc>세이렌은 신비하지만 치명적인 종족으로 주변 존재의 생명력을 흡수합니다.</desc>
+	<title>세이렌</title>
 	<short>Siren</short>
 	<cost>50</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>직접 공격할 수 없지만, 방 안의 모든 적들의 체력을 흡수함 Has no direct attack, but drains the health of all enemies in the room</power>
+		<power>직접 공격할 수 없지만, 같은 선실에 있는 모든 적들의 체력을 흡수함</power>
 		<power>정신 지배당한 상태에서도 아군이 아닌 적들의 체력을 흡수함</power>
 	</powerList>
 	<colorList>
@@ -1042,13 +1042,13 @@
 
 <crewBlueprint name="augmented">
 	<desc>고대 잔해의 일부를 먹고 기이하게 변이한 라니우스입니다.</desc>
-	<title>어그멘티드</title>
+	<title>증강자</title>
 	<short>Augmented</short>
 	<cost>60</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 함체의 일부를 흡수하여 약간의 함체 피해를 주지만 체력을 회복하고 일시적으로 능력치가 강화됩니다.</power>
+		<power>활성화 능력: 선체의 일부를 흡수하여 약간의 선체 피해를 주지만 체력을 회복하고 일시적으로 능력치가 강화됩니다.</power>
 		<power>최대 체력 110, 최대 체력이 아닐시 서서히 부식됨</power>
 		<power>배치된 시스템에 전력을 공급, 시스템 파괴 속도 1.2배</power>
 	</powerList>
@@ -1245,7 +1245,7 @@
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 위치한 방을 봉쇄합니다.</power>
+		<power>활성화 능력: 위치한 선실을 봉쇄합니다.</power>
 		<power>최대 체력 125, 시스템을 수리하거나 관리할 수 없음</power>
 		<power>이동속도 2배, 대인 공격력 2배</power>
 	</powerList>
@@ -1285,12 +1285,12 @@
 <crewBlueprint name="avatar">
 	<title>코그니티브</title>
 	<short>Cognitive</short>
-	<desc>오벨리스크가 그들의 함선을 관리하기 위해 만든 지각이 있는 인공지능 구조물입니다. 제작자가 설정한 제한에 구속되어 있으며, 당신의 통제 하에 구속을 풀어줄 수 있습니다. Though confined by limitations set by its creators, under your control you can free it from its shackles.</desc>
+	<desc>오벨리스크가 그들의 함선을 관리하기 위해 만든 지각이 있는 인공지능 구조물입니다. 제작자가 설정한 제한에 구속되어 있으며, 당신의 통제 하에 구속을 풀어줄 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>정신 지배에 면역이고 인접한 방을 볼 수 있음</power>
+		<power>정신 지배에 면역이고 인접한 선실을 볼 수 있음</power>
 		<power>질식에 면역이며 화재로부터 받는 피해가 감소함</power>
 		<power>전투중이지 않을 때 체력을 회복함, 최대 체력 70, 대인 공격력 1.25배</power>
 		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
@@ -1304,7 +1304,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>정신 지배에 면역이고 인접한 방을 볼 수 있음</power>
+		<power>정신 지배에 면역이고 인접한 선실을 볼 수 있음</power>
 		<power>질식에 면역, 화재로부터 받는 피해가 감소함</power>
 		<power>전투중이지 않을 때 체력을 회복, 최대 체력 70, 대인 공격력 1.25배</power>
 		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
@@ -1337,7 +1337,7 @@
 -->
 <!--PHANTOMS-->
 <crewBlueprint name="phantom">
-	<desc>이 신비한 가스로 이루어진 존재들은 초자연적인 것처럼 보이는 이상한 특성을 보이지만 실제로 언데드인 것은 아닙니다. These mysterious gas beings are not really the undead, though they possess strange characteristics like the supernatural.</desc>
+	<desc>이 신비한 가스로 이루어진 존재들은 초자연적인 것처럼 보이는 이상한 특성을 보이지만 실제로 언데드인 것은 아닙니다.</desc>
 	<cost>40</cost>
 	<bp>2</bp>
 	<title>팬텀</title>
@@ -1374,14 +1374,14 @@
 
 <!--GOULS-->
 <crewBlueprint name="goul">
-	<desc>별로 초자연적인것은 아니지만, 이 떠돌이 고스트는 언제든지 발화할 수 있는 가연성 가스로 이루어져 있습니다.Not really supernatural, but these vagabond Ghosts are made of highly combustible gases that can ignite at any moment.</desc>
+	<desc>별로 초자연적인것은 아니지만, 이 떠돌이 고스트는 언제든지 발화할 수 있는 가연성 가스로 이루어져 있습니다.</desc>
 	<cost>40</cost>
 	<bp>2</bp>
 	<title>구울</title>
 	<short>Goul</short>
 	<rarity>0</rarity>
 	<powerList>
-		<power>주기적 능력: 때때로 위치한 방에 화재를 일으킴. 체력이 80 미만일 때만 작동.</power>
+		<power>주기적 능력: 때때로 위치한 선실에 화재를 일으킴. 체력이 80 미만일 때만 작동.</power>
 		<power>고스트 종족의 보편적인 저항,이동속도,최대 체력을 가짐. 시스템 파괴 속도 1.3배.</power>
 	</powerList>
 	<colorList>
@@ -1418,7 +1418,7 @@
 	<short>Mare</short>
 	<rarity>0</rarity>
 	<powerList>
-		<power>주기적 능력: 때때로 위치한 방에 함체 균열을 만듦. 체력이 80 미만일 때만 작동.</power>
+		<power>주기적 능력: 때때로 위치한 선실에 선체 균열을 만듦. 체력이 80 미만일 때만 작동.</power>
 		<power>고스트 종족의 보편적인 저항,이동속도,최대 체력을 가짐. 시스템 파괴 속도 1.6배.</power>
 	</powerList>
 	<colorList>
@@ -1436,7 +1436,7 @@
     <rarity>0</rarity>
     <powerList>
         <power>최대 체력 110, 시스템 파괴 속도 2.3배</power>
-        <power>불안정함, 함체 균열 발생 능력이 더 자주 발생하고 더 강한 효과를 가짐. 체력이 110 미만일 때만 작동.</power>
+        <power>불안정함, 선체 균열 발생 능력이 더 자주 발생하고 더 강한 효과를 가짐. 체력이 110 미만일 때만 작동.</power>
         <power>빈 송신소에서 두명의 일반 메어로 분열할 수 있음</power>
     </powerList>
     <colorList>
@@ -1448,7 +1448,7 @@
 
 <!--WRAITH-->
 <crewBlueprint name="wraith">
-	<desc>강력하고 짜릿한 떠돌이 고스트. 존재하지 않는 초자연적 현상과 혼동하지 마십시오. A powerful and electrifying vagabond Ghost. Not to be confused with the actual paranormal, who don't exist.</desc>
+	<desc>강력하고 짜릿한 떠돌이 고스트. 실존하지 않는 초자연적 현상과 혼동하지 마십시오.</desc>
 	<cost>40</cost>
 	<bp>2</bp>
 	<title>레이스</title>
@@ -1504,9 +1504,9 @@
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="bloblarge">
-	<desc>OOJ MAJOO는 하나의 모프일까? 여럿일까? 그가 뭐라고 하는걸까? OOJ MAJOO가 무슨 뜻일까? 이 의문들중 단 하나라도 답을 얻을 수 있을까? 아마도 얻지 못할거야...</desc>
+	<desc>우즈 마주는 하나의 모프일까? 여럿일까? 그가 뭐라고 하는걸까? 우즈 마주가 무슨 뜻일까? 이 의문들중 단 하나라도 답을 얻을 수 있을까? 아마도 얻지 못할거야...</desc>
 	<cost>100</cost>
-	<title>OOJ MAJOO</title>
+	<title>우즈 마주</title>
 	<short>OOJ MAJOO</short>
 	<rarity>0</rarity>
 	<powerList>
@@ -2107,7 +2107,7 @@
 -->
 
 <crewBlueprint name="tully">
-	<desc>이 자가 바로 연방의 제독 Tully입니다. 당신이 알고 있는 거의 모든 기술을 연마한 그는 당신의 가장 강력한 아군입니다.</desc>
+	<desc>이 자가 바로 연방의 제독 툴리입니다. 당신이 알고 있는 거의 모든 기술을 연마한 그는 당신의 가장 강력한 아군입니다.</desc>
 	<cost>500</cost>
 	<title>제독</title>
 	<short>Admiral</short>
@@ -2124,20 +2124,20 @@
 	<short>Admiral</short>
 	<rarity>0</rarity>
 	<powerList>
-		<power>반군 함대의 제독 밴스입니다. 까놓고 말해서 나쁜놈입니다.</power>
+		<power>반군 함대의 제독입니다. 까놓고 말해서 나쁜놈입니다.</power>
 	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="turzil">
-    <desc>당신에게 운송 작업을 의뢰한 수상한 엔지 디펜더입니다.</desc>
+    <desc>당신에게 운송 작업을 의뢰한 수상한 엔지 수비대입니다.</desc>
     <cost>125</cost>
     <bp>2</bp>
-    <title>Chief Defender</title>
+    <title>수비대 대장</title>
     <short>Defender</short>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 자신을 포함한 같은 방의 모든 선원에게 실드를 부여하여 10%의 피해만을 입도록 하고 수리 속도를 4배로 만듭니다.</power>
-        <power>최대 체력 115, 같은 방에 있는 선원의 수리 속도를 50% 증가시킴</power>
+        <power>활성화 능력: 자신을 포함한 같은 선실에 있는 모든 선원에게 방어막 부여하여 10%의 피해만을 입도록 하고 수리 속도를 4배로 만듭니다.</power>
+        <power>최대 체력 115, 같은 선실에 있는 선원의 수리 속도를 50% 증가시킴</power>
         <power>수리속도 0.1배, 대인 공격력 0.8배</power>
         <power>모든 스킬을 20% 빠르게 익힘</power>
     </powerList>
@@ -2151,7 +2151,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="detective">
-	<desc>강한 영국식 억양과 지구의 구식 담배 그리고 리볼버를 가진 은하계 최고의 탐정입니다.</desc>
+	<desc>강한 영국식 억양과 오래된 지구산 파이프 담배 그리고 리볼버를 가진 은하계 최고의 탐정입니다.</desc>
 	<cost>75</cost>
 	<title>탐정</title>
 	<short>Detective</short>
@@ -2179,7 +2179,7 @@
 	<rarity>0</rarity>
 	<powerList>
 		<power>전투로부터 10%의 피해를 더 받음</power>
-		<power>엉덩이의 큰 고통입니다. Is a giant pain in the ass.</power>
+		<power>정말 귀찮은 놈입니다.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="nemesismfk">
@@ -2194,7 +2194,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="jerry">
-	<desc>밴스 제독의 소종한 조카인 제리는 정말 멋진 사람이지만, 유능한 군인은 아닙니다.</desc>
+	<desc>벤스 제독의 소중한 조카 제리는 유능한 군인은 아니지만, 멋진 남자입니다.</desc>
 	<cost>5</cost>
 	<title>제리</title>
 	<short>Jerry</short>
@@ -2215,13 +2215,13 @@
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="ponyj">
-	<desc>제리는 슬픔에 잠겼습니다. 이제 그는 정말 거대한 총과 말을 가지고 있습니다. Jerry has been consumed by grief. Now he has a really large gun AND a horse.</desc>
+	<desc>제리는 슬픔에 잠겼습니다. 이제 그는 정말 거대한 총과 말을 가지고 있습니다.</desc>
 	<title>제리</title>
 	<short>Jerry</short>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>반군은 당신을 엉망으로 만든것을 후회할 것입니다. The Rebellion will regret ever having messed with you.</power>
+		<power>반군은 당신을 엉망으로 만든것을 후회할 것입니다.</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="ponycj">
@@ -2245,7 +2245,7 @@
 	<powerList>
 		<power>최대 체력 80, 전투에서 0.75배의 피해를 입음</power>
 		<power>시스템 파괴 속도 3배</power>
-		<power>공격 시 같은 선실의 모든 적으로부터 체력을 빼앗아 같은 선실의 모든 아군 선원을 회복시킴. Attack steals health from all enemies in the room, healing all other friendly crew in the room</power>
+		<power>공격 시 같은 선실의 모든 적으로부터 체력을 빼앗아 같은 선실의 모든 아군 선원을 회복시킴.</power>
 	</powerList>
 	<colorList>
 		<layer>
@@ -2267,7 +2267,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="symbiote">
-	<desc>락맨과 그의 뱃속에 기생하는 졸탄은 이제 소름끼치는 공생 관계로서 서로 협력합니다.The Rockman and the parasitic Zoltan living in its stomach now work together as one in a horrifying symbiotic relationship.</desc>
+	<desc>락맨과 그의 뱃속에 기생하는 졸탄은 이제 소름끼치는 공생 관계로서 서로 협력합니다.</desc>
 	<title>심바이오트</title>
 	<short>Symbiote</short>
 	<cost>55</cost>
@@ -2286,7 +2286,7 @@
 	<bp>4</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 카운트다운이 끝난 후 강하게 폭발합니다. 폭발할 때 같은 방에 있는 다른 모든 졸탄도 같이 폭발합니다.</power>
+		<power>활성화 능력: 카운트다운이 끝난 후 강하게 폭발합니다. 폭발할 때 같은 선실에 있는 다른 모든 졸탄도 같이 폭발합니다.</power>
 		<power>전투에서 0.9배의 피해를 입음, 2 전력 공급</power>
 		<power>복제될 때 숙련도를 잃지 않음</power>
 	</powerList>
@@ -2305,28 +2305,28 @@
 </crewBlueprint>
 
 <crewBlueprint name="tuco">
-    <desc>악명 높은 공포의 해적 투코는 한 때 아웃캐스트이자 명예로운 용병이었지만 이제는 술에 취해 완전히 딴사람이 되었습니다. The infamous dread pirate Tuco, former outcast and famed mercenary, but now just another washed up careerless drunk.</desc>
+    <desc>악명 높은 공포의 해적 투코는 한 때 망명자이자 명예로운 용병이었지만 이제는 술에 찌들어 완전히 딴사람이 되었습니다.</desc>
     <title>공포의 해적</title>
     <short>Dread Pirate</short>
     <cost>200</cost>
     <bp>4</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>같은 방 안에 있는 적 선원마다 따라 대인 공격력이 증가하지만 이동속도가 감소함</power>
+        <power>같은 선실 안에 있는 적 선원마다 따라 대인 공격력이 증가하지만 이동속도가 감소함</power>
 		<power>전투 중이지 않을 시 정상 속도로 이동</power>
 		<power>함내의 모든 아군 망명자는 전투와 수리에 20%의 보너스를 얻음</power>
     </powerList>
 </crewBlueprint>
 <crewBlueprint name="ariadne">
-    <desc>로스트썬 혁명의 위험한 제독이며 이전에는 은하계에서 가장 영향력 있고 위험한 독재자중 한명의 예비 신부였습니다. 또, 음악과 시에 숨겨진 애정을 가지고 있습니다.The dangerous admiral of the Lost Sun revolution and disgruntled former bride-to-be of one of the most influential and dangerous dictators in the galaxy. Also has a hidden love for music and poetry.</desc>
-    <title>로스트 썬 제독</title>
+    <desc>로스트 선 혁명의 위험한 제독이며 이전에는 은하계에서 가장 영향력 있고 위험한 독재자중 한명의 예비 신부였습니다. 또, 음악과 시에 숨겨진 애정을 가지고 있습니다.</desc>
+    <title>로스트 선 제독</title>
     <short>Admiral</short>
     <cost>200</cost>
     <bp>4</bp>
     <rarity>0</rarity>
     <powerList>
         <power>활성화 능력: 도약마다 최대 3개의 화염 폭탄을 빠르게 연속적으로 배치할 수 있습니다.</power>
-		<power>같은 방에 있는 적 선원은 화재로부터 30%의 추가 피해를 입음. 또한 화재에 면역이 있는 선원에게서 면역을 제거함.</power>
+		<power>같은 선실에 있는 적 선원은 화재로부터 30%의 추가 피해를 입음. 또한 화재에 면역이 있는 선원에게서 면역을 제거함.</power>
     </powerList>
 </crewBlueprint>
 <crewBlueprint name="lord">
@@ -2337,7 +2337,7 @@
 	<bp>4</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 20초간 세배의 대인 공격력을 가지며 초당 65의 체력을 회복하지만 이동속도가 매우 느려지고 모든 받는 피해가 7배가 됩니다. For 20 seconds regenerates health at 65hp/s and does triple damage, but moves very slowly and takes 7x more damage from all sources.</power>
+		<power>활성화 능력: 20초간 세배의 대인 공격력을 가지며 초당 65의 체력을 회복하지만, 이동속도가 매우 느려지고 모든 받는 피해가 7배가 됩니다.</power>
 		<power>화재 위에 있을 시 체력을 느리게 회복함</power>
 	</powerList>
 	<colorList>
@@ -2380,7 +2380,7 @@
 	<powerList>
 		<power>일반 거미보다 큰 값의 대인 공격력, 최대 체력, 수리속도를 가짐</power>
 		<power>빈 신호소에서 새끼를 낳을 수 있고 같은 함선에 있는 모든 거미를 상시 조종할 수 있게 만듦</power>
-		<power>활성화 능력: 같은 방에 있는 모든 거미 선원의 체력을 회복시키고 이동 속도를 증가시킵니다.</power>
+		<power>활성화 능력: 같은 선실에 있는 모든 거미 선원의 체력을 회복시키고 이동 속도를 증가시킵니다.</power>
 	</powerList>
 	<colorList>
 		<layer> <!-- skin -->
@@ -2422,15 +2422,15 @@
 	<bp>4</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 위치한 방을 봉쇄하고 저항과 재생 능력을 얻습니다. 같은 방의 아군 선원은 문과 봉쇄를 무시할 수 있는 능력을 얻고, 적 선원은 잃습니다.</power>
-		<power>사망할 때 위치한 방을 봉쇄하고 15의 선원 피해를 가함.</power>
+		<power>활성화 능력: 위치한 선실을 봉쇄하고 저항과 재생 능력을 얻습니다. 같은 선실에 있는 아군 선원은 문과 봉쇄를 무시할 수 있는 능력을 얻고, 적 선원은 잃습니다.</power>
+		<power>사망할 때 위치한 선실을 봉쇄하고 15의 선원 피해를 가함.</power>
 		<power>최대 체력 150</power>
         <power>이동속도 0.7배</power>
 	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="emperor">
-	<desc>금욕적이지만 크리스탈들의 충성스러운 여제입니다. The stoic but loyal empress of the Crystalline people.</desc>
+	<desc>겉으로 잘 들어나지는 않지만, 크리스탈들이 충성을 바치는 여제입니다.</desc>
 	<title>크리스탈 여제</title>
 	<short>Empress</short>
 	<cost>120</cost>
@@ -2444,7 +2444,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="salt">
-	<desc>종의 마지막 개체, 솔트맨이 클랜원(EHG)을 떨쳐내고 현상금을 찾아다니며 은하를 배회합니다. The last of his kind, the Salt Man roams the galaxy collecting bounties and pissing off Clansmen.</desc>
+	<desc>종의 마지막 개체, 솔트맨이 클랜원들을 떨쳐내고 현상금을 찾아다니며 은하를 배회합니다.</desc>
 	<title>솔트맨</title>
 	<short>Salt</short>
 	<cost>120</cost>
@@ -2466,13 +2466,13 @@
 </crewBlueprint>
 
 <crewBlueprint name="bishop">
-	<desc>슈퍼 엘리트 맨티스 선원. 여왕을 경호하는 은하계에서 가장 희귀하고 강한 맨티스 병사입니다. The strongest and rarest Mantis soldiers in the galaxy right behind the Queen herself.</desc>
-	<title>맨티스 비숍</title>
+	<desc>슈퍼 엘리트 맨티스 선원. 여왕을 경호하는 은하계에서 가장 희귀하고 강한 맨티스 병사입니다.</desc>
+	<title>맨티스 주교</title>
 	<short>Bishop</short>
 	<cost>200</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 일시적으로 전투능력을 막대하게 강화하지만, 재해로부터 받는 피해를 크게 증가시킵니다. Temporarily massively increases combat capabilities but severely increases environmental damage taken for its duration</power>
+		<power>활성화 능력: 일시적으로 전투능력을 막대하게 강화하지만, 재해로부터 받는 피해를 크게 증가시킵니다.</power>
 		<power>대인 공격력 2.2배, 수리속도 0.07배</power>
 		<power>전투에서 0.7배의 피해를 입음</power>
 	</powerList>
@@ -2539,14 +2539,14 @@
 	<cost>95</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 같은 선실에 있는 모든 아군 맨티스의 활성화 능력을 발동시킵니다. 일반 맨티스는 자유 맨티스의 능력을 발동합니다. 능력의 효과는 중첩되지 않습니다. Triggers the active ability of all allied Mantis crew in the room. Standard Hive Mantis use the synthetic pheromone ability. Does not stack with their actual ability.</power>
+		<power>활성화 능력: 같은 선실에 있는 모든 아군 맨티스의 활성화 능력을 발동시킵니다. 일반 맨티스는 자유 맨티스의 능력을 발동합니다. 능력의 효과는 중첩되지 않습니다.</power>
 		<power>대인 공격력 2배, 수리속도에 패널티가 없음</power>
 		<power>숙련도가 매우 빠르게 증가</power>
 	</powerList>
 </crewBlueprint>
 
 <crewBlueprint name="tyrdeo">
-	<desc>정원사였던 그는 현재 리치 권력정의 별로 유능하지 않은 대통령입니다. 이상하게도 완고한 독재자 역할에 별로 어울리지 않으며 그의 명금(songbird)에게 애착을 가지고 있습니다.</desc>
+	<desc>정원사였던 그는 현재 리치 권력정의 별로 유능하지 않은 대통령입니다. 이상하게도 완고한 독재자 역할에 별로 어울리지 않으며 그의 명금에게 애착을 가지고 있습니다.</desc>
 	<title>리치 대통령</title>
 	<short>Leech President</short>
 	<cost>45</cost>
@@ -2578,27 +2578,27 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="alkram">
-	<desc>연방-맨티스 전쟁에서 싸운 베테랑으로 불만을 품고 있으며 명예를 잃었습니다. 그는 한때 연방과 맞섰지만 지금은 자신의 실수를 만회하려 열심인것 같습니다. A disgruntled and now defamed Leech veteran who fought all the way back in the Fed-Mantis war. He might have opposed the Federation once, but he's seemingly eager to make up for his mistakes.</desc>
+	<desc>연방-맨티스 전쟁에서 싸운 베테랑으로 불만을 품고 있으며 명예를 잃었습니다. 그는 한때 연방과 맞섰지만 지금은 자신의 실수를 만회하려 열심인 것 같습니다.</desc>
 	<title>리치 혁명가</title>
 	<short>Leech Revolutionary</short>
 	<cost>45</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>같은 선실에 있는 다른 리치 선원들이 2배의 전력 바를 제한함. 같은 선실의 리치가 아닌 선원들에게 가해지는 기절 효과를 흡수함. All other Leech crew in the same room drain twice as much power. Protects all other allied non-Leech crew in the room from stun as well, instead absorbing the stun himself.</power>
+		<power>같은 선실에 있는 다른 리치 선원들이 2배의 전력 바를 제한함. 같은 선실의 리치가 아닌 선원들에게 가해지는 기절 효과를 흡수함.</power>
 		<power>이동속도 0.7배, 전투에서 0.7배의 피해를 입음</power>
 		<power>자기 스스로는 전력 바를 제한할 수 없음</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="tonysr">
-	<desc>비참한 과거를 가졌으며 터무니 없이 부유한 리치 기업가입니다. 여가 시간에 최대한 많이 소비하는것으로 그의 과거를 숨기고 있습니다. An absurdly wealthy Leech entrepreneur with a miserable past that he hides by consuming as much as possible in his spare time.</desc>
+	<desc>비참한 과거를 가졌으며 터무니 없이 부유한 리치 기업가입니다. 여가 시간에 최대한 많이 소비하는 것으로 그의 과거를 숨기고 있습니다.</desc>
 	<title>리치</title>
 	<short>Leech</short>
 	<cost>140</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>끔찍한 악취가 아무것도 모르는 적 승무원의 방어력을 20% 낮춤 Horrid stench lowers the defenses of unsuspecting enemy crew by 20%</power>
+		<power>끔찍한 악취가 아무것도 모르는 적 승무원의 방어력을 20% 낮춤</power>
 		<power>강렬한 굶주림으로 드론, 기계, 그리고 에너지 선원을 먹어치워 그들의 체력을 빠르게 감소시킴</power>
 		<power>게을러 빠져서 0.25배의 이동속도로 움직이며 거대한 몸뚱아리는 그에게 125의 최대 체력을 부여함</power>
 	</powerList>
@@ -2611,7 +2611,7 @@
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 같은 선실에 있는 아군 선원들에게 초당 2의 체력 회복과 기절 면역을 부여합니다.Provides passive regeneration at 2hp/s to all friendly crew in the room as well as granting them stun immunity</power>
+		<power>활성화 능력: 같은 선실에 있는 아군 선원들에게 초당 2의 체력 회복과 기절 면역을 부여합니다.</power>
 		<power>최대 체력 120, 수리속도 0.5배. 7초간 전투하지 않을 시 초당 4의 체력을 회복함</power>
 		<power>같은 선실에 있는 아군 선원들의 회복 속도를 2배로 만듦</power>
 		<power>시스템 관리 스킬을 30% 느리게 익히지만 수리와 전투 스킬을 30% 빠르게 익힘</power>
@@ -2635,14 +2635,14 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="traitor">
-	<desc>도마뱀 종족의 배신자 입니다. 자신의 할당량을 채워야 하기에 다른 도마뱀들의 악평을 걱정할 시간이 없습니다. The quite unpopular traitor to his own lizardkind. However, he has no time to worry about that. He must meet his quota.</desc>
+	<desc>도마뱀 종족의 배신자 입니다. 자신의 할당량을 채워야 하기에 다른 도마뱀들의 악평을 걱정할 시간이 없습니다.</desc>
 	<title>도마뱀 경영인</title>
 	<short>Manager</short>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 일시적으로 같은 선실의 아군 선원들의 수리속도와 시스템 파괴 속도를 2배로 만들지만, 최대체력을 25% 낮춥니다. Doubles the repair and sabotage speed of all allied crew in the room but lowers their max health by 25% temporarily</power>
-		<power>같은 선실의 아군 선원들에게 25%의 화재 저항을 부여함 Passively provides a 25% fire resistance to all other allied crew in the same room</power>
+		<power>활성화 능력: 일시적으로 같은 선실의 아군 선원들의 수리속도와 시스템 파괴 속도를 2배로 만들지만, 최대체력을 25% 낮춥니다.</power>
+		<power>같은 선실의 아군 선원들에게 25%의 화재 저항을 부여함</power>
 		<power>수리 속도에 패널티가 없음</power>
 	</powerList>
 	<colorList>
@@ -2667,12 +2667,12 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 은폐상태가 되고 함체 균열 폭탄을 배치합니다.</power>
+		<power>활성화 능력: 은폐상태가 되고 균열 폭탄을 배치합니다.</power>
 		<power>시스템 파괴 속도 3배, 문을 무시함</power>
 	</powerList>
 </crewBlueprint>
 <crewBlueprint name="slocknog">
-    <desc>슬럭노그는 한때 왕이었을 테지만 어딘가의 도랑에서 죽는 것 대신 당신의 선원으로서 살아남는 것을 택했습니다. Slocknog might have once been king, but he'd rather be alive and part of your crew, than dead in a ditch somewhere.</desc>
+    <desc>슬럭노그는 한때 왕이었을 테지만, 어딘가의 도랑에서 죽는 것보다 당신의 선원으로서 살아남는 것을 원합니다.</desc>
     <title>슬럭노그경</title>
     <short>Slocknog</short>
     <cost>150</cost>
@@ -2706,7 +2706,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 250, 질식과 화재로부터 10%의 피해만을 받음</power>
         <power>대인 공격력 1.5배</power>
     </powerList>
@@ -2730,7 +2730,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 250, 질식과 화재로부터 10%의 피해만을 받음</power>
         <power>대인 공격력 1.5배</power>
     </powerList>
@@ -2754,7 +2754,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 250, 질식과 화재로부터 10%의 피해만을 받음</power>
         <power>대인 공격력 1.5배</power>
     </powerList>
@@ -2778,7 +2778,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 250, 질식과 화재로부터 10%의 피해만을 받음</power>
         <power>대인 공격력 1.5배</power>
     </powerList>
@@ -2802,7 +2802,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 250, 질식과 화재로부터 10%의 피해만을 받음</power>
         <power>대인 공격력 1.5배</power>
     </powerList>
@@ -2819,14 +2819,14 @@
     </colorList>
 </crewBlueprint>
 <crewBlueprint name="sylvansans">
-    <desc>끔찍한 씨간을 보내고 앂나요오오, 낯썬자여?</desc>
+    <desc>끔찍한 씨간을 보내고 앂나요오오, 낯썬이여?</desc>
     <title>행상인</title>
     <short>Merchant</short>
     <cost>999</cost>
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 10, 모든 피해를 1%만 받음.</power>
         <power>대인 공격력 1.5배, 어마어마하게 빠르게 움직임</power>
     </powerList>
@@ -2863,7 +2863,7 @@
     <bp>2</bp>
     <rarity>0</rarity>
     <powerList>
-        <power>활성화 능력: 함체 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
+        <power>활성화 능력: 균열, 이온, 봉쇄 폭탄을 동시에 배치합니다.</power>
         <power>최대 체력 250, 질식과 화재로부터 10%의 피해만을 받음</power>
         <power>대인 공격력 1.5배, 같은 선실에 있는 적 선원은 절반의 속도로 움직임</power>
     </powerList>
@@ -2892,7 +2892,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="prime">
-    <desc>다중우주 전역의 통치자이자 폭군입니다. 존재하는 모든것 중 가장 강한 자이기도 하죠. Tyrant and ruler of the entire Multiverse. Also the strongest entity in all of existence.</desc>
+    <desc>다중우주 전역의 통치자이자 폭군입니다. 존재하는 모든것 중 가장 강한 자이기도 하죠.</desc>
     <title>실반 프라임</title>
     <short>Sylvan</short>
     <cost>999999</cost>
@@ -2969,7 +2969,7 @@
 <crewBlueprint name="traveler">
 	<title>오벨리스크 여행자</title>
 	<short>Traveler</short>
-	<desc>당신이 살려준 의문의 여행자 Aenwhite. 오벨리스크 제국 코그니티브 분과의 전 기술자였던 Aenwithe는 이제 귀족을 타도하고 그들 종족의 폭정을 종식시키기를 희망합니다. former engineer in the Obelisk Empire's Cognitive division, Aenwithe now hopes to overthrow the royals and put an end to his species's tyranny at last.</desc>
+	<desc>당신이 살려준 의문의 여행자 Aenwhite. 오벨리스크 제국 코그니티브 분과의 전 기술자였던 Aenwithe는 이제 귀족을 타도하고 그들 종족의 폭정을 종식시키기를 희망합니다.</desc>
 	<cost>999</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
@@ -2981,14 +2981,14 @@
 </crewBlueprint>
 
 <crewBlueprint name="anointed">
-	<desc>어그멘티드 라니우스의 수장으로써 이 라니우스는 그녀의 동지들보다 훨씬 수준 높은 금속에 동화되었습니다.</desc>
+	<desc>라니우스 증강자들의 수장으로써 이 라니우스는 그녀의 동지들보다 훨씬 수준 높은 금속에 동화되었습니다.</desc>
 	<title>어노인티드</title>
 	<short>Anointed</short>
 	<cost>150</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 함체의 일부를 흡수하여 함체에 약간의 피해를 주지만 체력을 회복하고 일시적으로 능력치가 크게 강화됩니다.</power>
+		<power>활성화 능력: 선체의 일부를 흡수하여 선체에 약간의 피해를 주지만 체력을 회복하고 일시적으로 능력치가 크게 강화됩니다.</power>
 		<power>최대 체력 200, 최대 체력이 아닐 시 빠르게 부식됨</power>
 		<power>배치된 시스템에 2 전력 공급, 시스템 파괴 속도 1.5배</power>
 	</powerList>
@@ -3166,7 +3166,7 @@
 	<short>Defender</short>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 일시적으로 10%의 피해만을 받으며 인접한 방을 볼 수 있게 됩니다.</power>
+		<power>활성화 능력: 일시적으로 10%의 피해만을 받으며 인접한 선실을 볼 수 있게 됩니다.</power>
 		<power>수리속도 2.7배, 대인 공격력 0.35배</power>
 		<power>화재와 질식으로부터 받는 피해가 크게 감소함</power>
 	</powerList>
@@ -3180,7 +3180,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="peace">
-	<desc>엘리트 졸탄 선원. 이 잘 무장하고 훈련된 졸탄 병사들은 당신이 선을 넘는다면 기꺼이 당신의 강냉이를 털어버릴 것입니다. Armored and trained Zoltan soldier who will gladly give you a kick in the teeth if you step out of line.</desc>
+	<desc>엘리트 졸탄 선원. 이 잘 무장하고 훈련된 졸탄 병사들은 당신이 선을 넘는다면 주저없이 당신의 강냉이에 발차기를 날릴것입니다.</desc>
 	<title>졸탄 평화지킴이</title>
 	<short>Peacekeeper</short>
 	<cost>100</cost>
@@ -3206,7 +3206,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="radical">
-	<desc>엘리트 더스크브링어 선원. 추종자들이 더스크링어의 신념에 가장 헌신적인 이들이 아니라는것이 밝혀졌습니다. 이 자들이 더 헌신적이죠. Turns out, the devotees aren't the most dedicated to the Duskbringer ways. These guys are.</desc>
+	<desc>엘리트 더스크브링어 선원. 추종자들이 더스크링어의 신념에 가장 헌신적인 이들이 아니라는 것이 밝혀졌습니다. 이 자들이 더 헌신적이죠.</desc>
 	<title>더스크브링어 급진파</title>
 	<short>Radical</short>
 	<cost>90</cost>
@@ -3243,7 +3243,7 @@
 	<cost>100</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 일시적으로 전투 능력을 상승시키지만 환경으로부터 받는 피해가 증가합니다.Temporarily increases combat capabilities but increases environmental damage taken for the duration</power>
+		<power>활성화 능력: 일시적으로 전투 능력을 상승시키지만 환경으로부터 받는 피해가 증가합니다.</power>
 		<power>대인공격력 2배, 수리속도 0.15배</power>
 		<power>전투에서 0.8배의 피해를 입음</power>
 	</powerList>
@@ -3278,7 +3278,7 @@
 	<cost>95</cost>
 	<rarity>0</rarity>
 	<powerList>
-		<power>활성화 능력: 강화된 페로몬을 복용하여 약간의 피해를 입고 대인 공격력과 이동속도를 막대하게 상승시킵니다. Takes enhanced pheromones, gaining massively increased damage and speed but also taking some damage</power>
+		<power>활성화 능력: 강화된 페로몬을 복용하여 약간의 피해를 입고 대인 공격력과 이동속도를 막대하게 상승시킵니다.</power>
 		<power>최대 체력 90, 전투에서 0.8배의 피해를 입음</power>
 		<power>이동 속도와 대인 공격력에 보너스가 없음</power>
 	</powerList>
@@ -3325,7 +3325,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="sentinel">
-    <desc>엘리트 크리스탈 선원. 크리스탈 구역의 강력한 수호자입니다. Powerful protectors of the Crystalline sectors.</desc>
+    <desc>엘리트 크리스탈 선원. 크리스탈 구역의 강력한 수호자입니다.</desc>
     <title>크리스탈 감시병</title>
     <short>Sentinel</short>
     <cost>100</cost>
@@ -3350,7 +3350,7 @@
 <crewBlueprint name="chieftain">
 	<title>오키드 족장</title>
 	<short>Chieftain</short>
-	<desc>엘리트 오키드 선원. 자연적으로 자라난 나무 갑옷을 입고 오키드 정원을 지키는 강한 오키드 입니다. Strong Orchids with a natural grown layer of wooden armor that protect the Orchid Garden-Worlds.</desc>
+	<desc>엘리트 오키드 선원. 자연적으로 자라난 나무 갑옷을 입고 오키드 정원을 지키는 강한 오키드 입니다.</desc>
 	<cost>75</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
@@ -3371,13 +3371,13 @@
     <rarity>0</rarity>
     <powerList>
         <power>질식으로부터 5배의 피해를 받음</power>
-        <power>사망시 함체 균열을 일으키고 15의 선원 피해를 가함</power>
+        <power>사망시 균열을 일으키고 15의 선원 피해를 가함</power>
         <power>활성화 능력: 연소가 빨리 충전되고 더 적은 페력을 소모하지만 회복도 적게 함</power>
     </powerList>
 </crewBlueprint>
 
 <crewBlueprint name="ampere">
-	<desc>엘리트 리치 선원. 많은 전기를 흡수해본 리치 암페어는 이제 의식적으로 전류의 양을 조절할 수 있습니다. Elite Leech Crew. The Amperes have absorbed large amounts of electricity and can now channel the current at will.</desc>
+	<desc>엘리트 리치 선원. 많은 전기를 흡수해본 리치 암페어는 이제 의식적으로 전류의 양을 조절할 수 있습니다.</desc>
 	<title>암페어</title>
 	<short>Ampere</short>
 	<cost>45</cost>
@@ -3411,7 +3411,7 @@
 </crewBlueprint>
 
 <crewBlueprint name="sabo">
-	<desc>엘리트 슬러그 선원. 시스템 파괴 기술을 훈련받은 슬러그. 흔한 일은 아니지만 마주치면 위험합니다.</desc>
+	<desc>엘리트 슬러그 선원. 시스템 파괴 기술을 훈련받은 슬러그입니다. 흔한 일은 아니지만 마주치면 위험합니다.</desc>
 	<title>슬러그 공작원</title>
 	<short>Saboteur</short>
 	<cost>95</cost>
@@ -3436,8 +3436,8 @@
 	</colorList>
 </crewBlueprint>
 <crewBlueprint name="knight">
-	<desc>슈퍼 엘리트 슬러그 선원. KoN은 나이트 친위대 멤버이며 타인의 삶에 무심한 고도로 훈련받은 엘리트 암살자 입니다. Super Elite Slug Crew. KoN are members of Nights's personal circle, and are highly trained elite assassins with little regard for the lives of anyone who isn't one of their own.</desc>
-	<title>KoN 나이트</title>
+	<desc>슈퍼 엘리트 슬러그 선원. KoN은 나이트 친위대의 멤버이며 타인의 삶에 무심한 고도로 훈련받은 엘리트 암살자 입니다.</desc>
+	<title>KoN 기사</title>
 	<short>Knight</short>
 	<cost>95</cost>
 	<bp>2</bp>
@@ -3527,7 +3527,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>정신 지배에 면역, 인접한 방을 볼 수 있으며 생명체를 감지할 수 있음</power>
+		<power>정신 지배에 면역, 인접한 선실을 볼 수 있으며 생명체를 감지할 수 있음</power>
 		<power>질식과 화재에 면역</power>
 		<power>전투중이지 않을 때 체력을 회복, 최대 체력 100, 대인 공격력 1.5배</power>
 		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
@@ -3541,7 +3541,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>정신 지배에 면역, 인접한 방을 볼 수 있으며 생명체를 감지할 수 있음</power>
+		<power>정신 지배에 면역, 인접한 선실을 볼 수 있으며 생명체를 감지할 수 있음</power>
 		<power>질식과 화재에 면역</power>
 		<power>전투중이지 않을 때 체력을 회복, 최대 체력 100, 대인 공격력 1.5배</power>
 		<power>통제 모드와 해방 모드를 설정할 수 있음. 통제 모드시 코그니티브를 직접 조종할 수 없게 되지만 능력치가 크게 증가함.</power>
@@ -3549,8 +3549,8 @@
 </crewBlueprint>
 
 <crewBlueprint name="royal">
-	<desc>엘리트 오벨리스크 선원. 오벨리스크 종족의 강력한 엘리트 지도자입니다. A powerful elite leader of the Obelisk race.</desc>
-	<title>Obelisk Royal</title>
+	<desc>엘리트 오벨리스크 선원. 오벨리스크 종족의 강력한 엘리트 지도자입니다.</desc>
+	<title>오벨리스크 왕족</title>
 	<short>Royal</short>
 	<cost>200</cost>
 	<bp>2</bp>
@@ -3571,7 +3571,7 @@
 ********************************************************************************************************************************************************************************************************************************************
 -->
 <crewBlueprint name="gbgozer">
-	<desc>혼트들은 은하계에서 가장 자주 수배되는 범죄자들중 하나입니다. The Haunts are among of some of the most wanted criminals in the galaxy.</desc>
+	<desc>혼트들은 은하계에서 가장 자주 수배되는 범죄자들 중 하나입니다.</desc>
 	<title>떠돌이 혼트</title>
 	<short>Haunt</short>
 	<cost>200</cost>
@@ -3585,14 +3585,14 @@
 </crewBlueprint>
 
 <crewBlueprint name="gbeleanor">
-	<desc>혼트들은 유서깊은 떠돌이 범죄 집단의 일원으로, 은하계에서 가장 자주 수배되는 범죄자들중 하나입니다. The Haunts are members of a long running Vagabond crime family, and among of some of the most wanted criminals in the galaxy.</desc>
+	<desc>혼트들은 유서깊은 떠돌이 범죄 집단의 일원으로, 은하계에서 가장 자주 수배되는 범죄자들중 하나입니다.</desc>
 	<title>떠돌이 혼트</title>
 	<short>Haunt</short>
 	<cost>200</cost>
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>주기적으로 위치한 선실의 모든 적 선원과 시스템에 피해를 입히는 광폭 모드에 들어감 Periodically enters a rage mode that damages all enemy crew, but also the current system</power>
+		<power>주기적으로 위치한 선실의 모든 적 선원과 시스템에 피해를 입히는 광폭 모드에 들어감</power>
 		<power>최대 체력 110, 시스템 파괴 속도 2.5배</power>
 	</powerList>
 </crewBlueprint>
@@ -3605,7 +3605,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>주기적으로 예측할 수 없는 결과를 초래하여 순간적으로 모든 자제력을 상실함Periodically combusts with unpredictable results, losing all self control momentarily</power>
+		<power>주기적으로 예측할 수 없는 결과를 초래하여 순간적으로 모든 자제력을 상실함</power>
 		<power>최대 체력 110, 시스템 파괴 속도 2.5배</power>
 	</powerList>
 </crewBlueprint>
@@ -3658,7 +3658,7 @@
 	<bp>2</bp>
 	<rarity>0</rarity>
 	<powerList>
-		<power>주기적으로 위치한 선실에 균열을 만들고 시스템 피해를 가함 Periodically tears a breach open in the current room, also harming the system if present</power>
+		<power>주기적으로 위치한 선실에 균열을 만들고 시스템 피해를 가함</power>
 		<power>최대 체력 110, 시스템 파괴 속도 2.5배</power>
 		<power>거의 즉발적으로 산소를 제거함</power>
 	</powerList>
@@ -3706,7 +3706,7 @@
 *********** ems-->
 <systemBlueprint name="pilot">
 	<type>pilot</type>
-	<title>조타석</title>
+	<title>조타실</title>
 	<desc>초광속 도약을 하게해주고, 조종사가 배치되어 있을 때 회피기동이 가능합니다. 업그레이드시 자동항해기능이 생겨 조종사 없이도 어느정도는 회피가 가능해집니다.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
@@ -3734,7 +3734,7 @@
 
 <systemBlueprint name="doors">
 	<type>doors</type>
-	<title>개폐 제어실</title>
+	<title>문 제어실</title>
 	<desc>문을 원격으로 개폐 할 수 있도록 합니다. 화재 확산 및 침입자의 움직임을 방지하는 문으로 업그레이드됩니다.</desc>
 	<startPower>1</startPower>
 	<maxPower>3</maxPower>
@@ -3750,7 +3750,7 @@
 <systemBlueprint name="artillery">
 	<type>artillery</type>
 	<title>함포 빔</title>
-	<desc>느리지만 강력한 빔을 가동시킵니다. 공격하는 방 하나당 1의 데미지를 입히며 모든 방어막을 관통합니다. 업그레이드를 하면 쿨다운이 짧아집니다.</desc>
+	<desc>느리지만 강력한 빔을 가동시킵니다. 공격하는 선실 하나당 1의 데미지를 입히며 모든 방어막을 관통합니다. 업그레이드를 하면 쿨다운이 짧아집니다.</desc>
 	<startPower>2</startPower>
 	<maxPower>5</maxPower>
 	<rarity>0</rarity>
@@ -3812,8 +3812,8 @@
 
 <systemBlueprint name="shields">
 	<type>shields</type>
-	<title>방어막</title>
-	<desc>방어막을 가동합니다. 방어막 칸당 탄환 한 발을 막아냅니다. Powers your shields. Each additional barrier can block one shot.</desc>
+	<title>방어막 제어실</title>
+	<desc>방어막을 가동합니다. 방어막 한 칸당 탄환 한 발을 막아냅니다. Powers your shields. Each additional barrier can block one shot.</desc>
 	<startPower>2</startPower>
 	<maxPower>16</maxPower>
 	<rarity>1</rarity>
@@ -7385,7 +7385,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="REPAIR_ARM">
 	<title>Repair Arm [M]</title>
-	<desc>모듈식 수리 로봇 팔 업그레이드, 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩을 얻을 때마다 함체를 수리하지만 얻는 스크랩의 양이 10% 줄어듭니다. 함체가 가득 찼을 때는 얻는 스크랩의 양이 감소하지 않습니다.</desc>
+	<desc>모듈식 수리 로봇 팔 업그레이드, 함선의 팔 슬롯을 차지하지 않으며 다른 팔과 중첩될 수 있습니다. 스크랩을 얻을 때마다 선체를 수리하지만 얻는 스크랩의 양이 10% 줄어듭니다. 선체가 손상되지 않았을 때는 얻는 스크랩의 양이 감소하지 않습니다.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -7400,7 +7400,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="EX_BREACH_SEALANT">
 	<title>실란트 [X]</title>
-	<desc>함체 균열이 자동적으로 느리게 수리됩니다.
+	<desc>선체 균열이 자동적으로 느리게 수리됩니다.
     
 	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.  As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu, in the On-board Tech category.</desc>
 	<cost>70</cost>
@@ -7744,7 +7744,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="EX_MEDBAY_NANO">
-	<title>의료봇 [X]</title>
+	<title>의료용 나노봇 [X]</title>
 	<desc>함내의 모든 선원이 현재 작동중인 의료실 레밸의 25%의 속도로 체력을 회복합니다. While medbay is powered, crew passively heal at 25% speed of the current medbay level.
 	
 	[X] - 이 보조장비는 외장형 장비로, 정상적인 효과를 제공하지만 보조장비 슬롯을 차지하지 않습니다. 내부 업그레이드 메뉴에서 무료로 내장형 장비로 전환할 수 있습니다.</desc>
@@ -8701,7 +8701,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="OBSIDIAN_ARMOR_1">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 1] 함체 피해 또는 시스템 피해를 5%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다. Has a 5% chance to prevent hull or system damage. However, at empty beacons it can be upgraded. Can be increased to a max of 80%.</desc>
+	<desc>[레밸 1] 선체 피해 또는 시스템 피해를 5%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다. Has a 5% chance to prevent hull or system damage. However, at empty beacons it can be upgraded. Can be increased to a max of 80%.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8709,7 +8709,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_2">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 2] 함체 피해 또는 시스템 피해를 10%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 2] 선체 피해 또는 시스템 피해를 10%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8717,7 +8717,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_3">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 3] 함체 피해 또는 시스템 피해를 15%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 3] 선체 피해 또는 시스템 피해를 15%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8725,7 +8725,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_4">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 4] 함체 피해 또는 시스템 피해를 20%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 4] 선체 피해 또는 시스템 피해를 20%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8733,7 +8733,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_5">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 5] 함체 피해 또는 시스템 피해를 25%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 5] 선체 피해 또는 시스템 피해를 25%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8741,7 +8741,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_6">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 6] 함체 피해 또는 시스템 피해를 30%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 6] 선체 피해 또는 시스템 피해를 30%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8749,7 +8749,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_7">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 7] 함체 피해 또는 시스템 피해를 35%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 7] 선체 피해 또는 시스템 피해를 35%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8757,7 +8757,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_8">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 8] 함체 피해 또는 시스템 피해를 40%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 8] 선체 피해 또는 시스템 피해를 40%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8765,7 +8765,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_9">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 9] 함체 피해 또는 시스템 피해를 45%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 9] 선체 피해 또는 시스템 피해를 45%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8773,7 +8773,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_10">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 10] 함체 피해 또는 시스템 피해를 50%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 10] 선체 피해 또는 시스템 피해를 50%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8781,7 +8781,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_11">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 11] 함체 피해 또는 시스템 피해를 60%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 11] 선체 피해 또는 시스템 피해를 60%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8789,7 +8789,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_12">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 12] 함체 피해 또는 시스템 피해를 70%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 12] 선체 피해 또는 시스템 피해를 70%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8797,7 +8797,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_13">
 	<title>흑요석 장갑</title>
-	<desc>[레밸 13] 함체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
+	<desc>[레밸 13] 선체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 이 확률은 빈 송신소에서 업그레이드를 통해 최대 80%까지 늘릴 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8806,7 +8806,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="OBSIDIAN_ARMOR_ION">
 	<title>흑요석 장갑</title>
-	<desc>[최고 레밸] 함체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 또한 20%의 확률로 이온 피해를 무시합니다.</desc>
+	<desc>[최고 레밸] 선체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 또한 20%의 확률로 이온 피해를 무시합니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8814,7 +8814,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_BREACH">
 	<title>흑요석 장갑</title>
-	<desc>[최고 레밸] 함체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 또한 균열을 자동적으로 수리합니다.</desc>
+	<desc>[최고 레밸] 선체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 또한 균열을 자동적으로 수리합니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8822,7 +8822,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <augBlueprint name="OBSIDIAN_ARMOR_SHARD">
 	<title>흑요석 장갑</title>
-	<desc>[최고 레밸] 함체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 또한 피해를 입을 때마다 30%의 확률로 선체에서 떨어져나온 수정 파편이 적을 향해 날아갑니다..</desc>
+	<desc>[최고 레밸] 선체 피해 또는 시스템 피해를 80%의 확률로 무시합니다. 또한 피해를 입을 때마다 30%의 확률로 선체에서 떨어져나온 수정 파편이 적을 향해 날아갑니다..</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8863,7 +8863,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SUPER_ARMOR">
 	<title>강철 장갑</title>
-	<desc>25%의 확률로 시스템이나 함체를 피해로부터 지켜주며 10%의 이온 피해 저항까지 제공하는 특수 적응형 장갑입니다. Special adaptive plating that has a 25% chance to protect your systems or hull from all forms of damage. Also gives 10% ion resistance.</desc>
+	<desc>25%의 확률로 시스템이나 선체를 피해로부터 지켜주며 10%의 이온 피해 저항까지 제공하는 특수 적응형 장갑입니다. Special adaptive plating that has a 25% chance to protect your systems or hull from all forms of damage. Also gives 10% ion resistance.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8881,7 +8881,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="STORY_TELLER">
 	<title>이야기꾼</title>
-	<desc>모든 에퀴노이드의 보호를 보장하는 상시 존재하는 엔지 분리주의자입니다. 선원이 없는 상태에서도 선박을 수동으로 제어 및 수리하며 적 강습원에게 막대한 피해를 가하는 동시에 동시에 신속하게 균열을 수리하고 화재를 진압합니다.The ever present Separatist whom ensures the protection of all equinoids. Will manually control and repair the ship even in the absence of crew, and do massive damage to boarders while also quickly repairing breaches and putting out fires.</desc>
+	<desc>모든 에퀴노이드의 보호를 보장하는 상시 존재하는 엔지 분리주의자입니다. 선원이 없는 상태에서도 선박을 수동으로 제어 및 수리하며 침입자에게 막대한 피해를 가하는 동시에 동시에 신속하게 균열을 수리하고 화재를 진압합니다.The ever present Separatist whom ensures the protection of all equinoids. Will manually control and repair the ship even in the absence of crew, and do massive damage to boarders while also quickly repairing breaches and putting out fires.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8917,7 +8917,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="FLEET_LURE">
 	<title>반군 미끼</title>
-	<desc>반군 엘리트 함선을 탐색합니다. 반군 함대의 추격을 1턴 가속시키며, 즉시 탐색한 함선과의 전투가 시작됩니다.</desc>
+	<desc>반군 엘리트 함선을 탐색합니다. 반군 함대의 추격을 1도약 가속시키며, 즉시 탐색한 함선과의 전투가 시작됩니다.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -8925,7 +8925,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="GOLD_ARMOR">
 	<title>황금 장갑</title>
-	<desc>놀라울정도의 내성을 지닌 황금 장갑입니다. 15%의 확률로 함체 피해를 무시하며 빈 송신소에서 함체의 일부를 떼어내 스크랩으로 사용할 수 있습니다.</desc>
+	<desc>놀라울정도의 내성을 지닌 황금 장갑입니다. 15%의 확률로 선체 피해를 무시하며 빈 송신소에서 선체의 일부를 떼어내 스크랩으로 사용할 수 있습니다.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8934,7 +8934,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="SCRAP_HULL">
 	<title>모든것을 소모하는 탐욕</title>
-	<desc>얻는 스크랩이 50% 감소하지만 전투 시작 전에 함체를 무료로 수리할 수 있습니다.</desc>
+	<desc>얻는 스크랩이 50% 감소하지만 전투 시작 전에 선체를 무료로 수리할 수 있습니다.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -8983,7 +8983,7 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 
 <augBlueprint name="MEDBAY_DEFENSE">
     <title>다용도 봇 살포기</title>
-	<desc>의료실이 켜져있을 때 아군을 치유하고 적 강습원에게는 피해를 주는 나노봇을 살포합니다. Dispenses nanobots that both heal your crew when the Medbay is powered as well as damage enemy boarders.</desc>
+	<desc>의료실이 켜져있을 때 아군을 치유하며 침입자에게 피해를 주는 나노봇을 살포합니다. Dispenses nanobots that both heal your crew when the Medbay is powered as well as damage enemy boarders.</desc>
     <cost>110</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -8997,23 +8997,23 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 -->
 <augBlueprint name="SYLVAN_SHIELD">
 	<title>행상인의 방어막</title>
-	<desc>A strangely resistant shield powered by several massive Aether batteries with an integrity of 12 hitpoints.</desc>
+	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 있는 방어막입니다. A strangely resistant shield powered by several massive Aether batteries with an integrity of 12 hitpoints.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="SYLVAN_SHIELD_GUARD">
-	<title>Merchant's Shield</title>
-	<desc>A strangely resistant shield powered by several massive Aether batteries with an integrity of 12 hitpoints.</desc>
+	<title>행상인의 방어막</title>
+	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 있는 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="SYLVAN_SHIELD_PRIME">
-	<title>Merchant's Shield</title>
-	<desc>A strangely resistant shield powered by several massive Aether batteries with an integrity of 12 hitpoints.</desc>
+	<title>행상인의 방어막</title>
+	<desc>여러 개의 거대한 아이테르 전지로 가동되며 12의 내구도를 가진 이상할정도로 저항력이 있는 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9021,8 +9021,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="FLAGSHIP_SHIELD">
-	<title>Flagship Shield</title>
-	<desc>Very powerful Energy Shield.</desc>
+	<title>기함 방어막</title>
+	<desc>매우 강력한 에너지 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9030,8 +9030,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="FLAGSHIP_SHIELD_FULL">
-	<title>Flagship Shield</title>
-	<desc>Very powerful Energy Shield.</desc>
+	<title>기함 방어막</title>
+	<desc>매우 강력한 에너지 방어막입니다.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9039,8 +9039,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="SYSTEM_UNBREAKING">
-	<title>Immortal Systems</title>
-	<desc>Your systems cannot break.</desc>
+	<title>무적의 시스템</title>
+	<desc>시스템이 손상되지 않습니다.</desc>
 	<cost>999</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9048,16 +9048,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="HULL_UNBREAKING">
-	<title>Immortal Hull</title>
-	<desc>Your hull cannot break.</desc>
+	<title>무적의 선체</title>
+	<desc>선체가 손상되지 않습니다.</desc>
 	<cost>999</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ENEMY_RESIST_50">
-	<title>50% Hull Resist</title>
-	<desc>Your hull has a 50% resist chance.</desc>
+	<title>50% 선체 피해 저항</title>
+	<desc>50%의 확률로 선체 피해를 무시합니다.</desc>
 	<cost>999</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9065,8 +9065,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="NO_GHOST">
-    <title>Emancipation Grid</title>
-    <desc>Makes systems extra protected from Ghost erosion, reducing their sabotage damage by 20%. If a Door Control system is present, all crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 1hp for each level of Door Control above 1.</desc>
+    <title>물질 분해 그릴</title>
+    <desc>고스트의 침식으로부터 시스템을 지켜 시스템 파괴 속도를 20% 늦춥니다. 2/3/4레밸의 문 제어실이 존재한다면 함내의 모든 적 선원과 드론이 초당 4/5/6의 피해를 입습니다. Makes systems extra protected from Ghost erosion, reducing their sabotage damage by 20%. If a Door Control system is present, all crew and drones (including anaerobic crew) will take a base damage of 4hp/s with an extra 1hp for each level of Door Control above 1.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>
@@ -9088,8 +9088,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ROCK_ARMOR">
-	<title>Rock Plating</title>
-	<desc>Superior hull armor provides a 17 percent chance to negate incoming hull damage (hit systems will still be damaged).</desc>
+	<title>암석 장갑</title>
+	<desc>우월한 내구성의 선체 장갑으로, 17퍼센트의 확률로 피해를 무시합니다. (시설들은 피해를 그대로 입습니다.)</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9097,8 +9097,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<value>0.17</value>
 </augBlueprint>
 <augBlueprint name="LOCKED_ROCK_ARMOR">
-	<title>Rock Plating</title>
-	<desc>Superior hull armor provides a 17 percent chance to negate incoming hull damage (hit systems will still be damaged).</desc>
+	<title>암석 장갑</title>
+	<desc>우월한 내구성의 선체 장갑으로, 17퍼센트의 확률로 피해를 무시합니다. (시설들은 피해를 그대로 입습니다.)</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9120,16 +9120,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="PALADIN_ARMOR_PLAYER">
-	<title>Divine Armor+</title>
-	<desc>Extremely strong armor reinforced with Aether harvested from precursor ruins, fused with the already resistant armor of the Rockmen. Resists all hull damage from normal weapons, but cannot resist breach weapons.</desc>
+	<title>신성한 장갑+</title>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 균열을 일으키지 않는 무기들로부터의 모든 선체 피해를 무시합니다. Extremely strong armor reinforced with Aether harvested from precursor ruins, fused with the already resistant armor of the Rockmen. Resists all hull damage from normal weapons, but cannot resist breach weapons.</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="PALADIN_ARMOR">
-	<title>Divine Armor</title>
-	<desc>Extremely strong armor reinforced with Aether harvested from precursor ruins, fused with the already resistant armor of the Rockmen. Has a 70% chance to resist hull damage, but cannot resist breach weapons.</desc>
+	<title>신성한 장갑</title>
+	<desc>최초의 유적에서 채취한 아이테르를 락맨의 장갑과 융합한 극도로 강한 장갑입니다. 균열을 일으키지 않는 무기들로부터의 모든 선체 피해를 70%의 확률로 무시합니다</desc>
 	<cost>150</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9142,8 +9142,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="SALT_ARMOR">
-	<title>Salt Plating</title>
-	<desc>Strange plating that can resist all ion damage and gives a very small chance for systems to resist damage.</desc>
+	<title>소금 장갑</title>
+	<desc>이온 피해에 면역이 되고 낮은 확률로 시스템 피해를 무시할 수 있게 해주는 이상한 장갑입니다. Strange plating that can resist all ion damage and gives a very small chance for systems to resist damage.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9156,16 +9156,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="REGEN_ARMOR">
-	<title>Regenerative Plating</title>
-	<desc>An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
+	<title>재생 장갑</title>
+	<desc>선체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 선체 피해를 무시합니다. An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_REGEN_ARMOR">
-	<title>Regenerative Plating</title>
-	<desc>An advanced Lost Sun creation, a superior hull plating which not only protects the hull, but patches breaches automatically. Has a 10% chance to resist hull damage.</desc>
+	<title>재생 장갑</title>
+	<desc>선체를 보호할 뿐만 아니라 균열을 자동적으로 수리하는 로스트 선의 진보한 발명품입니다. 10%의 확률로 선체 피해를 무시합니다.</desc>
 	<cost>100</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9178,8 +9178,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="CRYSTAL_SHARDS_ENEMY">
-	<title>Crystalline Armor</title>
-	<desc>Every time your ship takes damage, there is a 33% percent chance to break off a shard that flies at your enemy.</desc>
+	<title>크리스탈 장갑</title>
+	<desc>배가 피해를 입을때마다 33퍼센트의 확률로 선체에서 떨어져나온 크리스탈 파편이 적을 향해 날아갑니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9188,8 +9188,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="CRYSTAL_SHARDS">
-	<title>Crystalline Armor</title>
-	<desc>Every time your ship takes damage, there is a 75% percent chance to break off a shard that flies at your enemy.</desc>
+	<title>크리스탈 장갑</title>
+	<desc>배가 피해를 입을때마다 75퍼센트의 확률로 선체에서 떨어져나온 크리스탈 파편이 적을 향해 날아갑니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9197,8 +9197,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<value>0.75</value>
 </augBlueprint>
 <augBlueprint name="LOCKED_CRYSTAL_SHARDS">
-	<title>Crystalline Armor</title>
-	<desc>Every time your ship takes damage, there is a 75% percent chance to break off a shard that flies at your enemy.</desc>
+	<title>크리스탈 장갑</title>
+	<desc>배가 피해를 입을때마다 75퍼센트의 확률로 선체에서 떨어져나온 크리스탈 파편이 적을 향해 날아갑니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9206,10 +9206,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 <weaponBlueprint name="CRYSTAL_1">
 	<type>MISSILES</type>
-	<title>Crystal Shard</title>
+	<title>크리스탈 파편</title>
 	<short>Crystal</short>
-	<desc>CRYSTAL VENG PROJECTILE</desc>
-	<tooltip>Should Never See This Description.</tooltip>
+	<desc>크리스탈 장갑의 투사체</desc>
+	<tooltip>아 근데 번역할 필요 없는거였네 Should Never See This Description.</tooltip>
 	<damage>1</damage>
 	<missiles>0</missiles>
 	<shots>1</shots>
@@ -9243,8 +9243,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </weaponBlueprint>
 
 <augBlueprint name="CRYSTAL_SHARDS_100">
-	<title>Shatter Armor</title>
-	<desc>Contrary to the usual purpose of armor, this plating is extremely fragile. It'll break off into smaller shards every time its hit.</desc>
+	<title>저경도 장갑</title>
+	<desc>장갑의 일반적인 목적과는 달리 이 장갑은 충격에 매우 취약합니다. 배가 피해를 입을때마다 선체에서 크리스탈 파편이 떨어져 나옵니다. Contrary to the usual purpose of armor, this plating is extremely fragile. It'll break off into smaller shards every time its hit.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9257,8 +9257,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ENERGY_SHIELD">
-	<title>Zoltan Shield</title>
-	<desc>Advanced hard-light technology creates this nearly impenetrable shield. Only the energy outburst from an FTL engine is powerful enough to recharge it.</desc>
+	<title>졸탄 방어막</title>
+	<desc>거의 뚫을 수 없는 방어막 만들어내는 고급 고형 광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다. Advanced hard-light technology creates this nearly impenetrable shield. Only the energy outburst from an FTL engine is powerful enough to recharge it.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9266,8 +9266,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<value>2</value>
 </augBlueprint>
 <augBlueprint name="LOCKED_ENERGY_SHIELD">
-	<title>Zoltan Shield</title>
-	<desc>Advanced hard-light technology creates this nearly impenetrable shield. Only the energy outburst from an FTL engine is powerful enough to recharge it.</desc>
+	<title>졸탄 방어막</title>
+	<desc>거의 뚫을 수 없는 방어막을 만들어내는 고급 고형 광선 기술입니다. 초광속 엔진을 가동할 때의 에너지 폭발만이 이 방어막을 재충전할 수 있습니다.</desc>
 	<cost>80</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9281,8 +9281,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="SLUG_GEL">
-	<title>Repair Gel</title>
-	<desc>Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
+	<title>수리 젤</title>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 선체를 1 회복할 수 있습니다. Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9290,8 +9290,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<value>1</value>
 </augBlueprint>
 <augBlueprint name="LOCKED_SLUG_GEL">
-	<title>Repair Gel</title>
-	<desc>Slug ships excrete a thick gel that repairs breaches faster than regular sealant. Can also repair 1 hull damage at empty beacons for free.</desc>
+	<title>수리 젤</title>
+	<desc>슬러그의 함선에서 배출되는 젤은 선체에 난 구멍을 평범한 실란트보다 빠르게 막아줍니다. 빈 송신소에서 무료로 선체를 1 회복할 수 있습니다.</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9299,8 +9299,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<value>1</value>
 </augBlueprint>
 <augBlueprint name="SLUG_GEL_SCANNER">
-	<title>Slug Repair Gel+</title>
-	<desc>Slug ships excrete a thick gel that automatically repairs any hull breaches. [Temp fix to saboteurs not working; Also reveals enemy crew]</desc>
+	<title>슬러그 수리 젤+</title>
+	<desc>슬러그의 우주선에서 배출되는 젤은 선체에 난 구멍을 자동으로 막아줍니다. [Temp fix to saboteurs not working; Also reveals enemy crew]</desc>
 	<cost>60</cost>
 	<bp>12</bp>
 	<rarity>0</rarity>
@@ -9313,8 +9313,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="CREW_STIMS">
-	<title>Mantis Pheromones</title>
-	<desc>Your crew's movement speed is increased by 25 percent.</desc>
+	<title>맨티스 페로몬</title>
+	<desc>선원들의 이동속도가 25퍼센트 증가합니다.</desc>
 	<cost>60</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9322,8 +9322,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_CREW_STIMS">
-	<title>Mantis Pheromones</title>
-	<desc>Your crew's movement speed is increased by 25 percent.</desc>
+	<title>맨티스 페로몬</title>
+	<desc>선원들의 이동속도가 25퍼센트 증가합니다.</desc>
 	<cost>50</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9345,16 +9345,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="SUPER_CREW_STIMS">
-	<title>Synthesized Pheromones</title>
-	<desc>Special pheromones concocted by the Free Mantis, which increases movement speed by 75% but decreases max health by 5%.</desc>
+	<title>합성 페로몬</title>
+	<desc>자유 맨티스가 조제한 특수 페로몬으로, 선원들의 이동속도가 75% 증가하지만 최대 제력이 5% 감소합니다. Special pheromones concocted by the Free Mantis, which increases movement speed by 75% but decreases max health by 5%.</desc>
 	<cost>65</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_SUPER_CREW_STIMS">
-	<title>Synthesized Pheromones</title>
-	<desc>Special pheromones concocted by the Free Mantis, which increases movement speed by 75% but decreases max health by 5%.</desc>
+	<title>합성 페로몬</title>
+	<desc>자유 맨티스가 조제한 특수 페로몬으로, 선원들의 이동속도가 75% 증가하지만 최대 제력이 5% 감소합니다.</desc>
 	<cost>65</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9362,8 +9362,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="LOCKED_ELITE_STIMS">
-    <title>Big Vibe Pheromones</title>
-    <desc>The strongest concoction ever brewed by the Free Mantis, for the biggest of vibes. All crew gain a 20% damage and 100% movement speed boost, but ability cooldowns take 50% longer and non-Free Mantis crew lose 10% health.</desc>
+    <title>최고의 페로몬 Big Vibe Pheromones</title>
+    <desc>최고의 느낌을 위해 자유 맨티스가 조제해낸 가장 강한 혼합물로, 모든 선원이 20%의 대인 공격력과 100%의 속도 보너스를 얻지만 활성화 능력의 쿨타임이 50%증가하고 자유 맨티스가 아닌 선원들은 최대 체력이 10% 감소합니다. The strongest concoction ever brewed by the Free Mantis, for the biggest of vibes. All crew gain a 20% damage and 100% movement speed boost, but ability cooldowns take 50% longer and non-Free Mantis crew lose 10% health.</desc>
     <cost>60</cost>
     <bp>9</bp>
     <rarity>0</rarity>
@@ -9377,16 +9377,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="SUZERAIN_CREW_STIMS">
-	<title>Suzerain Pheromones</title>
-	<desc>Crew movement is increased by 30%. Additionally, crew ability cooldowns are decreased by 10%.</desc>
+	<title>영주의 페로몬</title>
+	<desc>선원들의 이동속도가 30% 증가합니다. 또한, 선원들의 활성화 능력 쿨다운이 10% 감소합니다. Crew movement is increased by 30%. Additionally, crew ability cooldowns are decreased by 10%.</desc>
 	<cost>70</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_SUZERAIN_CREW_STIMS">
-	<title>Suzerain Pheromones</title>
-	<desc>Crew movement is increased by 30%. Additionally, crew ability cooldowns are decreased by 10%.</desc>
+	<title>영주의 페로몬</title>
+	<desc>선원들의 이동속도가 30% 증가합니다. 또한, 선원들의 활성화 능력 쿨다운이 10% 감소합니다.</desc>
 	<cost>70</cost>
 	<bp>9</bp>
 	<rarity>0</rarity>
@@ -9399,16 +9399,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="KERNAL_REPLICATOR">
-	<title>Kernel Greenhouse</title>
-	<desc>A small on-board greenhouse for growing kernel ammunition. Gives a 65% chance to not use ammunition when a missile based weapon is fired.</desc>
+	<title>커널 온실</title>
+	<desc>커널 탄약을 재배하기 위한 작은 선상 온실입니다. 미사일 기반 무기가 발사될 때 65%의 확률로 탄약을 사용하지 않습니다. A small on-board greenhouse for growing kernel ammunition. Gives a 65% chance to not use ammunition when a missile based weapon is fired.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_KERNAL_REPLICATOR">
-	<title>Kernel Greenhouse</title>
-	<desc>A small on-board greenhouse for growing kernel ammunition. Gives a 65% chance to not use ammunition when a missile based weapon is fired.</desc>
+	<title>커널 온실</title>
+	<desc>커널 탄약을 재배하기 위한 작은 선상 온실입니다. 미사일 기반 무기가 발사될 때 65%의 확률로 탄약을 사용하지 않습니다.</desc>
 	<cost>60</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9421,8 +9421,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="MORPH_DATABASE">
-    <title>DNA Samples</title>
-	<desc>A database of various DNA samplings, which your Morphs can use to transform into any of the included species. DNA Samples may be used any number of times.</desc>
+    <title>DNA 샘플</title>
+	<desc>모프의 변형에 사용할 수 있는 다양한 DNA 샘플의 데이터베이스입니다. 몇번이라도 사용할 수 있습니다. A database of various DNA samplings, which your Morphs can use to transform into any of the included species. DNA Samples may be used any number of times.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9435,16 +9435,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="TOXIC_GAS">
-    <title>Toxic Gas</title>
-	<desc>An odorous and very unpleasant gas that acts like a neurotoxin. Slowly kills non-Shell enemy boarders; your own crew is immune.</desc>
+    <title>독성 가스</title>
+	<desc>신경독과 같은 역할을 하며 악취가 나는 매우 불쾌한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다.  An odorous and very unpleasant gas that acts like a neurotoxin. Slowly kills non-Shell enemy boarders; your own crew is immune.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
     <stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_TOXIC_GAS">
-    <title>Toxic Gas</title>
-	<desc>An odorous and very unpleasant gas that acts like a neurotoxin. Slowly kills non-Shell enemy boarders; your own crew is immune.</desc>
+    <title>독성 가스</title>
+	<desc>신경독과 같은 역할을 하며 악취가 나는 매우 불쾌한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9452,8 +9452,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="RADIANT_GAS">
-    <title>Botulinum Gas</title>
-	<desc>An incredibly deadly and fast-working neurotoxin that will rapidly kill any non-Shell hostile crew on your ship.</desc>
+    <title>보툴리늄 가스</title>
+	<desc>말도 않되게 치명적이고 빠르게 작용하는 신경독으로, 셸이 아닌 침입자들에게 지속적으로 큰 피해를 입힙니다. An incredibly deadly and fast-working neurotoxin that will rapidly kill any non-Shell hostile crew on your ship.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9461,16 +9461,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="NANITE_GAS"> <!--SHELL MECHANIC-->
-    <title>Nanite Gas</title>
-	<desc>A specialized gas formula mixed with nanites that flood through the ventilation. They won't harm your own crew, but will passively damage non-Shell enemy boarders. Also actively put out fires and repair breaches.</desc>
+    <title>나노 기기 가스</title>
+	<desc>공기를 통해 퍼지는 나노 기기와 혼합된 특수한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다. 또한 자동적으로 화재를 진압하고 균열을 막습니다. A specialized gas formula mixed with nanites that flood through the ventilation. They won't harm your own crew, but will passively damage non-Shell enemy boarders. Also actively put out fires and repair breaches.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
     <stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_NANITE_GAS">
-    <title>Nanite Gas</title>
-	<desc>A specialized gas formula mixed with nanites that flood through the ventilation. They won't harm your own crew, but will passively damage non-Shell enemy boarders. Also actively put out fires and repair breaches.</desc>
+    <title>나노 기기 가스</title>
+	<desc>공기를 통해 퍼지는 나노 기기와 혼합된 특수한 가스입니다. 셸이 아닌 침입자들에게 지속적인 피해를 입힙니다. 또한 자동적으로 화재를 진압하고 균열을 막습니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9478,16 +9478,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="REGEN_GAS"> <!--SHELL SCIENCE-->
-    <title>Expeditive Gas</title>
-	<desc>This odd formula of Shell gas carries the nano-medbots from the medbay around the ship, allowing the effects of the medbay to spread anywhere on the ship. Also does minor damage to non-Shell enemy boarders.</desc>
+    <title>신속한 가스</title>
+	<desc>이 독특한 셸 가스 혼합물은 함선 전체로 의료용 나노봇을 운반하여 의료실의 효과가 함선 전체에 퍼지게 합니다. 또한 셸이 아닌 침입자들에게 지속적으로 작은 피해를 입힙니다. This odd formula of Shell gas carries the nano-medbots from the medbay around the ship, allowing the effects of the medbay to spread anywhere on the ship. Also does minor damage to non-Shell enemy boarders.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
     <stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_REGEN_GAS">
-    <title>Expeditive Gas</title>
-	<desc>This odd formula of Shell gas carries the nano-medbots from the medbay around the ship, allowing the effects of the medbay to spread anywhere on the ship. Also does minor damage to non-Shell enemy boarders.</desc>
+    <title>신속한 가스</title>
+	<desc>이 독특한 셸 가스 혼합물은 함선 전체로 의료용 나노봇을 운반하여 의료실의 효과가 함선 전체에 퍼지게 합니다. 또한 셸이 아닌 침입자들에게 지속적으로 작은 피해를 입힙니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -9500,8 +9500,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="REPAIR_HULL">
-	<title>Assimilative Plating</title>
-	<desc>Absorbs 10% of scrap into the hull, repairing it. Will not take scrap when your hull is at full capacity.</desc>
+	<title>동화적 장갑</title>
+	<desc>얻는 스크랩의 10%를 선체와 동화시켜 선체를 수리합니다. 선체가 손상되지 않았을 때에는 스크랩을 흡수하지 않습니다. Absorbs 10% of scrap into the hull, repairing it. Will not take scrap when your hull is at full capacity.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9537,32 +9537,32 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ANCIENT_PREIGNITE">
-	<title>Ancient Hyper-Igniter</title>
-	<desc>Specialized Pre-Igniter tech that not only pre-ignites weapons, but also reduces their regular cooldown by 15%.</desc>
+	<title>고대의 초고성능 점화기</title>
+	<desc>무기를 예열할 뿐만 아니라 재장전 속도도 15% 감소시키는 특수한 조기 점화기 입니다. Specialized Pre-Igniter tech that not only pre-ignites weapons, but also reduces their regular cooldown by 15%.</desc>
 	<cost>175</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ANCIENT_REPLICATOR">
-	<title>Ancient Recycler</title>
-	<desc>Remarkable ammunition replication system that synthesizes warheads for your missile weapons using left-over scrap. Missile weapons do not use ammo, but consumes 15% scrap from all sources.</desc>
+	<title>고대의 재활용 모듈</title>
+	<desc>남은 스크랩을 사용하여 미사일 무기용 탄두를 합성하는 놀라운 탄약 복제 시스템입니다. 모든 미사일 기반 무기가 탄약을 소모하지 않지만 얻는 스크랩이 15% 감소합니다. Remarkable ammunition replication system that synthesizes warheads for your missile weapons using left-over scrap. Missile weapons do not use ammo, but consumes 15% scrap from all sources.</desc>
 	<cost>90</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ANCIENT_PROTECTANT">   
-	<title>Ancient Protocols</title>
-	<desc>All encompassing hazard-handling security system, which automatically repairs breaches, puts out fires, and reduces suffocation damage by 50%.</desc>
+	<title>고대의 프로토콜</title>
+	<desc>통합형 위험 관리 안전 시스템입니다. 자동적으로 균열을 수리하고, 화재를 진압하고, 질식 피해를 50% 감소시킵니다.  All encompassing hazard-handling security system, which automatically repairs breaches, puts out fires, and reduces suffocation damage by 50%.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ANCIENT_DNA">
-	<title>Ancient Cybernetics</title>
-	<desc>Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
+	<title>고대의 사이버네틱스</title>
+	<desc>아이테르로 만들어진 고급 사이버네틱스입니다. 기계로 이루어지지 않은 선원은 화재와 질식에 대해 25%의 저항을 추가로 얻고 최대 체력이 20% 증가합니다. 그러나 외래 이식물이 효과를 얻는 선원들의 회복 속도를 33% 감소시킵니다.  Advanced cybernetics forged from Aether. Non-mechanical crew gain an extra 25% resistance to fire and suffocation, and 20% health. However, the foreign implants also slow the passive healing speed of affected crew by 33%.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9570,32 +9570,32 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="ANCIENT_SHIELD">
-	<title>Aether Shields</title>
-	<desc>Extremely powerful shielding powered by Aether batteries. Unlike standard Energy Shields, it has an integrity of 7 hitpoints. Also boosts standard shield charge rate by 20%.</desc>
+	<title>아이테르 방어막</title>
+	<desc>아이테르 전지로 가동되는 극도로 강력한 방어막입니다. 일반적인 에너지 방어막과 달리 7의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 20% 향상시킵니다. Extremely powerful shielding powered by Aether batteries. Unlike standard Energy Shields, it has an integrity of 7 hitpoints. Also boosts standard shield charge rate by 20%.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ROYAL_SHIELD">
-	<title>Ascended Shields</title>
-	<desc>Overcharged version of the Obelisks' signature Aether shielding. Has an integrity of 10 hitpoints, and also boosts standard shield charge rate by 45%.</desc>
+	<title>우월한 방어막</title>
+	<desc>오벨리스크의 시그니처인 아이테르 방어막의 과충전 버전입니다. 10의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 45% 향상시킵니다. Overcharged version of the Obelisks' signature Aether shielding. Has an integrity of 10 hitpoints, and also boosts standard shield charge rate by 45%.</desc>
 	<cost>80</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_ANCIENT_SHIELD">
-	<title>Aether Shields</title>
-	<desc>Extremely powerful shielding powered by Aether batteries. Unlike standard Energy Shields, it has an integrity of 7 hitpoints. Also boosts standard shield charge rate by 20%.</desc>
+	<title>아이테르 방어막</title>
+	<desc>아이테르 전지로 가동되는 극도로 강력한 방어막입니다. 일반적인 에너지 방어막과 달리 7의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 20% 향상시킵니다.</desc>
 	<cost>0</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_ROYAL_SHIELD">
-	<title>Ascended Shields</title>
-	<desc>Overcharged version of the Obelisks' signature Aether shielding. Has an integrity of 10 hitpoints, and also boosts standard shield charge rate by 45%.</desc>
+	<title>우월한 방어막</title>
+	<desc>오벨리스크의 시그니처인 아이테르 방어막의 과충전 버전입니다. 10의 내구도를 가지고 있으며, 기본 방어막의 재충전 속도를 45% 향상시킵니다.</desc>
 	<cost>0</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9631,16 +9631,16 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ANCIENT_COMBAT_EQUALIZER">
-	<title>Ancient Equalizer</title>
-	<desc>Ancient combat augment that limits a system on both the enemy and player ship to either 0 or 1 bar depending on the system. The player must have the system being targeted.</desc>
+	<title>고대의 이퀄라이저</title>
+	<desc>적과 플레이어 함선의 시스템을 시스템에 따라 0 또는 1 전력 바로 제한하는 고대의 전투 보조장비입니다. 플레이어의 함선에는 제한하려는 시스템이 설치되어 있어야 합니다.  Ancient combat augment that limits a system on both the enemy and player ship to either 0 or 1 bar depending on the system. The player must have the system being targeted.</desc>
 	<cost>75</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="ANCIENT_COMBAT_ASB">
-	<title>Ancient ASB Platform</title>
-	<desc>A portable ASB platform that can be deployed before combat by spending a single drone part and fuel.</desc>
+	<title>고대의 ASB 플랫폼</title>
+	<desc>전투 전에 드론 부품과 연료를 소모하여 배치할 수 있는 휴대용 ASB 플랫폼입니다. A portable ASB platform that can be deployed before combat by spending a single drone part and fuel.</desc>
 	<cost>60</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9653,56 +9653,56 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="COMBAT_PANIC_BUTTON">
-	<title>PANIC BUTTON</title>
-	<desc>A VERY STRANGE RED BUTTON INSTALLED ON YOUR SHIP BY SLUGS. A SMALL PLACARD UNDERNEATH SAYS IN ALL CAPS, "SATISFACTION GUARANTEED, BECAUSE YOU AREN'T GETTING YOUR MONEY BACK."</desc>
+	<title>패닉 버튼</title>
+	<desc>슬러그에 의해 당신의 함선에 설치된 아주 이상한 빨간 버튼입니다. 아래의 작은 플래카드에 굵은 글씨로 "돈을 돌려받지 못하기 때문에 만족이 보장됨"이라고 적혀 있습니다. A VERY STRANGE RED BUTTON INSTALLED ON YOUR SHIP BY SLUGS. A SMALL PLACARD UNDERNEATH SAYS IN ALL CAPS, "SATISFACTION GUARANTEED, BECAUSE YOU AREN'T GETTING YOUR MONEY BACK."</desc>
 	<cost>2</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="COMBAT_EXPLOSIVE">
-	<title>Magnetic Payload</title>
-	<desc>Single use combat augment that can be deployed before combat to deal 4 damage to either enemy engines, weapons, shields, drones, cloaking, or teleporter as well as their hull.</desc>
+	<title>자성 페이로드</title>
+	<desc>전투 전에 배치하여 적의 엔진실, 방어막 제어실, 드론 관제실, 은폐장, 또는 선원 텔레포터에 4의 시스템 피해와 선체 피해를 줄 수 있는 일회용 전투 보조장비 입니다. Single use combat augment that can be deployed before combat to deal 4 damage to either enemy engines, weapons, shields, drones, cloaking, or teleporter as well as their hull.</desc>
 	<cost>40</cost>
 	<rarity>3</rarity>
 	<stackable>true</stackable>
 </augBlueprint>
 
 <augBlueprint name="EXTRA_PREP">
-	<title>Emergency Manual</title>
-	<desc>A well structured guide on emergency procedures. Adds extra options to last minute preparations before combat to produce fuel, convert missiles and droneparts, or even detonate extra missiles to sabotage enemy weapons.</desc>
+	<title>비상 매뉴얼</title>
+	<desc>응급 절차에 대한 잘 구성된 가이드입니다. 전투 전 마지막 준비에서 연료를 생산하거나, 스크랩 미사일과 드론 부품으로 전환하거나, 심지어는 추가적인 미사일을 소모해 적함의 무기 제어실을 손상시키는 추가 선택지를 추가합니다. A well structured guide on emergency procedures. Adds extra options to last minute preparations before combat to produce fuel, convert missiles and droneparts, or even detonate extra missiles to sabotage enemy weapons.</desc>
 	<cost>30</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="COMBAT_REPAIR">
-	<title>Repair-Bot Dispersal</title>
-	<desc>These nanobots take ship parts dislodged from hostile vessels and convert it to metal to repair your hull at the start of ship combat. More power means more bots are available to convert enemy parts.</desc>
+	<title>수리용 나노봇 살포기</title>
+	<desc>이 나노봇은 적함에서 빼낸 함선 부품을 금속으로 변환하여 전투가 시작될 때 선체를 수리합니다. These nanobots take ship parts dislodged from hostile vessels and convert it to metal to repair your hull at the start of ship combat. More power means more bots are available to convert enemy parts.</desc>
 	<cost>90</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="COMBAT_HAZARD">
-	<title>Reality Manipulator</title>
-	<desc>Only the Obelisks can understand how this strange and powerful device functions, but it is capable of manipulating reality to summon any hazard before combat.</desc>
+	<title>현실 조작기</title>
+	<desc>오벨리스크만이 이 기이하고 강력한 장치가 어떻게 작동하는지 이해할 수 있습니다. 현실을 조작하여 전투 전에 위험 요소를 소환할 수 있습니다. Only the Obelisks can understand how this strange and powerful device functions, but it is capable of manipulating reality to summon any hazard before combat.</desc>
 	<cost>125</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="COMBAT_IONSTORM">
-	<title>Ionized Storm Exhaust</title>
-	<desc>Can expel electrified nebulous gases to create an ion storm before any fight.</desc>
+	<title>이온 폭풍 배기구</title>
+	<desc>전투 전에 전기 성운 가스를 방출하여 이온 폭풍을 생성할 수 있습니다. Can expel electrified nebulous gases to create an ion storm before any fight.</desc>
 	<cost>80</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="COMBAT_POWER">
-	<title>Emergency Generator</title>
-	<desc>A backup generator for use in combat. Removes the power and fuel cost of combat augments.</desc>
+	<title>비상 발전기</title>
+	<desc>전투중에 사용하는 예비 발전기입니다. 전투 보조장비의 전력과 연료 비용을 제거합니다. A backup generator for use in combat. Removes the power and fuel cost of combat augments.</desc>
 	<cost>45</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
@@ -9714,79 +9714,79 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="COMBAT_WEAPON_JAMMER">
-	<title>Targeting Jammer</title>
-	<desc>Jams the enemy targeting systems, weakening the enemy Weapon system by 2 bars. Does not work on Artillery. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<title>조준 교란기</title>
+	<desc>적선의 조준 시스템을 교란하여 적 무기 제어실의 전력 바를 2칸 제한합니다. 함포는 교란하지 못합니다. [2 전력, 1 연료 사용, 45초 지속] Jams the enemy targeting systems, weakening the enemy Weapon system by 2 bars. Does not work on Artillery. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
 	<cost>40</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_SHIELDS_JAMMER">
-	<title>Shield Jammer</title>
-	<desc>Jams the enemy shield generator, weakening the enemy Shield system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<title>방어막 교란기</title>
+	<desc>적선의 방어막 생성기를 교란하여 적 방어막 제어실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속] Jams the enemy shield generator, weakening the enemy Shield system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
 	<cost>55</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_SHIELDS_JAMMER_2">
-	<title>Shield Jammer Mk 2</title>
-	<desc>Jams the enemy shield generator, weakening the enemy Shield system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<title>방어막 교란기 Mk 2</title>
+	<desc>적선의 방어막 생성기를 교란하여 적 방어막 제어실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>75</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_ENGINE_JAMMER">
-	<title>Engine Disabler</title>
-	<desc>Disables the enemy engines, weakening the enemy Engines system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
+	<title>엔진 무력화 장치</title>
+	<desc>적선의 엔진을 무력화시켜 적 엔진실의 전력 바를 2칸 제한합니다. [2 전력, 1 연료 사용, 45초 지속]Disables the enemy engines, weakening the enemy Engines system by 2 bars. [Uses 2 power, 1 fuel, lasts 45 seconds]</desc>
 	<cost>45</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_PILOT_JAMMER">
-	<title>Auto-Pilot Scrambler</title>
-	<desc>Can be used to either disable enemy auto pilot for free, or completely shut off their evasion for 2 power.</desc>
+	<title>자동조종장치 교란기</title>
+	<desc>무료로 적 조타실의 전력 바를 1칸으로 제한하거나 2전력을 소모하여 적선의 회피율을 0으로 만들 수 있습니다. Can be used to either disable enemy auto pilot for free, or completely shut off their evasion for 2 power.</desc>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_CLOAKING_JAMMER">
-	<title>Tracking Flares</title>
-	<desc>Deploys an array of tracking flares that temporarily reveal the enemy, disabling their Cloaking system. [Uses 2 power, lasts 30 seconds]</desc>
+	<title>추적 플레어</title>
+	<desc>적을 일시적으로 드러내는 추적 플레어를 배치하여 적선의 은폐장을 무력화시킵니다. [2 전력 사용, 30초 지속] Deploys an array of tracking flares that temporarily reveal the enemy, disabling their Cloaking system. [Uses 2 power, lasts 30 seconds]</desc>
 	<cost>75</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_WARP_JAMMER">
-	<title>Disruption Field</title>
-	<desc>Creates a protective field around the ship which can be tuned to protect against either enemy teleporter or mind control but not both at the same time. [Uses 2 power, lasts 30 seconds]</desc>
+	<title>디스럽션 필드</title>
+	<desc>적의 텔레포터나 정신 지배 중 한 가지로부터 함선을 보호하도록 설정 가능한 장막을 형성합니다. [2 전력 사용, 30초 지속]  Creates a protective field around the ship which can be tuned to protect against either enemy teleporter or mind control but not both at the same time. [Uses 2 power, lasts 30 seconds]</desc>
 	<cost>50</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_REACTOR_JAMMER">
-	<title>EMP Field</title>
-	<desc>Activates an EMP field which cripples the enemy reactor, but is quite heavy on your own. Will not work on the Flagship. [Uses 3 power and 1 fuel, lasts 45 seconds]</desc>
+	<title>EMP 필드</title>
+	<desc>적의 발전기를 손상시키는 EMP 장을 활성화하지만, 당신도 영향을 받습니다. 기함을 상대로 작동하지 않습니다. [3 전력, 1 연료 사용, 45초 지속] Activates an EMP field which cripples the enemy reactor, but is quite heavy on your own. Will not work on the Flagship. [Uses 3 power and 1 fuel, lasts 45 seconds]</desc>
 	<cost>100</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_COMBAT_REACTOR_JAMMER">
-	<title>EMP Field</title>
-	<desc>Activates an EMP field which cripples the enemy reactor, but is quite heavy on your own. Will not work on the Flagship. [Uses 3 power and 1 fuel, lasts 45 seconds]</desc>
+	<title>EMP 필드</title>
+	<desc>적의 발전기를 손상시키는 EMP 장을 활성화하지만, 당신도 영향을 받습니다. 기함을 상대로 작동하지 않습니다. [3 전력, 1 연료 사용, 45초 지속]</desc>
 	<cost>110</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_OXYGEN_JAMMER">
 	<title>Asphyxiator</title>
-	<desc>Cripples the enemy Oxygen system. Uses more power for each bar of Oxygen disabled. [Uses 4 to 6 power, infinite duration]
+	<desc>적선의 산소실을 손상시킵니다. 사용하는 전력에 비례하여 제한하는 산소실 전력 바의 수가 증가합니다. [4에서 6의 전력 사용, 영구히 지속됨] Uses more power for each bar of Oxygen disabled. [Uses 4 to 6 power, infinite duration]
 	[Note: The Emergency generator will only reduce power usage by 2]</desc>
 	<cost>55</cost>
 	<rarity>5</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="COMBAT_OXYGEN_UNSTABLE">
-	<title>Viral Dispersion</title>
-	<desc>A dangerous bio-engineered virus. Uses no power and reduces enemy and player Oxygen power by 2.</desc>
+	<title>바이러스 분산 장치</title>
+	<desc>생체 공학적으로 만들어진 위험한 바이러스입니다. 전력을 사용하지 않고 적선과 플레이어 함선의 산소실 전력 바를 2칸 제한합니다.  A dangerous bio-engineered virus. Uses no power and reduces enemy and player Oxygen power by 2.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9807,8 +9807,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ANCIENT_ACTIVATOR">
-	<title>Ancient Activator</title>
-	<desc>Can be used at an empty beacon to awaken the ancient in your cargo-bay.</desc>
+	<title>고대 활성물</title>
+	<desc>빈 송신소에서 사용하여 당신의 화물칸에 있는 고대인을 깨울 수 있습니다. Can be used at an empty beacon to awaken the ancient in your cargo-bay.</desc>
 	<cost>0</cost>
 	<bp>15</bp>
 	<rarity>0</rarity>
@@ -9816,64 +9816,64 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="ANCIENT_CONSTRUCTOR">
-	<title>Hibernating Robot</title>
-	<desc>This strange machine is in a hibernating state. Perhaps someone will have more information about this.</desc>
+	<title>절전상태의 로봇</title>
+	<desc>이 이상한 기계는 절전모드 상태에 있습니다. 아마도 누군가 이것에 대해 더 많은 정보를 알고 있을 것입니다. This strange machine is in a hibernating state. Perhaps someone will have more information about this.</desc>
 	<cost>100</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="TULLY_PRESENT">
-	<title>Tully's Package</title>
-	<desc>A Federation supply crate given to you by Vice Admiral Adara. It's protected by several passcodes and a lock that requires a special magnetic key. A large Federation insignia is on the back.</desc>
+	<title>툴리의 보급품</title>
+	<desc>아다라 중장이 준 연방의 보급 상자입니다. 몇 가지 암호와 특수 자석 열쇠가 필요한 잠금장치로 보호되어 있습니다. 뒷면에 연방의 휘장이 크게 새겨져 있습니다.A Federation supply crate given to you by Vice Admiral Adara. It's protected by several passcodes and a lock that requires a special magnetic key. A large Federation insignia is on the back.</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="ZOLTAN_STATUE">
-	<title>Monk Statue</title>
-	<desc>A plastic statue painted gold depicting a Zoltan meditating. It appears to be something you could find in just about any tourist location.</desc>
+	<title>수도승 조각상</title>
+	<desc>명상하는 졸탄을 묘사한 금색 플라스틱 조각상. 거의 모든 관광지에서 볼 수 있는 것 같습니다. A plastic statue painted gold depicting a Zoltan meditating. It appears to be something you could find in just about any tourist location.</desc>
 	<cost>6</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="SMUGGLER_RAID_CARGO">
-	<title>Mysterious Cargo</title>
-	<desc>You managed to retrieve this from the smuggler's depot, now you just have to bring it back.</desc>
+	<title>정체불명의 화물</title>
+	<desc>밀수꾼의 창고에서 이것을 되찾았으니 이제 다시 가져가기만 하면 됩니다. You managed to retrieve this from the smuggler's depot, now you just have to bring it back.</desc>
 	<cost>50</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="NEBULA_GASSES">
-	<title>Nebulous Gases</title>
-	<desc>Rare and expensive nebula gases. Sells for 50 scrap.</desc>
+	<title>성운 가스</title>
+	<desc>희귀하고 비싼 성운 가스입니다. 50스크랩에 판매됩니다. Rare and expensive nebula gases. Sells for 50 scrap.</desc>
 	<cost>100</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="BEACON_PARTS">
-	<title>Beacon Parts</title>
-	<desc>Parts salvaged from a damaged beacon. Maybe you can give them to the Beacon Eater?</desc>
+	<title>신호기 부품</title>
+	<desc>손상된 신호기에서 회수한 부품입니다. 어쩌면 비컨 이터에게 줄 수 있지 않을까요? Parts salvaged from a damaged beacon. Maybe you can give them to the Beacon Eater?</desc>
 	<cost>45</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="ORCHID_KIDS">
-	<title>Orchid Children</title>
-	<desc>The corpses of dead Orchid children, though they merely resemble small flowers. You can sell them for scrap, at the cost of your soul, you monster.</desc>
+	<title>오키드 아이들</title>
+	<desc>평범한 작은 꽃처럼 보이지만, 죽은 오키드 아이들의 시체입니다. 당신의 영혼을 희생하여 스크랩을 위해 팔 수 있습니다. 괴물같은놈. The corpses of dead Orchid children, though they merely resemble small flowers. You can sell them for scrap, at the cost of your soul, you monster.</desc>
 	<cost>65</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
 </augBlueprint>
 
 <augBlueprint name="SLUG_NARCOTICS">
-	<title>Slug Narcotics</title>
-	<desc>A bundle of highly illegal drugs. Using them yourself is out of the question if you don't want to be comatose by the time you get to the Flagship, but you could sell these back for more than you got them, or use them to bribe Slugs out of fighting you. Has no use outside the Royal Nebula.</desc>
+	<title>슬러그 환각제</title>
+	<desc>불법 마약 한 묶음입니다. 기함에 도달하기 전에 혼수 상태에 빠지고 싶은것이 아니라면 스스로는 사용할 이유가 없지만, 비싸게 되팔거나 슬러그들에게 뇌물로 쥐여줘 전투를 피할 수 있습니다. 왕의 성운 밖에서 사용할 수 없습니다. A bundle of highly illegal drugs. Using them yourself is out of the question if you don't want to be comatose by the time you get to the Flagship, but you could sell these back for more than you got them, or use them to bribe Slugs out of fighting you. Has no use outside the Royal Nebula.</desc>
 	<cost>90</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
@@ -9885,8 +9885,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="LOSTSUN_BLESSING">
-	<title>Blessed</title>
-	<desc>You have been blessed by the Lost Suns. At empty beacons, you can hold a fire ritual to receive a reward.</desc>
+	<title>축복받음</title>
+	<desc>당신은 로스트 선에게 축복받았습니다. 빈 송신소에서 불의 의식을 가지고 보상을 받을 수 있습니다. At empty beacons, you can hold a fire ritual to receive a reward.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9894,8 +9894,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="ZOLTAN_BLESSING">
-	<title>Blessed</title>
-	<desc>You have been blessed by the Zoltans. At empty beacons you can meditate, which takes a long time but will repair your hull.</desc>
+	<title>축복받음</title>
+	<desc>당신은 졸탄에게 축복받았습니다. 빈 송신소에서 긴 시간을 소요하는 명상을 하여 선체를 회복할 수 있습니다. You have been blessed by the Zoltans. At empty beacons you can meditate, which takes a long time but will repair your hull.</desc>
 	<cost>0</cost>
 	<bp>8</bp>
 	<rarity>0</rarity>
@@ -9918,8 +9918,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="WEAPON_PREIGNITE">
-	<title>Weapon Pre-igniter</title>
-	<desc>Weapons are made immediately available after an FTL jump.</desc>
+	<title>무기 조기 점화기</title>
+	<desc>초광속 도약 직후 무기를 즉시 사용할 수 있습니다.</desc>
 	<cost>120</cost>
 	<bp>16</bp>
 	<rarity>0</rarity>
@@ -9927,10 +9927,10 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="LOOT_COMPASS">
-	<title>Hijacked Frequencies</title>
-	<desc>Detects and reveals the locations of Loot Transports and Guard Reinforcements when possible.
-	Loot Transports are usually found in [!] Unique sectors.
-	Guard Reinforcements spawn when a guard ship is killed.</desc>
+	<title>탈취된 주파수</title>
+	<desc>전리품 수송선과 경비 증원의 위치를 탐색하여 드러냅니다. Detects and reveals the locations of Loot Transports and Guard Reinforcements when possible.
+	전리품 수송선은 주로 [!] 고유 구역에서 발견됩니다. Loot Transports are usually found in [!] Unique sectors.
+	경비 증원은 경비 함선이 파괴되었을 때 등장합니다. Guard Reinforcements spawn when a guard ship is killed.</desc>
 	<cost>50</cost>
 	<bp>5</bp>
 	<rarity>0</rarity>
@@ -9939,38 +9939,38 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="GAMBLING_MACHINE">
-	<title>Gambling Machine</title>
-	<desc>A machine designed for casinos. It appears to have been modified to be able to dispense a wide variety of items when you win, but you can't seem to figure out how to open it.</desc>
+	<title>도박 기계</title>
+	<desc>카지노용으로 설계된 기계입니다. 도전자가 승리할 시 다양한 아이템을 지급할 수 있도록 개량된 모양인데, 내부를 여는 방법은 알 수가 없네요. A machine designed for casinos. It appears to have been modified to be able to dispense a wide variety of items when you win, but you can't seem to figure out how to open it.</desc>
 	<cost>60</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="PROTON_PACK">
-	<title>Proton Pack</title>
-	<desc>Allows you to track down Ghost vessels from a long running database and fight them for scrap.</desc>
+	<title>프로톤 팩</title>
+	<desc>오래전부터 운영되어온 데이터베이스로부터 고스트 선박을 추적하고 스크랩을 위해 전투할 수 있습니다. Allows you to track down Ghost vessels from a long running database and fight them for scrap.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_PROTON_PACK">
-	<title>Proton Pack</title>
-	<desc>Allows you to track down Ghost vessels from a long running database and fight them for scrap.</desc>
+	<title>프로톤 팩</title>
+	<desc>오래전부터 운영되어온 데이터베이스로부터 고스트 선박을 추적하고 스크랩을 위해 전투할 수 있습니다.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="MVBOSS_SPAWNER">
-	<title>Drive Hacker</title>
-	<desc>Can single out and hijack the MV drives of powerful Multiverse cruisers from other realities. Uses 7 fuel to do so, but can spawn any MV boss as a Quest. Always spawns them at Challenge difficulty scaling.</desc>
+	<title>드라이브 해커</title>
+	<desc>다른 현실로부터 강력한 다중우주 순양함 한대를 골라 다중우주 항해 장치를 통제할 수 있습니다. 언제나 챌린지 난이도 수준의 MV 보스가 소환됩니다. 7 연료를 소모하여 MV 보스가 등장하는 퀘스트 지점을 만듭니다.   Can single out and hijack the MV drives of powerful Multiverse cruisers from other realities. Uses 7 fuel to do so, but can spawn any MV boss as a Quest. Always spawns them at Challenge difficulty scaling.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="FLEET_SKIP">
-	<title>engin ovahrdrive capcitor mak free+</title>
+	<title>엔진 engin ovahrdrive capcitor mak free+</title>
 	<desc>Can be activated during hyperspeed to travel so insanely fast that you'll be put 3 jumps ahead of the Rebel fleet. Unfortunately, it's very unstable (and illegal), and will likely destroy your engines afterwards. Can only be used once.</desc>
 	<cost>30</cost>
 	<rarity>0</rarity>
@@ -9978,23 +9978,23 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="PANDORA_BOX">
-	<title>Pandora's Box</title>
-	<desc>A mystical square artifact with bright green lights and a dark black exterior. With it came a small card from the pirates, on it written "Open the box if you dare, but be warned. For as likely it is that it will grant you infinite power, it is just as likely to damn you."</desc>
+	<title>판도라의 상자</title>
+	<desc>밝은 녹색 조명과 짙은 검은색의 외관을 가진 수상한 네모난 유물입니다. 해적이 준 작은 카드에는 "용기가 있다면 상자를 열어봐라, 하지만 경고한다. 그것은 너에게 무한한 힘을 줄 수도 천벌을 내릴 수도 있다."라고 적혀 있습니다. A mystical square artifact with bright green lights and a dark black exterior. With it came a small card from the pirates, on it written "Open the box if you dare, but be warned. For as likely it is that it will grant you infinite power, it is just as likely to damn you."</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="PANDORA_BOX_ANCIENT">
-	<title>Pandora's Box</title>
-	<desc>Also known as a Karthithe, this box holds both divine wonders and unimaginable horrors. Question is, which will be bestowed upon you if you open it?</desc>
+	<title>판도라의 상자</title>
+	<desc>Karthithe라고도 알려진 이 상자는 신성한 경이와 상상할 수 없는 공포가 함께 들어있습니다. 문제는, 당신이 이것을 열 때 무엇이 주어질가요? Also known as a Karthithe, this box holds both divine wonders and unimaginable horrors. Question is, which will be bestowed upon you if you open it?</desc>
 	<cost>0</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="NANOBOT_DEFENSE_SYSTEM">
-    <title>Murder-Bot Dispersal</title>
-	<desc>Boarders take damage over time on your ship. The name makes it sound a lot more violent than it is.</desc>
+    <title>살생 나노봇 살포기</title>
+	<desc>당신 함선의 침입자들이 지속적인 피해를 입습니다. 이름이 이 보조장비를 더 폭력적이어 보이게 만듭니다. Boarders take damage over time on your ship. The name makes it sound a lot more violent than it is.</desc>
     <cost>60</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -10002,8 +10002,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <stackable>false</stackable>
 </augBlueprint>
 <augBlueprint name="LOCKED_NANOBOT_DEFENSE_SYSTEM">
-    <title>Murder-Bot Dispersal</title>
-	<desc>Boarders take damage over time on your ship. The name makes it sound a lot more violent than it is.</desc>
+    <title>살생 나노봇 살포기</title>
+	<desc>당신 함선의 침입자들이 지속적인 피해를 입습니다. 이름이 이 보조장비를 더 폭력적이어 보이게 만듭니다.</desc>
     <cost>50</cost>
     <bp>4</bp>
     <rarity>0</rarity>
@@ -10011,8 +10011,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="SYSTEM_CASING">
-    <title>Titanium System Casing</title>
-    <desc>Enemy boarders sabotage your systems at 25% speed. Also provides a 15% chance to resist damage to your systems.</desc>
+    <title>티타늄 시스템 외벽</title>
+    <desc>침입자들이 25%의 속도로 시스템을 파괴합니다. 또한 15%의 확률로 시스템이 입는 피해를 무시합니다. Enemy boarders sabotage your systems at 25% speed. Also provides a 15% chance to resist damage to your systems.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>
@@ -10020,8 +10020,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <value>0.15</value>
 </augBlueprint>
 <augBlueprint name="SYSTEM_CASING_NEW">
-    <title>Titanium System Casing</title>
-    <desc>Enemy boarders sabotage your systems at 25% speed. Also provides a 15% chance to resist damage to your systems.</desc>
+    <title>티타늄 시스템 외벽</title>
+    <desc>침입자들이 25%의 속도로 시스템을 파괴합니다. 또한 15%의 확률로 시스템이 입는 피해를 무시합니다.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>
@@ -10029,8 +10029,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
     <value>0.15</value>
 </augBlueprint>
 <augBlueprint name="LOCKED_SYSTEM_CASING">
-    <title>Titanium System Casing</title>
-    <desc>Enemy boarders sabotage your systems at 25% speed. Also provides a 15% chance to resist damage to your systems.</desc>
+    <title>티타늄 시스템 외벽</title>
+    <desc>침입자들이 25%의 속도로 시스템을 파괴합니다. 또한 15%의 확률로 시스템이 입는 피해를 무시합니다.</desc>
     <cost>80</cost>
     <bp>15</bp>
     <rarity>0</rarity>
@@ -10043,8 +10043,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="ADV_SCANNERS">
-	<title>Long-Ranged Scanners</title>
-	<desc>Adds additional info about nearby Beacons on the star map.</desc>
+	<title>장거리 탐사용 스캐너</title>
+	<desc>근처의 송신소에 대한 정보들을 지도에 표시합니다. Adds additional info about nearby Beacons on the star map.</desc>
 	<cost>30</cost>
 	<bp>3</bp>
 	<rarity>1</rarity>
@@ -10052,40 +10052,40 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="RECYCLER">
-	<title>Recycler Module</title>
-	<desc>A recycler module similar to that used in Recycler tech weapons. Can be used to convert fuel, scrap, drone parts, or just random junk into missiles.</desc>
+	<title>재활용 모듈</title>
+	<desc>재활용 무기에 사용되는 것과 비슷한 재활용 모듈입니다. 연료, 스크랩, 드론 부품이나 임의의 쓰레기를 미사일로 바굴 수 있습니다. A recycler module similar to that used in Recycler tech weapons. Can be used to convert fuel, scrap, drone parts, or just random junk into missiles.</desc>
 	<cost>50</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="RECYCLER_REVERSE">
-	<title>Deconstructor</title>
-	<desc>A special component that allows you to disassemble missiles or droneparts into scrap, at a greatly reduced yield.</desc>
+	<title>해체 장비</title>
+	<desc>미사일이나 드론 부품을 분해하여 훨씬 적은 수율로 고철로 만들 수 있는 특수 부품입니다. A special component that allows you to disassemble missiles or droneparts into scrap, at a greatly reduced yield.</desc>
 	<cost>40</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="GHOST_DUPLICATOR"> <!--only appears in sectors where there's a lot of ghosts-->
-	<title>Quick-Splitter TM</title>
-	<desc>Patented GHOST DUPLICATING technology allows you to quickly and rapidly inflate Ghosts of any type, then force them to divide as if they were an Alpha. It's painless, we promise.</desc>
+	<title>고속 분열기 TM</title>
+	<desc>특허 받은 이 고스트 분열 기술을 사용하면 모든 종류의 고스트를 빠르게 부풀린 후 알파 고스트처럼 분열시킬 수 있습니다. Patented GHOST DUPLICATING technology allows you to quickly and rapidly inflate Ghosts of any type, then force them to divide as if they were an Alpha. It's painless, we promise.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="STORE_BEACON">
-    <title>Merchant Beacon</title>
-    <desc>Can summon a store at any empty beacon at the cost of 1 fleet boost.</desc>
+    <title>행상인 신호기</title>
+    <desc>빈 송신소에서 반군의 추적을 1도약 가속시키고 상점을 소환할 수 있습니다. Can summon a store at any empty beacon at the cost of 1 fleet boost.</desc>
     <cost>90</cost>
     <rarity>5</rarity>
     <stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="DISTRACTION_BUOY"> <!--different than normal-->
-	<title>Decoy Buoys</title>
-	<desc>Allows you to deploy buoys during jumpspeed. Can give 1 fleet delay for free, or deploy additional buoys using droneparts.</desc>
+	<title>교란용 미끼</title>
+	<desc>jumpspeed중에 반군의 추적을 교란하는 미끼를 배치할 수 있습니다. 무료로 도약을 1회 지연시키거나 드론 부품을 소모해 추가적인 미끼를 배치할 수 있습니다. Allows you to deploy buoys during jumpspeed. Can give 1 fleet delay for free, or deploy additional buoys using droneparts.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>3</rarity>
@@ -10093,8 +10093,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="PRE_SCANNER">
-	<title>Slip-Scanner</title>
-	<desc>Can be used to map the next sector while in jumpspace at the cost of 3 fuel.</desc>
+	<title>슬립 스캐너</title>
+	<desc>jumpspace에서 3연료를 소모해 다음 구역의 지도 데이터를 얻을 수 있습니다. Can be used to map the next sector while in jumpspace at the cost of 3 fuel.</desc>
 	<cost>50</cost>
 	<bp>8</bp>
 	<rarity>4</rarity>
@@ -10102,8 +10102,8 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="FUEL_CONSERVER">
-	<title>Fuel Conserver</title>
-	<desc>Hyper efficient fuel conservation mixed with a bit of science mumbo-jumbo not only lets you conserve the fuel used with a sector jump, but also generate another fuel cell as well! Still requires you to have at least 1 fuel to make the jump first.</desc>
+	<title>연료 절약 장치</title>
+	<desc>약간의 유사 과학과 혼합된 초고효율 연료 절약을 통해 구역 이동 시 연료를 절약할 뿐만 아니라 새 연료를 만들어냅니다! 구역간 도약을 하기 위해서는 여전히 1개의 연료가 있어야 합니다.  Hyper efficient fuel conservation mixed with a bit of science mumbo-jumbo not only lets you conserve the fuel used with a sector jump, but also generate another fuel cell as well! Still requires you to have at least 1 fuel to make the jump first.</desc>
 	<cost>20</cost>
 	<bp>8</bp>
 	<rarity>2</rarity>
@@ -10111,66 +10111,66 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 </augBlueprint>
 
 <augBlueprint name="PDS_DISABLE">
-	<title>Signal Diluter</title>
-	<desc>A module that drowns out distress or other signals. Can be used to prevent guards from calling for ASB backup or disable enemy attack sattelites.
+	<title>신호 약화기</title>
+	<desc>조난 신호를 비룻한 여러 신호를 약화시키는 모듈입니다. 경비가 ASB를 부르는 것을 방지하거나 적의 공격 위성을 비활성화 하는데 사용할 수 있습니다.  A module that drowns out distress or other signals. Can be used to prevent guards from calling for ASB backup or disable enemy attack sattelites.
 	
-	Provides helpful blue options during relevant events.</desc>
+	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
 	<cost>45</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="ANTI_VIRUS">
-	<title>Anti-Virus Module</title>
-	<desc>Combat augment that can neutralize enemy Hacking systems. Also performs well against malicious viruses from enemy satellites or other sources. [Uses 2 power, lasts 30 seconds]
+	<title>안티 바이러스 모듈</title>
+	<desc>적의 해킹 시스템을 무력화할 수 있는 전투 보조장비입니다. 또한 적의 위성이나 다른 곳으로부터 오는 악성 바이러스를 상대로도 효과적입니다. [2 전력 사용, 30초 지속] Combat augment that can neutralize enemy Hacking systems. Also performs well against malicious viruses from enemy satellites or other sources. [Uses 2 power, lasts 30 seconds]
 	
-	Provides helpful blue options during relevant events.</desc>
+	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
 	<cost>30</cost>
 	<rarity>4</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="FLARE_DISTRACTION">
-	<title>Distraction Flares</title>
-	<desc>A self-replenishing supply of holographic flares that make excellent distractions in situations where enemies or satellites are nearby but have not yet locked onto your vessel. Useful for sneaking into places or away from enemies.
+	<title>교란용 플레어</title>
+	<desc>근처의 적이나 위성이 아직 당신에게 주목하지 않은 상태에서 완벽한 교란을 일으키는 재활용 가능한 홀로그램 플레어입니다. 특정 장소로 잠입하거나 적으로부터 떨어질 때 유용합니다. A self-replenishing supply of holographic flares that make excellent distractions in situations where enemies or satellites are nearby but have not yet locked onto your vessel. Useful for sneaking into places or away from enemies.
 	
-	Provides helpful blue options during relevant events.</desc>
+	관련된 이벤트에서 유용한 파란 선택지를 제공합니다.Provides helpful blue options during relevant events.</desc>
 	<cost>40</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="INFO_MACHINE">
-	<title>Diagnostics Analyzer</title>
-	<desc>Advanced scanning device that can access the diagnostic and auditory logs of various devices to get useful information.
+	<title>기록 분석기</title>
+	<desc>다양한 장치의 점검 및 청각 기록에 접근하여 유용한 정보를 얻을 수 있는 고급 스캐닝 장치입니다. Advanced scanning device that can access the diagnostic and auditory logs of various devices to get useful information.
 	
-	Provides helpful blue options during relevant events.</desc>
+	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
 	<cost>35</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="REBEL_ID"> <!--only sold in "shady" sectors-->
-	<title>Forged Identification</title>
-	<desc>A fake Rebel identification card, often used by smugglers to get past security checkpoints. While it's unlikely this'll work on high ranking Rebel officers or aggressive vessels who've already identified you as Federation, it should be enough to convince those less certain about your identity, or at least those who aren't very good at their jobs.
+	<title>위조 신분증</title>
+	<desc>밀수업자가 보안 검색을 통과하기 위해 종종 사용하는 가자 반군 신분증입니다. 고위 반군 장교나 당신을 이미 연방 소속으로 식별한 공격적인 선박에는 효과가 없을 테지만, 당신의 신분을 잘 모르거나 미숙한 반군을 설득하는 데는 충분할 것입니다. A fake Rebel identification card, often used by smugglers to get past security checkpoints. While it's unlikely this'll work on high ranking Rebel officers or aggressive vessels who've already identified you as Federation, it should be enough to convince those less certain about your identity, or at least those who aren't very good at their jobs.
 	
-	Provides helpful blue options during relevant events.</desc>
+	관련된 이벤트에서 유용한 파란 선택지를 제공합니다. Provides helpful blue options during relevant events.</desc>
 	<cost>45</cost>
 	<rarity>0</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="CREW_FIREARMS">
-	<title>Improved Armories</title>
-	<desc>Outfits your crew with superior firearms, adding an additional 30% (of default value) to damage in ranged combat. Does not affect drones.</desc>
+	<title>개선된 무기고</title>
+	<desc>선원들을 우수한 화기로 무장시켜 원거리 전투에서 (기본값의) 30%의 추가 피해를 줍니다. 드론에는 영향을 미치지 않습니다. Outfits your crew with superior firearms, adding an additional 30% (of default value) to damage in ranged combat. Does not affect drones.</desc>
 	<cost>45</cost>
 	<rarity>3</rarity>
 	<stackable>false</stackable>
 </augBlueprint>
 
 <augBlueprint name="CREW_OXYGEN">
-	<title>Advanced Ventilation</title>
-	<desc>Life support now prioritizes your crew, refilling oxygen 65% faster in rooms where crew are present. Requires oxygen to be powered, scales with power.</desc>
+	<title>개선된 산소 공급 시스템</title>
+	<desc>생명 유지 장치가 이제 선원을 우선시하여 선원이 있는 선실의 산소 공급 속도가 65% 빨라집니다. Life support now prioritizes your crew, refilling oxygen 65% faster in rooms where crew are present. Requires oxygen to be powered, scales with power.</desc>
 	<cost>40</cost>
 	<rarity>2</rarity>
 	<stackable>false</stackable>
@@ -10182,22 +10182,22 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 **********************************************************************************************************************
 -->
 <augBlueprint name="CRATE_FUEL">
-	<title>Fuel Crate</title>
-	<desc>Can be opened at empty beacons. Can contain anywhere from 5 to 10 fuel.</desc>
+	<title>연료 상자</title>
+	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 연료가 담겨 있습니다. Can be opened at empty beacons. Can contain anywhere from 5 to 10 fuel.</desc>
 	<cost>22</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="CRATE_MISSILES">
 	<title>Ammo Crate</title>
-	<desc>Can be opened at empty beacons. Can contain anywhere from 5 to 10 missiles.</desc>
+	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 미사일 담겨 있습니다.</desc>
 	<cost>42</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="CRATE_DRONES">
 	<title>Dronepart Crate</title>
-	<desc>Can be opened at empty beacons. Can contain anywhere from 5 to 10 droneparts.</desc>
+	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 드론 부품이 담겨 있습니다.</desc>
 	<cost>49</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>

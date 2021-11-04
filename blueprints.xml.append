@@ -10189,14 +10189,14 @@ The Last Stand start beacon is under attack by an MFK Ace, -->
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="CRATE_MISSILES">
-	<title>Ammo Crate</title>
+	<title>탄약 상자</title>
 	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 미사일 담겨 있습니다.</desc>
 	<cost>42</cost>
 	<rarity>0</rarity>
 	<stackable>true</stackable>
 </augBlueprint>
 <augBlueprint name="CRATE_DRONES">
-	<title>Dronepart Crate</title>
+	<title>드론 부품 상자</title>
 	<desc>빈 송신소에서 열 수 있습니다. 5~10개의 드론 부품이 담겨 있습니다.</desc>
 	<cost>49</cost>
 	<rarity>0</rarity>

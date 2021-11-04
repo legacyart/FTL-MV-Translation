@@ -60,21 +60,21 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->
 <event name="START_TUTORIAL">
-	<text>튜토리얼 구역에 오신것을 환영합니다! 이곳에서 당신은 멀티버스의 여러 중요한 요소들을 살펴보게 될 것입니다. 숨겨진 요소에 대한 스포일러는 없지만, 몇몇 정보는 당신 스스로 무언가를 발견할 기회를 빼앗아 버릴 수 있습니다. 원하는 경우 이러한 정보들을 피하고 각 부분을 건너뛸 수 있는 선택지가 제공됩니다.
-	메모: 이 튜토리얼은 시간이 꽤 걸리며 모든 텍스트를 꼼꼼히 읽는 것이 강력히 권장됩니다. 그렇지 않다면 왜 여기에 있나요?
-	FTL 엔진의 한계로 인해 신호소를 재방문 하는 것은 새 이벤트를 발생시키지 않습니다. 튜토리얼과 당신의 항해는 탈출 신호기에 도착하는 즉시 재시작될 것입니다. Due to limitations with the FTL engine, revisiting beacons will not make a new event pop-up. The tutorial (and your run) will be reset as soon as you arrive at the exit beacon.</text>
+	<text>튜토리얼 섹터에 오신 것을 환영합니다! 여기서는 멀티버스 모드의 주요 메커니즘을 설명할 것입니다. 스포일러는 하지 않겠습니다만, 여기에서 가르쳐 주는 것들을 당신이 직접 알아가고 싶으실 겁니다. 그런 분들을 위해 각각의 정보를 넘길 수 있는 기회를 드리겠습니다.
+	참고: 튜토리얼은 시간이 꽤 걸리며, 모든 글을 꼼꼼하게 읽는 것이 매우 권장됩니다. 그러려고 튜토리얼에 오신 것 아니겠습니까?
+	FTL 엔진의 한계로 인해, 이미 방문한 신호소를 재방문해도 새로운 이벤트가 등장하진 않습니다. 튜토리얼(과 이번 게임)은 당신이 출구 신호소에 도착하는 순간 초기화됩니다.</text>
 	<modifyPursuit amount="-999"/>
 	<item_modify>
 		<item type="fuel" min="999" max="999"/>
 	</item_modify>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
 
 <event name="TUTORIAL_MENU">
-	<text>당신은 튜토리얼의 다음 장에 도착했다...</text>
+	<text>당신은 튜토리얼의 다음 장에 도착했습니다...</text>
 	<choice req="TUTORIAL_COUNTER" lvl="0" max_group="0" blue="true" hidden="true">
 		<text>계속...</text>
 		<event load="TUTORIAL_PART0"/>
@@ -98,42 +98,42 @@
 </event>
 
 <event name="TUTORIAL_PART1">
-	<text>Part 1 out of 10... 소개!
-	멀티버스에 오신 것을 환영합니다! 튜토리얼을 하고 있다는 점에서 당신이 이 모드를 처음 접한다고 가정해도 되겠네요! 멀티버스는 바닐라의 일종의 속편으로서 기능합니다. 전반적인 줄거리에 대해 더 알고 싶다면, 다음 항해에서 캐주얼이나 보토 모드를 시도하고 "마지막으로 임무 세부 정보를 확인한다" 선택지를 고르세요.</text>
+	<text>제 1장... 소개!
+	멀티버스 모드에 오신 것을 환영합니다! 튜토리얼을 켰다는 건 당신이 이 모드가 처음이라는 말씀이시겠죠! 메타버스 모드는 원본 FTL의 후속작 느낌으로 제작되었습니다. 기본적인 스토리에 대해 알고 싶으시다면, 다음 번 '캐주얼' 또는 '노멀' 난이도 플레이를 시작할 때 "마지막으로 임무 세부사항을 한번 더 확인한다."를 선택하십시오.</text>
 	<choice hidden="true">
 		<text>계속...</text>
 		<event>
-			<text>멀티버스는 FTL의 거대한 확장 모드로서 많은 컨텐츠 가지고 있습니다. 이 튜토리얼에서 모든 컨텐츠를 다룰 수는 없지만, 당신이 이 모드에 잘 적응할 수 있도록 몇몇 중요한 정보를 다룰 것입니다.
-			이 소개는 당신이 발견하게 될 몇몇 세력에 대해 다룹니다... 그 세력들에 대해 스스로 알아내기 위해 이 부분을 건너뛰고 싶다면, 건너뛰기를 누르고 다음 비컨으로 진행하세요!</text>
+			<text>멀티버스는 거대 규모의 모드이며, 많은 추가 요소가 있습니다. 튜토리얼만으로 모든 변경 사항을 망라하긴 어려울 것입니다만, 모드에 쉽게 적응하기 위한 핵심 정보 위주로 소개하겠습니다.
+			이번 장에서는 멀티버스 모드에 추가된 세력을 소개하겠습니다. 설명을 건너뛰고 직접 확인해 보고 싶으신 분들은, '넘긴다.'를 누르고 다음 신호소로 이동하십시오!</text>
 			<choice hidden="true">
-				<text>세력에 대해 알아보기.</text>
+				<text>새로 추가된 세력 정보를 확인한다.</text>
 				<event>
-					<text>다음은 당신이 발견하게 될 새로운 우호적 세력에 대해 알아두면 좋은 정보입니다:	
-					오키드 개더링 - 일반적으로 평화로운 식물 종족의 세력. 선원의 산소 생성 능력으로 인해 그들을 질식으로 처리하는것은 불가능하지는 않지만 매우 어렵습니다. 오키드는 또한 커널이라 불리는 탄약을 소모하지만 확정적으로 선체 균열을 일으키는 미사일을 닮은 강력한 무기를 종종(항상은 아님) 사용합니다.
-					자유 맨티스 - 무리를 떠나 사는 맨티스 종파로 매우 우호적이지만 좀 흐리멍합니다. 매우 강한 강습선을 가지고 있지만, 당신이 적대적으로 행동한다고 판단할 때만 공격할 것입니다. 그 외의 경우 당신을 매우 반길것입니다. A hyper-friendly but somewhat dimmwitted sect of Mantis rogues. They have very powerful boarding ships, but will usually only attack when they percieve your actions as hostile. Beyond that, they will likely be very happy to see you.
-					민병대 - 민병대는 민간인의 공간을 지키는 민간 봉사자들입니다. 은하 연합의 하위 그룹이며 연방 동맹의 일원이기 때문에 당신이 그들 앞에서 법을 어길 때에만 당신을 귀찮게 굴 것입니다. The militia is a band of civilian volunteers who protect civilian space. As they are a sub-group of the Galactic Union, a member of the Federation alliance, they should only bother you if you break the law in their presence.
-					셸 천재정 - 셸들은 주로 성운에 머물며 과학을 중시합니다. 산소에 크게 의존하지만 그들의 함선은 주로 강력한 방어 체계를 가지고 있습니다. The Shells usually keep to the nebulas and place a heavy value on science. They have a heavy dependance on oxygen but their ships will usually have a very strong set of defenses.</text>
+					<text>앞으로 만나게 될 신규 우호 세력의 간락한 정보를 소개합니다:	
+					오키드 개더링 - 식물 생명체로 이루어진 평화로운 세력입니다. 오키드 선원은 산소를 만들어내는 능력을 가지고 있어, 질식시키기 매우 어렵습니다. 또한 오키드는 종종 100% 확률로 선체 파쇄를 일으키는 미사일 무기인 "낱알 포"를 사용합니다.
+					독립 맨티스 - 어딘가 모자라 보이지만 매우 친근한 맨티스 종파입니다. 매우 강력한 강습선에 탑승하지만, 당신이 적대 행동을 할 때에만 반격해 올 것입니다. 그 외에는 당신을 매우 기쁘게 맞이할 것입니다.
+					민병대 - 민병대는 시민 구역을 지키기 위해 결성된 자원 부대입니다. 연방 동맹의 구성원인 우주 연합의 하위 단체로서, 그들 앞에서 위법을 저지르지 않는 한 방해하지 않을 것입니다.
+					셸 천재정- 셸 종족은 보통 성운 지대에 은거하며 과학 연구를 주요 관심사로 삼습니다. 셸 선원은 많은 양의 산소를 필요로 하지만, 그들의 함선은 강력한 방어를 자랑합니다.</text>
 					<choice hidden="true">
-						<text>계속</text>
+						<text>계속...</text>
 						<event>
-							<text>다음은 당신이 발견하게 될 새로운 중립적 세력에 대해 알아두면 좋은 정보입니다:
-							분리주의자 - 분리주의자는 대다수의 인구를 통제하는 통일된 하모니로부터 벗어난 엔지의 한 분파입니다. 과거에 연방과 갈등을 겪었습니다. 대게 혼자 있는것을 좋아하는데, 때때로 함선에 1~2명의 선원만이 타고 있는 극단적인 경우도 있습니다!The Separatists are a division of Engi who have broken free from the unifying Harmony that controls the majority of their population. While they've had issues with the Federation in the past, they usually like to keep to themselves, sometimes to such an extreme their ships only have 1 or 2 crew aboard!
-							로스트 썬 - 로스트 썬은 원칙적으로는 연방과 동맹 관계이지만 권위적인 락맨 장로들과 폭력적인 내전을 벌이고 있는 호전적이고 급진적인 락맨 그룹입니다. Though technically allied with the Federation, the Lost Suns are an aggressive and radical group of fire obsessed Rockmen currently engaging in a violent civil war with the authoritarian Rockmen Elders.
-							고스트 - 고스트는 실제로 초자연적인 존재인것은 아니고 주로 그들이 사는 성운의 것과 동일한 물질로 이루어져 있습니다. 고스트는 정치에 관심이 거의 없으며 보통 버려진 함선의 잔해에서 사는것을 선호합니다. The Ghosts aren't actual paranormal entities, but are rather made mostly of the same gaseous substance as the nebulas they usually reside in. The Ghosts take little to no interest in politics, usually preferring to just live aboard the wrecks of abandoned vessels.
-							Exotic Hunters Guild - The EHG is a group of Slug hobbyists and hunters who like to hunt a special kind of game... the sapient kind. All the same, they're usually welcoming to tourists of all species and hold no special ill-will to the Federation.</text>
+							<text>앞으로 만나게 될 신규 중립 세력의 간락한 정보를 소개합니다:
+							엔지 분리주의자 - 엔지 분리주의자들은 그들을 지배하던 통일된 '하모니'에서 해방된 분파입니다. 연방과의 지속적인 반목 때문에 보통 혼자 있기를 선호합니다. 극단적인 경우로 함선에 겨우 1-2명 밖에 승선하지 않은 경우도 있습니다!
+							로스트 선 - 락맨의 분파 중 하나인 로스트 선 동맹은 엄밀히 따지자면 연방과 동맹 관계이기는 하지만, 호전적이고 불을 광신합니다. 현재 권위주의적인 락맨 원로 세력과 내전 중입니다.
+							유령 - 유령이라고 부르지만 영적인 존재가 아닙니다. 사실은 성운 지대의 가스 물질이 모여 이루어진 생물의 일종입니다. 유령은 우주의 정치 논리 따위엔 관심이 없습니다. 주로 버려진 함선의 잔해에서 되는 대로 살아갑니다.
+							외계 생명체 사냥 조합(EHG) - EHG는 슬러그족의 단체로, 취미 또는 직업 사냥꾼들의 동호회입니다. 그들은 특별한 사냥감을 원합니다. 바로 지적 생명체죠. 그렇다곤 해도, 모든 종족의 관광객들을 환대하며, 연방에 딱히 적의는 가지고 있지 않습니다.</text>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
-									<text>Here are some good to know things about the new hostile factions you'll find:
-									The Coalition - An extremely violent and unstable alliance between the Rock Theocracy, Slug Kleptocracy, Mantis Hive, and Crystalline Empire, and employs a wide range of tactics usually seen on the standard ships of all 4 races.
-									Duskbringers - A Zoltan terrorist group that has received an alarming amount of support from Zoltan citizens. The Duskbringers rely on suicide tactics in combat, but can be manipulated into using their explosive abilities at unfortunate times (for them).
-									Rebel Engineers - A subset of the Rebel fleet that maintains the automated ships of the Rebellion. Generally have better armed and higher tech ships overall, but are much less common and not always loyal to their employers.</text>
+									<text>앞으로 만나게 될 신규 중립 세력의 간락한 정보를 소개합니다:
+									연합 - 락맨 신정, 슬러그 도둑정, 맨티스 하이브, 크리스탈 제국의 공격적이고도 불안정한 동맹입니다. 동맹을 이루는 네 구성 종족의 일반 전술을 골고루 사용합니다.
+									더스크브링어 - 졸탄 시민들의 급격한 지지를 받고 있는 졸탄 테러리스트 단체입니다. 더스크브링어는 전투에서 주로 자폭 돌격을 감행합니다. 잘만 활용하면 그들끼리 서로 폭발에 휘말리게 할 수 있습니다.
+									반군 기술자들 - 반군 함대의 하위 구성원으로 대부분의 반군 무인기를 운용합니다. 일반적으로 고성능 무장과 함선을 운용하지만, 자주 나타나지 않으며 반군을 맹목적으로 따르는 편도 아닙니다.</text>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
-											<text>And of course, all of the vanilla factions you know return as well, such as the Engi Harmony, Zoltan Ministry, Slug Kleptocracy, Rock Theocracy, Mantis Hive, Crystalline Empire, Lanius Swarm, and of course the Federation and Rebellion. On your travels you might also bump in other secretive factions not listed here, so always be on the look-out!
+											<text>물론 본편에 등장한 익숙한 세력도 등장합니다. 엔지 하모니, 졸탄 내각, 슬러그 도둑정, 록맨 신정, 맨티스 하이브, 크리스탈 제국, 라니우스 떼를 볼 수 있습니다. 연방과 반란군도 빼놓을 수 없죠. 여기에 적히지 않은 세력도 만나볼 수 있습니다. 눈 크게 뜨고 잘 보세요!
 											
-											This concludes part 1. Continue to the next beacon to proceed with the tutorial, which will cover weapons. It is recommended you sell any equipment on your ship at this store so you can fit all of the weapons given to you.</text>
+											지금까지 제1장이었습니다. 다음 신호소로 이동하면 무기에 대한 설명을 시작하겠습니다. 상점을 열어 줄 테니 현재 원활한 진행을 위해 함선의 모든 아이템을 판매하시길 바랍니다.</text>
 											<store>STORE_STANDARD</store>
 										</event>
 									</choice>
@@ -144,63 +144,63 @@
 				</event>
 			</choice>
 			<choice hidden="true">
-				<text>건너뛴다.</text>
+				<text>넘긴다.</text>
 				<event/>
 			</choice>
 		</event>
 	</choice>
 </event>
 <event name="TUTORIAL_PART2">
-	<text>Part 2 out of 10... Weapons!
-	FTL Multiverse adds a wide veriety of weapons. This part of the tutorial will cover some of the basic new types of weapons so you can recognize them in-game.</text>
+	<text>제 2장... 무기!
+	FTL 멀티버스 모드에는 다양한 무기 종류가 추가됩니다. 이번 장에서는 신규 무장에 대한 대략적인 설명이 있겠습니다.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
-			<text>ENERGY CANNONS
-			Energy weapons are distinct with their bright green lights. They do a combination of both ion and hull damage, but never system or crew damage. They also have a decent fire chance!</text>
+			<text>에너지 포
+			에너지 무기는 초록색 불빛이 인상적인 무기입니다. 에너지 무기는 함체 피해와 이온 피해를 동시에 입히지만, 시설 피해와 선원 피해를 전혀 입히지 않습니다. 화재를 일으킬 확률도 적당히 있습니다!</text>
 			<weapon name="ENERGY_1"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
-					<text>PARTICLE WEAPONS
-					These orange weapons can come as lasers or missiles, and do no hull or crew damage. Don't confuse them with anti-bio weapons, as particles do massive system damage instead, and will usually start a fire.</text>
+					<text>입자 무기
+					이 오렌지색 무기는 레이저 또는 미사일 무장으로 등장하며, 함체나 선원에 피해를 입힐 수 없습니다. 안티-바이오 무장과는 달리 시설에 큰 피해를 입히며, 화재를 일으킬 확률이 높습니다.</text>
 					<weapon name="LASER_PARTICLE"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
-							<text>FOCUS GUNS
-							Focus guns are similar to beams in how they work, piercing 1 shield bubble per damage (with damage reduction) and never missing. They also do higher damage than their same power beam counterpart, but the catch is they can only hit one room! These weapons are not too common on most enemies, but it isn't impossible to encounter them.</text>
+							<text>집중형 빔
+							집중형 빔은 일반 빔 무기와 비슷하게 작동합니다. 절대로 빗나가지 않으며 공격력 수치만큼 실드를 관통하고 피해가 줄어듭니다. 일반 빔 무기에 비해 전력 대비 피해량이 강력하지만, 그 대가로 단 하나의 방만 공격할 수 있습니다! 적함이 이 무기를 탑재한 경우는 많지 않지만, 어쩌다 한번 보게 될지도 모릅니다.</text>
 							<weapon name="FOCUS_1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
-									<text>CONSERVATIVE WEAPONS
-									Conservative weapons use no power, unlike normal weapons, but will require the weapon system to be receiving power through either another weapon or a Zoltan. Attempting to fire conservative weapons when the weapon system is unpowered will let them "charge" shots, which when powered again will release all at once. Enemies can never use these weapons.</text>
+									<text>보존 무기
+									보존 무기는 다른 무기와는 달리 전력을 소모하지 않습니다. 하지만 다른 무기나 졸탄을 통해 전력을 공급받아야 사용할 수 있습니다. 보존 무기는 무기실에 전력이 공급되지 않더라도 공격을 "충전"해 두었다가, 전력이 동급되면 한 번에 공격을 발사할 수 있습니다. 적들은 절대로 이 무기를 사용하지 않습니다.</text>
 									<weapon name="LASER_CONSERVATIVE"/>
 									<choice hidden="true">
-										<text>Continue...</text>
+										<text>계속...</text>
 										<event>
-											<text>RECYCLER WEAPONS
-											Recycler weapons come in variants of typically ammunition using weapons, but are free to fire! The consolation however is recycler weapons tend to charge longer to compensate for not needing a missile. Enemies will never use these either.</text>
+											<text>재활용 무기
+											재활용 무기는 탄약을 사용하는 무기와 비슷하지만, 탄약을 사용하지 않고도 발사할 수 있습니다! 미사일을 사용하지 않는 대가로 더 긴 시간 충전해야만 합니다. 마찬가지로 적들은 절대로 이 무기를 사용하지 않습니다.</text>
 											<weapon name="MISSILES_FREE"/>
 											<choice hidden="true">
-												<text>Continue...</text>
+												<text>계속...</text>
 												<event>
-													<text>MINELAUNCHERS
-													Minelaunchers might be a weapon you recognize from other mods, for better or for worse. In Multiverse, minelaunchers still do system damage, but the MK 2 and 3 versions do less of it (1 less than base damage). Minelaunchers can also be used to lay minefields at certain beacons to delay the Rebels. They can only be obtained from killing trapper class enemies, or occasional rare events. These Trappers are also the only enemies who can wield them.</text>
+													<text>기뢰 매설기
+													기뢰 매설기 계열은 다른 모드에서도 많이 등장한 무기입니다. 멀티버스 모드에서는 기뢰가 시설 피해도 입힐 수 있습니다만, MK2와 3은 시설 피해가 줄어듭니다. 또한 빈 신호소에서 기뢰를 매설하여 반군의 진격을 늦출 수도 있습니다. 기뢰 매설함을 잡거나 희귀한 이벤트를 통해 얻을 수 있습니다. 기뢰 매설함만 이 무기를 사용합니다.</text>
 													<weapon name="MINELAUNCHER_1"/>
 													<choice hidden="true">
-														<text>Continue...</text>
+														<text>계속...</text>
 														<event>
-															<text>KERNELS
-															Last but not least, the Kernel weapons are the signature weapons of the Orchids. They use ammunition and pierce shields just like missiles, but always cause a breach and are generally stronger. These weapons are exclusively found on Orchid ships, pirate Orchid ships, and in Orchid sectors.</text>
+															<text>낱알 포
+															마지막으로, 오키드 종족의 주력 무장인 낱알 포입니다. 미사일 계열 무기들처럼 탄약을 사용하고 실드를 모두 관통하지만, 더욱 강력하고 반드시 함체 파쇄를 일으킵니다. 낱알 포 무기는 오키드 함선, 해적 오키드 함선, 또는 오키드 구역에서 얻을 수 있습니다.</text>
 															<weapon name="KERNEL_1"/>
 															<choice hidden="true">
-																<text>Continue...</text>
+																<text>계속...</text>
 																<event>
-																	<text>There are many variants of these different categories, as well as those of the other returning vanilla weapon types. Though there are also a few other weapon categories, the ones mentioned here are the ones to be most on the lookout for!
+																	<text>위에서 소개한 무기들은 다양한 종류로 등장합니다. FTL 본편에 등장한 무기들도 계속 볼 수 있죠. 이번엔 소개하지 않은 무기 종류도 있습니다만, 우선은 눈여겨 보아야 할 것 위주로 모았습니다! 
 																	
-																	This concludes part 2. Continue to the next beacon to proceed with the tutorial, which will cover drones. It is recommended you take a look at the weapons given here, then sell any equipment on your ship at this store so you can fit all of the drones given to you.</text>
+																	여기까지 제 2장이었습니다. 다음 신호소로 이동하여 드론에 대한 설명을 들으십시오. 지금 받으신 무기들을 충분히 시험해 본 후 상점에서 모든 장비를 팔고 이동하면 됩니다.</text>
 																	<store>STORE_STANDARD</store>
 																</event>
 															</choice>
@@ -219,7 +219,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Skip.</text>
+		<text>넘긴다.</text>
 		<event/>
 	</choice>
 </event>
@@ -227,25 +227,25 @@
 	<text>Part 3 out of 10... Drones!
 	The number of drones in MV is greatly cut back. Chances are you, you won't recognize nearly all of the drones you find in this mod, and for good reason. Numerous drones were merged together to create "toggle" drones, which can be switched between functions before combat. Along with this, there's also Amp drones, whose power costs can be increased instead, and several new types of crew drones to fill different functions.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>TOGGLE DRONES
 			These drones usually have two different modes (with a few very rare exceptions) that switch its functions. You can change this mode before combat but not during, so make sure you analyze your opponent well to determine what mode will be the most opportune! Toggle drones do not change in power or cost regardless of the mode. Enemies with toggle drones will only deploy it as 1 mode and cannot switch them mid-combat just like the player.</text>
 			<drone name="GUARDIAN_1_MISSILE"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>AMP DRONES
 					Similar to toggle drones, Amp drones can be configured pre-battle. However, rather than alternative modes, Amp drones can change their power input. More power increases their damage, but they'll also move a bit slower to compensate. Choose whatever mode works best for your loadout, or pick them up early on and increase their power as you progress!</text>
 					<drone name="ENERGY_1_AMP2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>CREW DRONES
 							Chances are, crew drones are quite familiar to you from vanilla! Multiverse adds several new types with different uses, but there's another crucial change. All crew drones are now controlled by the player, rather than acting autonomously! Some drones, as the one given here, are also conservative. Unlike conservative weapons, conservative drones do NOT need another drones to be powered (and even work if the drone system is damaged or destroyed), but cannot be deactivated manually.</text>
 							<drone name="MANNING"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Unlike with weapons, most drones from vanilla do not appear in Multiverse. With a few special exceptions, every drone falls into one or more of the categories mentioned here. Hopefully you'll find yourself enjoying using the new drones, rather than selling everything that isn't a Defense drone at the nearest store.
 									
@@ -260,7 +260,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Skip.</text>
+		<text>넘긴다.</text>
 		<event/>
 	</choice>
 </event>
@@ -268,25 +268,25 @@
 	<text>Part 4 out of 10... Augments!
 	Much like drones, Multiverse signifigantly prunes the augment pool, moving many of the augments from vanilla to the new internal upgrade system, which you'll learn about later in this tutorial. For now, part 4 will cover some of the other new augment types, most notably combat augments.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>COMBAT AUGMENTS
 			You might recognize combat augment mechanics from other mods, but they have been further refined for Multiverse. These augments can be used before battle, and will provide some effect, usually limiting/disabling enemy systems. Most combat augments will take some power away from the player as well temporarily, but will ALWAYS work against every enemy unless specifically stated otherwise.</text>
 			<augment name="COMBAT_WEAPON_JAMMER"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>EXTERNAL AUGMENTS
 					External augments relate directly to the aformentioned internal upgrade system, which will be covered in greater detail later on. External augments function as you would expect their vanilla counterpart to, but can be installed at empty beacons for free to be converted to internal versions. You probably won't see many of these unless you start with one, but there are a few events out there that give them.</text>
 					<drone name="EX_ION_ARMOR"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>HYPERSPEED AUGMENTS
 							Chances are, crew drones are quite familiar to you from vanilla! Multiverse adds several new types with different uses, but there's another crucial change. All crew drones are now controlled by the player, rather than acting autonomously! Some drones, as the one given here, are also conservative. Unlike conservative weapons, conservative drones do NOT need another drones to be powered (and even work if the drone system is damaged or destroyed), but cannot be deactivated manually.</text>
 							<drone name="MANNING"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event>
 									<text>Unlike with weapons, most drones from vanilla do not appear in Multiverse. With a few special exceptions, every drone falls into one or more of the categories mentioned here. Hopefully you'll find yourself enjoying using the new drones, rather than selling everything that isn't a defense drone at the nearest store.
 									
@@ -301,7 +301,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Skip.</text>
+		<text>넘긴다.</text>
 		<event/>
 	</choice>
 </event>
@@ -322,11 +322,11 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 -->		
 <event name="EXAMPLE_START_BEACON">
-	<text>새로운 구역에 오신걸 환영합니다! 반란군이 당신을 따라잡기 전에 어서 탈출 신호를 따라가서 다음 구역으로 이동해주세요.</text>
-	<choice hidden="true" req="YOUR_AUGMENT_ID" lvl="1" max_group="0" blue="false"> <!--This option will replace the "Continue..." option if the game detects the augment-->
-		<text>Continue...</text>
+	<text>Welcome to a new sector! Get to the exit beacon and jump to the next sector before the pursuing Rebels catch you!</text>
+	<choice hidden="true" req="YOUR_AUGMENT_ID" lvl="1" max_group="0" blue="false"> <!--This option will replace the "계속..." option if the game detects the augment-->
+		<text>계속...</text>
 		<event>
-			<text>여기에 텍스트를 입력</text>
+			<text>Put your text here</text>
 			<crewMember amount="1" class="crew_id_here" all_skills="0"/> <!--specifying skills is not necessary, but this way it prevents them from ever spawning with extra skills. Wouldn't ever happen in s1, but doesn't hurt-->
 			<!--if you want it to be a random crew type instead, just remove the class attribute
 			if you want them to have a specific name, do it like this: <crewMember amount="1" class="crew_id_here" all_skills="0">Name</crewMember> 
@@ -340,7 +340,7 @@
 		</event>
 	</choice>
 	<choice hidden="true" req="YOUR_AUGMENT_ID" lvl="0" max_group="0" blue="false"> <!--this option will be used instead if you don't have the augment-->
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event/>
 	</choice>
 </event>
@@ -397,7 +397,7 @@
 </event>
 
 <event name="START_GAME">
-	<text>당신은 별들을 지나치면서 먼 우주의 소용돌이를 바라봅니다. 이것은 당신의 무용담의 다음 장의 시작입니다. 무엇이 당신을 기다리고 있을까요? You take a look at the distant swirls of space as the stars fly past. This is the beginning of the next chapter in your saga. What will await you next?</text>
+	<text>You take a look at the distant swirls of space as the stars fly past. This is the beginning of the next chapter in your saga. What will await you next?</text>
 </event>
 
 <event name="START_BEACON_RELOAD">
@@ -415,11 +415,11 @@
 		<item type="scrap" min="20" max="20"/>
 	</item_modify>
 	<choice hidden="true" req="FOR_MULTIVERSE" lvl="1" max_group="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_PRESELECT"/>
 	</choice>
 	<choice hidden="true" req="FOR_MULTIVERSE" lvl="0" max_group="0" blue="false">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_PRESELECT"/>
 	</choice>
 </event>
@@ -428,24 +428,24 @@
 	It is heavily recommended you do not use ships or other mods not made for Multiverse to prevent issues. However, since you are, we have added some markers needed for compatibility. This will prevent some errors, but does not garuntee you won't have issues.
 	If you wish to update the ship you are playing to support MV but don't know how, feel free to ask about it on the forums or our discord, we'll be happy to help.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_PRESELECT"/>
 	</choice>
 </event>
 <event name="START_BEACON_PRESELECT">
-	<text>임무를 시작하기 전, 워프 베이로 향하는 동안 준비를 할 수 있습니다. 무엇을 하시겠습니까? Before your mission begins, it might be time to prepare before you arrive at the warp bay. What would you like to do?</text>
+	<text>Before your mission begins, it might be time to prepare before you arrive at the warp bay. What would you like to do?</text>
 	<choice hidden="true">
-		<text>도전 수준을 조정한다. Configure your challenge level.</text>
+		<text>Configure your challenge level.</text>
 		<event load="START_DIFFICULT_MENU"/>
 	</choice>
 	<choice hidden="true">
-		<text>연방 데이터베이스 항목을 내려받는다. [초심자에게 추천됨] Download the Federation Database entries. [recommended for beginners]</text>
+		<text>Download the Federation Database entries. [recommended for beginners]</text>
 		<event load="GIVE_DATABASE"/>
 	</choice>
 	<choice hidden="true">
-		<text>임무를 진행한다.</text>
+		<text>Proceed with your mission.</text>
 		<event>
-			<text>구역명: Federation Multiverse Drop Point
+			<text>Name: Federation Multiverse Drop Point
 			Type: Friendly
 			Unique: True
 			Dominant Faction: The Federation
@@ -483,7 +483,7 @@
 			Multiverse Traveling minibosses will never spawn, The Traveling Merchant always gives a sizable free gift, and Federation Outposts give free repairs.
 			Will reduce the difficulty of the True Ending.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SET_DIFFICULTY_CASUAL"/>
 			</choice>
 		</event>
@@ -497,7 +497,7 @@
 			Decreases difficulty of the elite at the sector one exit.
 			Renegade Bosses are nerfed and take scrap as tribute, The Traveling Merchant gives a small free gift in the Drop Point and Last Stand.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SET_DIFFICULTY_NORMAL"/>
 			</choice>
 		</event>
@@ -512,7 +512,7 @@
 			Renegades Bosses are buffed and take crew as tribute, The Traveling Merchant never gives any gifts, Last Stand repair beacons will always be under attack by Elite Rebels.
 			Will increase the difficulty of the True Ending.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SET_DIFFICULTY_CHALLENGE"/>
 			</choice>
 		</event>
@@ -528,7 +528,7 @@
 			Extra preparation options at start are disabled.
 			Will massively increase the difficulty of the True Ending.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SET_DIFFICULTY_EXTREME"/>
 			</choice>
 		</event>
@@ -560,7 +560,7 @@
 	</item_modify>
 	<disableScrapScore/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_RELOAD"/>
 	</choice>
 </event>
@@ -572,7 +572,7 @@
 	</item_modify>
 	<disableScrapScore/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_RELOAD"/>
 	</choice>
 </event>
@@ -584,7 +584,7 @@
 	<modifyPursuit amount="1"/>
 	<disableScrapScore/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_RELOAD"/>
 	</choice>
 </event>
@@ -596,7 +596,7 @@
 	<modifyPursuit amount="1"/>
 	<disableScrapScore/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_RELOAD"/>
 	</choice>
 </event>
@@ -610,7 +610,7 @@
 	</item_modify>
 	<disableScrapScore/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_RELOAD"/>
 	</choice>
 </event>
@@ -677,7 +677,7 @@
 		</event>
 	</choice>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="START_BEACON_RELOAD"/>
 	</choice>
 </event>
@@ -685,7 +685,7 @@
 	<text>You slowly exit hyperspeed, transitioning to a speed safe for landing and steer closer to the hangar below. There, your ship is stocked up and prepped to head out into this foreign galaxy.</text>
 	<changeBackground>BACK_SECTOR_START</changeBackground>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>You hurry to your ship, but realize you still have a little time before you leave. You likely have time to grab one last thing.</text>
 			<choice hidden="true" lvl="0" max_group="0" req="NO_WEAPON" blue="false">
@@ -698,7 +698,7 @@
 							<text>Confident with your new arsenal, you prepare to continue on your mission.</text>
 							<weapon name="LASER_BURST_1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_EXPLAIN_LOAD"/>
 							</choice>
 						</event>
@@ -709,7 +709,7 @@
 							<text>Confident with your new arsenal, you prepare to continue on your mission.</text>
 							<weapon name="ION_1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_EXPLAIN_LOAD"/>
 							</choice>
 						</event>
@@ -720,7 +720,7 @@
 							<text>Confident with your new arsenal, you prepare to continue on your mission.</text>
 							<weapon name="MISSILES_1"/>
 							<choice hidden="true">
-								<text>Continue...</text>
+								<text>계속...</text>
 								<event load="START_BEACON_EXPLAIN_LOAD"/>
 							</choice>
 						</event>
@@ -745,7 +745,7 @@
 					<text>Confident with your stash of drones, you prepare to continue on your mission.</text>
 					<drone name="REPAIR"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_EXPLAIN"/>
 					</choice>
 				</event>
@@ -756,7 +756,7 @@
 					<text>Confident with your new crew, you prepare to continue on your mission.</text>
 					<crewMember amount="1" class="human"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_EXPLAIN_LOAD"/>
 					</choice>
 				</event>
@@ -772,7 +772,7 @@
 						<item type="drones" min="1" max="1"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_EXPLAIN_LOAD"/>
 					</choice>
 				</event>
@@ -783,7 +783,7 @@
 					<text>You decide not to take anything extra, and carry on.</text>
 					<modifyPursuit amount="-2"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="START_BEACON_EXPLAIN_LOAD"/>
 					</choice>
 				</event>
@@ -795,7 +795,7 @@
     <text>You slowly exit hyperspeed, transitioning to a speed safe for landing and steer closer to the hangar below. There, your ship is stocked up and prepped to head out into this foreign galaxy.</text>
 	<changeBackground>BACK_SECTOR_START</changeBackground>
 	<choice hidden="true">
-        <text>Continue...</text>
+        <text>계속...</text>
        <event load="START_BEACON_EXPLAIN_LOAD"/>
     </choice>
 </event>
@@ -926,7 +926,7 @@
 	<text>With the hostile ship dead, you scrap its remains and move on to contact the civilians.</text>
 	<autoReward level="MED">standard</autoReward>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="CIVILIAN_GIFT_LIST"/>
 	</choice>
 </event>
@@ -1064,7 +1064,7 @@
 		<text>Up close it's easier to tell that the ship was once an Engi vessel. One of their drones is still in good enough condition that you can scan it for a functional schematic.</text>
 		<drone name="RANDOM"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SOLAR_WRECK_STUCK"/>
 		</choice>
 	</event>
@@ -1072,7 +1072,7 @@
 		<text>It turns out most of the supplies onboard were destroyed, the fuel having burned up and the ammunition having exploded. You scrap off what little scrap you can from the exterior.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SOLAR_WRECK_STUCK"/>
 		</choice>
 	</event>
@@ -1080,14 +1080,14 @@
 		<text>Miraculously, you find a living Rockman onboard, who survived the solar flares and kept the life support functional long enough to receive help. You bring them onboard your ship.</text>
 		<crewMember amount="1" class="rock"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SOLAR_WRECK_STUCK"/>
 		</choice>
 	</event>
 	<event>
 		<text>There is far less worth salvaging on the wreck than expected.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SOLAR_WRECK_STUCK"/>
 		</choice>
 	</event>
@@ -1095,7 +1095,7 @@
 		<text>You jump when the ship powers up, revealing itself to be a still functional Rock vessel. They're furious you tried to scrap their ship while they were still aboard, and attack.</text>
 		<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1120,7 +1120,7 @@
 		<text>You jump when the ship powers up, revealing itself to be a still functional Rock vessel. They're furious you tried to scrap their ship while they were still aboard, and attack.</text>
 		<ship load="SHIP_ROCK_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1156,7 +1156,7 @@
 			<text>You attack the Mantis head on, weapons blazing. Your attack doesn't faze them, but the pirate takes the chance to flee.</text>
 			<ship load="SHIP_MANTIS_GENERIC" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1167,7 +1167,7 @@
 			<text>You engage the pirate, firing all you have towards them. Your show of aggression works, and the Mantis hurry away to find an easier fight.</text>
 			<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1194,7 +1194,7 @@
 			<text>You prepare to attack the guard, knowing the station will be helpless against you without protection.</text>
 			<ship load="SHIP_AUTO_GUARD_CHOICE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1205,7 +1205,7 @@
 			<text>You slip past the guard ship and move to attack the station. It appears the guard is programmed to not go within a certain distance of the station and is unable to chase you.</text>
 			<ship load="SHIP_AUTO_STATION_CHOICE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1247,7 +1247,7 @@
 			<text>You can't let this information get out!</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -1276,7 +1276,7 @@
 					<text>You tried to reason with the civilians, but you've failed. The only option now is to kill them before they can escape!</text>
 					<ship hostile="true"/>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="COMBAT_CHECK"/>
 					</choice>
 				</event>
@@ -1340,7 +1340,7 @@
 	<ship load="SHIP_REBEL_STATION" hostile="true"/> 
 	<boarders min="2" max="2" class="rebel"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -1406,7 +1406,7 @@
 				<text>Your sensors are picking up some subtle but anomalous activity, it's as if the ship is slowly activating. You pull everyone back to your ship with what they have gathered.</text>
 				<autoReward level="MED">scrap_only</autoReward>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="ABANDONED_GHOST_SPACE"/>
 				</choice>
 			</event>
@@ -1418,7 +1418,7 @@
 	<text>You recover what you can before making preparations to jump away.</text>
 	<autoReward level="LOW">scrap_only</autoReward>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="ABANDONED_GHOST_SPACE"/>
 	</choice>
 </event>
@@ -1427,7 +1427,7 @@
 		<text>Suddenly the wreckage powers up. Apparently this vessel was under control by Ghosts the entire time!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1443,7 +1443,7 @@
 				<text>You prepare to attack the Ghost vessel.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -1461,7 +1461,7 @@
 			<text>Order your crew to retreat with what they can and get back to the ship.</text>
 			<autoReward level="MED">scrap_only</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="ABANDONED_GHOST_SPACE"/>
 			</choice>
 		</choice>
@@ -1475,7 +1475,7 @@
 	<event>
 		<text>The fight doesn't doesn't go well. Eventually your crew is forced to abandon the supplies and retreat of their own accord.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ABANDONED_GHOST_BOARDED"/>
 		</choice>
 	</event>
@@ -1483,7 +1483,7 @@
 		<text>The Ghosts prove to be even weaker than you'd expected. Your crew quickly mops them up and brings back a large cache of supplies.</text>
 		<autoReward level="HIGH">standard</autoReward>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="ABANDONED_GHOST_SPACE"/>
 		</choice>
 	</event>
@@ -1647,7 +1647,7 @@
 			<text>The Slugs, confident in their ability to take you, make no attempt to get away and engage you directly in combat.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -1664,7 +1664,7 @@
 						<item type="fuel" min="-3" max="-3"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event load="SLUG_ELITE_LOST_GIVE"/>
 					</choice>
 				</event>
@@ -1677,7 +1677,7 @@
 						<item type="fuel" min="-3" max="-3"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Knowing you have a Slug aboard your vessel, the Clairvoyants seem much more open, and you feel confident enough to accept their payment without suspecting some kind of trick.</text>
 							<autoReward level="MED">item</autoReward>
@@ -1693,7 +1693,7 @@
 						<item type="fuel" min="-3" max="-3"/>
 					</item_modify>
 					<choice hidden="true">
-						<text>Continue...</text>
+						<text>계속...</text>
 						<event>
 							<text>Knowing you're armed to the teeth, you doubt the Clairvoyants will try anything, and you feel confident enough to accept their payment without suspecting some kind of trick.</text>
 							<autoReward level="MED">item</autoReward>
@@ -1712,7 +1712,7 @@
 		<event>
 			<text id="database_clairvoyants"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -1743,7 +1743,7 @@
 		<text>"What unanticccipated generosssity. You're asss much an idiot asss the lassst sssap we tricked like this! Prepare to die, Fed ssscum!"</text> 
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1796,7 +1796,7 @@
 		<text>The ship here is no ordinary vessel. It's a massive Rebel carrier! It must have detected you, because its few remaining systems come online and it dispenses an Auto-ship to face you.</text>
 		<ship load="SHIP_AUTO_CRASH_LANDING" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1832,7 +1832,7 @@
 				<text>You approach the carrier and prepare for battle.</text>
 				<ship load="SHIP_AUTO_CRASH_LANDING" hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -1873,7 +1873,7 @@
 		<text>It appears one of the Federation Auto-ships onboard is still functional! It detects your attempts at salvaging as hostile and attacks.</text>
 		<ship load="SHIP_FED_AUTO" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1925,7 +1925,7 @@
 		<text>While searching for the source of the distress beacon, you encounter a hostile Pirate ship. Get ready for a fight!</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -1985,7 +1985,7 @@
 		<text>As you move closer to communicate, it becomes clear that this is not an ordinary Federation ship. It has been taken control of by pirates, and now that you've made clear of your position they're intent on a fight!</text>
 		<ship load="SHIP_PIRATE_FEDERATION" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2050,7 +2050,7 @@
 				<text>You have no difficulty tracking down the pirate thanks to your logs and prepare for combat.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2083,7 +2083,7 @@
 			<environment type="PDS" target="player"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2094,7 +2094,7 @@
 			<text>"Wait... wait! What have you done!? God damn it! You have no idea how hard it was to gain access to those! You're gonna pay for this!"</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2106,7 +2106,7 @@
 			<environment type="PDS" target="enemy"/>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2151,7 +2151,7 @@
 		<text>As you approach the ship to scrap it, the lights flicker on, and the sensors detect boarders. It was a trap!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 		<boarders min="2" max="2" class="mantis"/>
@@ -2171,7 +2171,7 @@
 		<text>You hail the ship, trying to see if they're still alive. However, their weapons come online in response and they move in to attack!</text>
 		<ship hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -2184,7 +2184,7 @@
 				<status type="limit" target="enemy" system="engines" amount="0"/>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2203,7 +2203,7 @@
 				<status type="limit" target="enemy" system="engines" amount="0"/>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2296,7 +2296,7 @@
 		<event>
 			<text id="database_argeonn"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<restartEvent/>
 				</event>
@@ -2367,7 +2367,7 @@
 			<event>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2600,7 +2600,7 @@
 				<text>You prepare for combat.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 				</choice>
 			</event>
@@ -2638,7 +2638,7 @@
 				<text>You prepare for combat.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -2676,7 +2676,7 @@
 				<text>You attack the Zoltan ship.</text>
 				<ship hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="MORALITY_UPDATE_ZOLTAN_FIGHT"/>
 				</choice>
 			</event>
@@ -2737,7 +2737,7 @@
 			<text>The station is surprised by your sudden hostility, but prepares to defend itself.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -2797,7 +2797,7 @@
 			<text>The Auto-station wastes no time powering up its defenses.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -2858,7 +2858,7 @@
 			<text>The station is surprised by your sudden hostility, but prepares to defend themselves.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -2918,7 +2918,7 @@
 			<text>The station is surprised by your sudden hostility, but prepares to defend themselves.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3060,7 +3060,7 @@
 		<text>All around you is the stench of death and decay. Suddenly, one of your crew bends over and starts retching violently. Some sort of disease must have wiped out this station. You pull back to the ship, but it looks like your crewmember is not going to make it.</text>
 		<autoReward level="LOW">scrap_only</autoReward>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event>
 				<text>Your crewmember insists you leave them behind, not wanting to endanger the rest of the crew. Knowing the truth of this, you hurry back to the ship.</text>
 				<removeCrew>
@@ -3210,7 +3210,7 @@
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<environment type="asteroid"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -3243,7 +3243,7 @@
 	<text>You catch a glimpse of a strange signal coming from a space station before your sensors shut off unexpectedly. As you discover that your sensors are being jammed, you hear hostiles beam onto your ship.</text>
 	<boarders min="3" max="5" class="human"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event>
 			<text>Until you are able to jump away from the hostile space station, your sensors will be disabled. You should deal with these boarders first though!</text>
 			<status type="limit" target="player" system="sensors" amount="0"/>
@@ -3406,7 +3406,7 @@
 			<text>"You asked for it!" They pull away from the planet and move in to engage.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3431,7 +3431,7 @@
 			<text>The pirate watches as you start to light the meager crops on fire. In a few moments the settlement surrenders, offering tribute to leave them alone. The pirate seems impressed.</text>
 			<autoReward level="HIGH">drone</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL"/>
 			</choice>
 		</event>
@@ -3445,7 +3445,7 @@
 			</item_modify>
 			<autoReward level="HIGH">drone</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL"/>
 			</choice>
 		</event>
@@ -3456,7 +3456,7 @@
 			<text>The pirate watches as you start to light the meager crops on fire. In a few moments the settlement surrenders, offering tribute to leave them alone. The pirate seems impressed.</text>
 			<autoReward level="HIGH">drone</autoReward>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL"/>
 			</choice>
 		</event>
@@ -3492,7 +3492,7 @@
 				<item type="fuel" min="-4" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="RANDOM_GIFT"/>
 			</choice>
 		</event>
@@ -3502,7 +3502,7 @@
 		<event>
 			<text>You break out the manual for your conservation device and give it to the Civilians. Whatever they throw together won't be nearly as efficient, but it should get them somewhere.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="RANDOM_GIFT"/>
 			</choice>
 		</event>
@@ -3512,7 +3512,7 @@
 		<event>
 			<text>You clone the data from the emergency manual and pass it onto the Civilians. Whatever they throw together won't be cost efficient, but it should get them somewhere. This is digital piracy by the way. Scum.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="RANDOM_GIFT"/>
 			</choice>
 		</event>
@@ -3537,7 +3537,7 @@
 			<text>"Wait, what are you doing?" You ignore their cries for mercy and move in to attack.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -3578,7 +3578,7 @@
 	<distressBeacon/>
 	<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>
@@ -3687,7 +3687,7 @@
 	<event>
 		<text>It seems he was in worse health than we first thought. He collapses on the trip up to the ship. It doesn't look like he's going to make it...</text>
 		<choice>
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event/>
 		</choice>
 		<choice req="medbay" lvl="2" hidden="true"> 
@@ -3750,7 +3750,7 @@
 			<text>You power up your weapons and engage the pirate ship.</text>
 			<ship load="SHIP_PIRATE_RESCUE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3770,7 +3770,7 @@
 		<event>
 			<text>Confused, the pirate didn't expect to find another ship at the beacon. Assuming the flare was just a warning shot and you're packing a bigger arsenal, they back down and jump away/</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="SAVE_CIVILIAN_LIST"/>
 			</choice>
 		</event>
@@ -3781,14 +3781,14 @@
 		<text>Detecting the greater threat (and potential reward), they turn and engage your ship.</text>
 		<ship load="SHIP_PIRATE_RESCUE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
 	<event>
 		<text>It seems the pirate wasn't looking for a fight with someone who could fight back. They leave and you move to contact the civilian ship.</text>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="SAVE_CIVILIAN_LIST"/>
 		</choice>
 	</event>
@@ -3936,7 +3936,7 @@
 			<text>You power up your weapons and engage the Rebel ship.</text>
 			<ship load="SHIP_REBEL_VS_FEDERATION" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -3946,7 +3946,7 @@
 		<event>
 			<text>Your targeting jammer locks onto the Rebel's systems, shutting their weapons offline. Still not having seen you, the Rebels struggle to get their weapons back while you slip away to the other side of the system with the Federation ship you saved.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="REBEL_VS_FEDERATION_SAVED_LIST"/>
 			</choice>
 		</event>
@@ -3956,7 +3956,7 @@
 		<event>
 			<text>A confident shot from the flare dispenser launches the small disc right onto the visor of the Rebel vessel, temporarily blinding and distracting the captain. The Federation vessel escapes with you to the other side of the system.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="REBEL_VS_FEDERATION_SAVED_LIST"/>
 			</choice>
 		</event>
@@ -4021,7 +4021,7 @@
 					<item type="missiles" min="-1" max="-1"/>
 				</item_modify>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
 						<text>Now that they're safe an engineer offers to join your crew and the rest tell you of a hidden Federation base a few jumps from here.</text>
 						<crewMember engines="1" amount="1"/> <!--DLC!-->
@@ -4039,7 +4039,7 @@
 					<item type="drones" min="-1" max="-1"/>
 				</item_modify>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event>
 						<text>Now that they're safe an engineer offers to join your crew and the rest tell you of a hidden Federation base a few jumps from here.</text>
 						<crewMember engines="1" amount="1"/> <!--DLC!-->
@@ -4089,7 +4089,7 @@
 			<text>The civilians are shocked by your sudden hostility, but have no chance to escape.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -4159,7 +4159,7 @@
 		<text>You decide the pirate is not worth saving and fire a few volleys into their hull. Before you can scrap the remains another pirate ship flashes on your radar. Perhaps they saw your deed, or perhaps they want to claim the spoils for themselves, but for whatever reason, they're charging weapons!</text>
 		<ship load="SHIP_PIRATE_ALL" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4456,7 +4456,7 @@
 		<event>
 			<text>Your military-grade medical computers are easily able to isolate the cause of the virus, a previously unknown spore that was unearthed during excavations. You are quickly able to inform the colony's leaders of your success in reverse engineering a cure.</text>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>"Thank you so much! We don't have the funds to hire outside help and it would have taken our staff weeks to figure that out. Here, take this as payment!"</text>
 					<autoReward level="MED">stuff</autoReward>
@@ -4577,7 +4577,7 @@
 			<text>The civilians are shocked by your sudden hostility, but have no chance to escape.</text>
 			<ship hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="MORALITY_UPDATE_GENERAL_FIGHT"/>
 			</choice>
 		</event>
@@ -4593,7 +4593,7 @@
 		<text>You escort the ship to the requested beacon. Much to your dismay you are ambushed by a Rebel ship. You walked right into their trap!</text>
 		<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4641,7 +4641,7 @@
 			<text>You lock onto the rebel and move in to engage.</text>
 			<ship load="SHIP_REBEL_STORE_RESCUE" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -4732,7 +4732,7 @@
 <event name="MERCHANT_DELIVER">
 	<text>You arrive at the location given to you by the merchant. You are supposed to deliver drone parts to a station here.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MERCHANT_DELIVER_LIST"/>
 	</choice>
 </event>
@@ -4824,7 +4824,7 @@
 <event name="MERCHANT_INVESTIGATE">
 	<text>You arrive at the last known location of the merchant's delivery. You begin to scan for the lost ship.</text>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="MERCHANT_INVESTIGATE_LIST"/>
 	</choice>
 </event>
@@ -4866,7 +4866,7 @@
 		<text>After a quick scan, you find a ship being chased by a pirate. This must be the missing delivery ship! You move in to rescue them.</text>
 		<ship load="SHIP_PIRATE_MERCHANT" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4933,7 +4933,7 @@
 		<ship load="SHIP_REBEL_FIGHT" hostile="true"/>
 		<boarders min="2" max="3" class="human"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4988,7 +4988,7 @@
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about!</text>
 		<ship load="SHIP_AUTO_FEDERATION_BASE" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -4996,7 +4996,7 @@
 		<text>You arrive in the sector to see a small outpost being bombarded by an automated drone. This must be the Federation base you were told about!</text>
 		<ship load="SHIP_AUTO_FEDERATION_BASE2" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5056,7 +5056,7 @@
 				<text>"Just be sure not to blow them up!" they say nervously as they direct you to a nearby moon. You find the pirate ship docked there. They immediately respond to your appearance with, "Your money or your life!" They must be new to this.</text>
 				<ship load="SHIP_SQUAT_PIRATE_MERCENARY" hostile="true"/>
 				<choice hidden="true">
-					<text>Continue...</text>
+					<text>계속...</text>
 					<event load="COMBAT_CHECK"/>
 				</choice>
 			</event>
@@ -5118,7 +5118,7 @@
 			</item_modify>
 			<ship load="SHIP_MANTIS_LANDING_PARTY" hostile="true"/>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event load="COMBAT_CHECK"/>
 			</choice>
 		</event>
@@ -5131,7 +5131,7 @@
 				<item type="missiles" min="-2" max="-2"/>
 			</item_modify>
 			<choice hidden="true">
-				<text>Continue...</text>
+				<text>계속...</text>
 				<event>
 					<text>With most of their ships and forces focused on the chaos, you slip undetected to a nearby depot. You find some useful resources and an Engi slave who gladly accepts your liberation.</text>
 					<autoReward level="HIGH">stuff</autoReward>
@@ -5146,7 +5146,7 @@
 		<text>As you try to leave, a patrol spots you. Wailing sirens begin to blare around the camp and the ship moves in to attack!</text>
 		<ship load="SHIP_MANTIS_LANDING_PARTY" hostile="true"/>
 		<choice hidden="true">
-			<text>Continue...</text>
+			<text>계속...</text>
 			<event load="COMBAT_CHECK"/>
 		</choice>
 	</event>
@@ -5158,7 +5158,7 @@
 <event name="QUEST_CREWDEAD_START" unique="true">
 	<text>You arrive to find a number of ships convening around a station. There is some unencrypted chatter between the ships, you tune in and listen for anything interesting.</text>
 	<choice>
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="QUEST_CREWDEAD_START_2"/>
 	</choice>
 </event>
@@ -5211,7 +5211,7 @@
 	<text>You find the ship that you were asked to capture intact. You're not sure why, but they stressed that it's of great importance that you kill the crew WITHOUT destroying the ship.</text>
 	<ship load="SHIP_PIRATE_QUEST_CREWDEAD" hostile="true"/>
 	<choice hidden="true">
-		<text>Continue...</text>
+		<text>계속...</text>
 		<event load="COMBAT_CHECK"/>
 	</choice>
 </event>		

@@ -51,7 +51,7 @@
 <crewBlueprint name="medic">
 	<desc>치료를 훈련받은 의무 부대입니다.</desc>
 	<cost>65</cost>
-	<title>인간 의무병</title>
+	<title>인간 의무관</title>
 	<short>Medic</short>
 	<rarity>0</rarity>
 	<powerList>

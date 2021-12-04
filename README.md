@@ -4,10 +4,10 @@
 
 
 
-blueprints.xml.append
-events.xml.append
-events_storage.xml
-hyperspace.xml
-names.xml
-text_events.xml.append
-text-zh-Hans.xml
+blueprints.xml.append      
+events.xml.append    
+events_storage.xml   
+hyperspace.xml    
+names.xml    
+text_events.xml.append    
+text-zh-Hans.xml    
